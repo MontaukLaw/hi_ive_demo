@@ -151,7 +151,7 @@ HI_VOID *vpss_get_frame_thread(HI_VOID *params)
         SAMPLE_PRT("HI_MPI_VPSS_GetChnFrame success!\n");
         frame2Mat(&stVFrame, mat);
 
-        // 写入
+        // 写入并查看是否能正常生成jpg文件, 如果可以, YUV转RGB就是成功的. 当然这里也可以直接写入RGB格式.
         if (counter == 10)
         {
             imwrite("test.jpg", mat);

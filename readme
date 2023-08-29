@@ -1,0 +1,2 @@
+针对客户的需求, 用海思的ive将yuv转成rgb, 以方便能转成Mat格式, 提供给opencv进行下一步处理.
+有使用到opencv 3.x.x的库, 以及海思的mpp的sample comm, 因为图像是从摄像头获取的.
