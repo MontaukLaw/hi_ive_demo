@@ -1,0 +1,1330 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+$(VERBOSE).SILENT	build/Makefile	/^$(VERBOSE).SILENT:$/;"	t
+$(VERBOSE)MAKESILENT	build/Makefile	/^$(VERBOSE)MAKESILENT = -s$/;"	m
+%	build/Makefile	/^% : %,v$/;"	t
+%	build/Makefile	/^% : RCS\/%$/;"	t
+%	build/Makefile	/^% : RCS\/%,v$/;"	t
+%	build/Makefile	/^% : SCCS\/s.%$/;"	t
+%	build/Makefile	/^% : s.%$/;"	t
+ACODEC_FILE	src/common/sample_comm_audio.c	/^#define ACODEC_FILE /;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#   define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#  define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#  define ARCHITECTURE_ID$/;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID$/;"	d	file:
+AUDIO_ADPCM_TYPE	src/common/sample_comm_audio.c	/^#define AUDIO_ADPCM_TYPE /;"	d	file:
+AdChn	src/common/sample_comm_audio.c	/^        HI_S32 AdChn;$/;"	m	struct:tagSAMPLE_ADEC_S	typeref:typename:HI_S32	file:
+AdChn	src/common/sample_comm_audio.c	/^        HI_S32 AdChn;$/;"	m	struct:tagSAMPLE_AENC_S	typeref:typename:HI_S32	file:
+AeChn	src/common/sample_comm_audio.c	/^        HI_S32 AeChn;$/;"	m	struct:tagSAMPLE_AENC_S	typeref:typename:HI_S32	file:
+AencChn	src/common/sample_comm_audio.c	/^        HI_S32 AencChn;$/;"	m	struct:tagSAMPLE_AI_S	typeref:typename:HI_S32	file:
+AiChn	src/common/sample_comm_audio.c	/^        HI_S32 AiChn;$/;"	m	struct:tagSAMPLE_AI_S	typeref:typename:HI_S32	file:
+AiDev	src/common/sample_comm_audio.c	/^        HI_S32 AiDev;$/;"	m	struct:tagSAMPLE_AI_S	typeref:typename:HI_S32	file:
+AoChn	src/common/sample_comm_audio.c	/^        HI_S32 AoChn;$/;"	m	struct:tagSAMPLE_AI_S	typeref:typename:HI_S32	file:
+AoDev	src/common/sample_comm_audio.c	/^        AUDIO_DEV AoDev;$/;"	m	struct:tagSAMPLE_AO_S	typeref:typename:AUDIO_DEV	file:
+AoDev	src/common/sample_comm_audio.c	/^        HI_S32 AoDev;$/;"	m	struct:tagSAMPLE_AI_S	typeref:typename:HI_S32	file:
+CHECK_CHN_RET	include/sample_comm.h	/^#define CHECK_CHN_RET(/;"	d
+CHECK_CHN_RET	src/common/sample_comm.h	/^#define CHECK_CHN_RET(/;"	d
+CHECK_NULL_PTR	include/sample_comm.h	/^#define CHECK_NULL_PTR(/;"	d
+CHECK_NULL_PTR	src/common/sample_comm.h	/^#define CHECK_NULL_PTR(/;"	d
+CHECK_RET	include/sample_comm.h	/^#define CHECK_RET(/;"	d
+CHECK_RET	src/common/sample_comm.h	/^#define CHECK_RET(/;"	d
+CHN_ATTR_1280x720_420_SDR8_LINEAR	src/common/sample_comm_vi.c	/^    static VI_CHN_ATTR_S CHN_ATTR_1280x720_420_SDR8_LINEAR =$/;"	v	typeref:typename:VI_CHN_ATTR_S	file:
+CHN_ATTR_1920x1080_400_SDR8_LINEAR	src/common/sample_comm_vi.c	/^    VI_CHN_ATTR_S CHN_ATTR_1920x1080_400_SDR8_LINEAR =$/;"	v	typeref:typename:VI_CHN_ATTR_S
+CHN_ATTR_1920x1080_420_SDR8_LINEAR	src/common/sample_comm_vi.c	/^    VI_CHN_ATTR_S CHN_ATTR_1920x1080_420_SDR8_LINEAR =$/;"	v	typeref:typename:VI_CHN_ATTR_S
+CHN_ATTR_1920x1080_422_SDR8_LINEAR	src/common/sample_comm_vi.c	/^    VI_CHN_ATTR_S CHN_ATTR_1920x1080_422_SDR8_LINEAR =$/;"	v	typeref:typename:VI_CHN_ATTR_S
+CHN_ATTR_2560x1440_420_SDR8_LINEAR	src/common/sample_comm_vi.c	/^    static VI_CHN_ATTR_S CHN_ATTR_2560x1440_420_SDR8_LINEAR =$/;"	v	typeref:typename:VI_CHN_ATTR_S	file:
+CHN_ATTR_2592x1536_420_SDR8_LINEAR	src/common/sample_comm_vi.c	/^    static VI_CHN_ATTR_S CHN_ATTR_2592x1536_420_SDR8_LINEAR =$/;"	v	typeref:typename:VI_CHN_ATTR_S	file:
+CHN_ATTR_2592x1944_420_SDR8_LINEAR	src/common/sample_comm_vi.c	/^    static VI_CHN_ATTR_S CHN_ATTR_2592x1944_420_SDR8_LINEAR =$/;"	v	typeref:typename:VI_CHN_ATTR_S	file:
+CHN_ATTR_2688x1536_420_SDR8_LINEAR	src/common/sample_comm_vi.c	/^    static VI_CHN_ATTR_S CHN_ATTR_2688x1536_420_SDR8_LINEAR =$/;"	v	typeref:typename:VI_CHN_ATTR_S	file:
+CHN_ATTR_2716x1524_420_SDR8_LINEAR	src/common/sample_comm_vi.c	/^    static VI_CHN_ATTR_S CHN_ATTR_2716x1524_420_SDR8_LINEAR =$/;"	v	typeref:typename:VI_CHN_ATTR_S	file:
+CHN_ATTR_3840x2160_420_SDR8_LINEAR	src/common/sample_comm_vi.c	/^    static VI_CHN_ATTR_S CHN_ATTR_3840x2160_420_SDR8_LINEAR =$/;"	v	typeref:typename:VI_CHN_ATTR_S	file:
+CHN_ATTR_4000x3000_420_SDR8_LINEAR	src/common/sample_comm_vi.c	/^    static VI_CHN_ATTR_S CHN_ATTR_4000x3000_420_SDR8_LINEAR =$/;"	v	typeref:typename:VI_CHN_ATTR_S	file:
+CMAKE_BINARY_DIR	build/Makefile	/^CMAKE_BINARY_DIR = \/home\/marc\/my_hisi_project\/ive_demo\/build$/;"	m
+CMAKE_COMMAND	build/Makefile	/^CMAKE_COMMAND = \/opt\/cmake\/bin\/cmake$/;"	m
+CMAKE_SOURCE_DIR	build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/marc\/my_hisi_project\/ive_demo$/;"	m
+COLOR_RGB_BLACK	include/sample_comm.h	/^#define COLOR_RGB_BLACK /;"	d
+COLOR_RGB_BLACK	src/common/sample_comm.h	/^#define COLOR_RGB_BLACK /;"	d
+COLOR_RGB_BLUE	include/sample_comm.h	/^#define COLOR_RGB_BLUE /;"	d
+COLOR_RGB_BLUE	src/common/sample_comm.h	/^#define COLOR_RGB_BLUE /;"	d
+COLOR_RGB_CYN	include/sample_comm.h	/^#define COLOR_RGB_CYN /;"	d
+COLOR_RGB_CYN	src/common/sample_comm.h	/^#define COLOR_RGB_CYN /;"	d
+COLOR_RGB_GREEN	include/sample_comm.h	/^#define COLOR_RGB_GREEN /;"	d
+COLOR_RGB_GREEN	src/common/sample_comm.h	/^#define COLOR_RGB_GREEN /;"	d
+COLOR_RGB_RED	include/sample_comm.h	/^#define COLOR_RGB_RED /;"	d
+COLOR_RGB_RED	src/common/sample_comm.h	/^#define COLOR_RGB_RED /;"	d
+COLOR_RGB_WHITE	include/sample_comm.h	/^#define COLOR_RGB_WHITE /;"	d
+COLOR_RGB_WHITE	src/common/sample_comm.h	/^#define COLOR_RGB_WHITE /;"	d
+COLOR_RGB_YELLOW	include/sample_comm.h	/^#define COLOR_RGB_YELLOW /;"	d
+COLOR_RGB_YELLOW	src/common/sample_comm.h	/^#define COLOR_RGB_YELLOW /;"	d
+COMPILER_ID	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_ID /;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	file:
+COMPILER_VERSION	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION /;"	d	file:
+COMPILER_VERSION	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL_STR	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_INTERNAL_STR /;"	d	file:
+COMPILER_VERSION_INTERNAL_STR	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_INTERNAL_STR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_TWEAK /;"	d	file:
+CXX_STD	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#      define CXX_STD /;"	d	file:
+CXX_STD	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#    define CXX_STD /;"	d	file:
+CXX_STD	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define CXX_STD /;"	d	file:
+C_VERSION	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#  define C_VERSION /;"	d	file:
+C_VERSION	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#  define C_VERSION$/;"	d	file:
+C_VERSION	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^# define C_VERSION /;"	d	file:
+CoverExMinHandle	src/common/sample_comm_region.c	/^#define CoverExMinHandle /;"	d	file:
+CoverMinHandle	src/common/sample_comm_region.c	/^#define CoverMinHandle /;"	d	file:
+CreateSurfaceByBitMap	src/common/loadbmp.c	/^HI_S32 CreateSurfaceByBitMap(const HI_CHAR* pszFileName, OSD_SURFACE_S* pstSurface, HI_U8* pu8Vi/;"	f	typeref:typename:HI_S32
+CreateSurfaceByCanvas	src/common/loadbmp.c	/^HI_S32 CreateSurfaceByCanvas(const HI_CHAR* pszFileName, OSD_SURFACE_S* pstSurface, HI_U8* pu8Vi/;"	f	typeref:typename:HI_S32
+DEC	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#define DEC(/;"	d	file:
+DEC	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define DEC(/;"	d	file:
+DEV_ATTR_GC2053_2M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_GC2053_2M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DEV_ATTR_IMX307_2M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_IMX307_2M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DEV_ATTR_IMX327_2M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_IMX327_2M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DEV_ATTR_IMX335_4M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_IMX335_4M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DEV_ATTR_IMX335_5M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_IMX335_5M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DEV_ATTR_IMX415_8M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_IMX415_8M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DEV_ATTR_IMX458_12M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_IMX458_12M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DEV_ATTR_IMX458_1M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_IMX458_1M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DEV_ATTR_IMX458_2M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_IMX458_2M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DEV_ATTR_IMX458_4M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_IMX458_4M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DEV_ATTR_IMX458_8M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_IMX458_8M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DEV_ATTR_MN34220_2M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_MN34220_2M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DEV_ATTR_OS04B10_4M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_OS04B10_4M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DEV_ATTR_OS05A_4M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_OS05A_4M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DEV_ATTR_OS08A10_8M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_OS08A10_8M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DEV_ATTR_OV12870_12M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_OV12870_12M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DEV_ATTR_OV12870_1M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_OV12870_1M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DEV_ATTR_OV12870_2M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_OV12870_2M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DEV_ATTR_OV12870_8M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_OV12870_8M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DEV_ATTR_SC4210_3M_BASE	src/common/sample_comm_vi.c	/^    VI_DEV_ATTR_S DEV_ATTR_SC4210_3M_BASE =$/;"	v	typeref:typename:VI_DEV_ATTR_S
+DstBuf	src/common/sample_comm_venc.c	/^    HI_CHAR *DstBuf = NULL;$/;"	v	typeref:typename:HI_CHAR *
+EQUALS	build/Makefile	/^EQUALS = =$/;"	m
+FILE_NAME_LEN	include/sample_comm.h	/^#define FILE_NAME_LEN /;"	d
+FILE_NAME_LEN	src/common/sample_comm.h	/^#define FILE_NAME_LEN /;"	d
+FileTrans_GetThmFromJpg	src/common/sample_comm_venc.c	/^    static HI_S32 FileTrans_GetThmFromJpg(HI_CHAR *JPGPath, HI_U32 *DstSize)$/;"	f	typeref:typename:HI_S32	file:
+FileTrans_GetThmFromJpg	src/common/sample_comm_venc.c	/^static HI_S32 FileTrans_GetThmFromJpg(HI_CHAR *JPGPath, HI_U32 *DstSize)$/;"	f	typeref:typename:HI_S32	file:
+G726_BPS	src/common/sample_comm_audio.c	/^#define G726_BPS /;"	d	file:
+GALAXYCORE_GC2053_MIPI_2M_30FPS_10BIT	include/sample_comm.h	/^    GALAXYCORE_GC2053_MIPI_2M_30FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+GALAXYCORE_GC2053_MIPI_2M_30FPS_10BIT	src/common/sample_comm.h	/^    GALAXYCORE_GC2053_MIPI_2M_30FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+GetBmpInfo	src/common/loadbmp.c	/^HI_S32 GetBmpInfo(const char* filename,     OSD_BITMAPFILEHEADER*  pBmpFileHeader$/;"	f	typeref:typename:HI_S32
+GetExtName	src/common/loadbmp.c	/^char* GetExtName(char* filename)$/;"	f	typeref:typename:char *
+HEX	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#define HEX(/;"	d	file:
+HEX	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define HEX(/;"	d	file:
+HI_ACODEC_TYPE_INNER	src/common/sample_comm_audio.c	/^#define HI_ACODEC_TYPE_INNER$/;"	d	file:
+ID_VOID_MAIN	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^# define ID_VOID_MAIN$/;"	d	file:
+ISP_MAX_DEV_NUM	src/common/sample_comm_isp.c	/^#define ISP_MAX_DEV_NUM /;"	d	file:
+ISP_PUB_ATTR_GC2053_MIPI_2M_30FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_GC2053_MIPI_2M_30FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_IMX307_MIPI_2M_30FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_IMX307_MIPI_2M_30FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_IMX307_MIPI_2M_30FPS_WDR2TO1_LINE	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_IMX307_MIPI_2M_30FPS_WDR2TO1_LINE =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_IMX327_2M_30FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_IMX327_2M_30FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_IMX327_MIPI_2M_30FPS_WDR2TO1_LINE	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_IMX327_MIPI_2M_30FPS_WDR2TO1_LINE =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_IMX335_MIPI_4M_30FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_IMX335_MIPI_4M_30FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_IMX335_MIPI_4M_30FPS_WDR2TO1	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_IMX335_MIPI_4M_30FPS_WDR2TO1 =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_IMX335_MIPI_5M_30FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_IMX335_MIPI_5M_30FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_IMX335_MIPI_5M_30FPS_WDR2TO1	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_IMX335_MIPI_5M_30FPS_WDR2TO1 =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_IMX415_MIPI_8M_20FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_IMX415_MIPI_8M_20FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_IMX415_MIPI_8M_30FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_IMX415_MIPI_8M_30FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_IMX458_MIPI_12M_20FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_IMX458_MIPI_12M_20FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_IMX458_MIPI_1M_129FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_IMX458_MIPI_1M_129FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_IMX458_MIPI_2M_90FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_IMX458_MIPI_2M_90FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_IMX458_MIPI_4M_40FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_IMX458_MIPI_4M_40FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_IMX458_MIPI_4M_60FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_IMX458_MIPI_4M_60FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_IMX458_MIPI_8M_30FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_IMX458_MIPI_8M_30FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_MN34220_LVDS_2M_30FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_MN34220_LVDS_2M_30FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_OS04B10_MIPI_4M_30FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_OS04B10_MIPI_4M_30FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_OS05A_MIPI_4M_30FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_OS05A_MIPI_4M_30FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_OS05A_MIPI_4M_30FPS_WDR2TO1	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_OS05A_MIPI_4M_30FPS_WDR2TO1 =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_OS08A10_MIPI_8M_30FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_OS08A10_MIPI_8M_30FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_OV12870_MIPI_12M_30FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_OV12870_MIPI_12M_30FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_OV12870_MIPI_1M_240FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_OV12870_MIPI_1M_240FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_OV12870_MIPI_2M_120FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_OV12870_MIPI_2M_120FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_OV12870_MIPI_8M_30FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_OV12870_MIPI_8M_30FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_SC4210_MIPI_3M_30FPS	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_SC4210_MIPI_3M_30FPS =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+ISP_PUB_ATTR_SC4210_MIPI_3M_30FPS_WDR2TO1	src/common/sample_comm_isp.c	/^ISP_PUB_ATTR_S ISP_PUB_ATTR_SC4210_MIPI_3M_30FPS_WDR2TO1 =$/;"	v	typeref:typename:ISP_PUB_ATTR_S
+IsSensorInput	src/common/sample_comm_vi.c	/^    HI_BOOL IsSensorInput(SAMPLE_SNS_TYPE_E enSnsType)$/;"	f	typeref:typename:HI_BOOL
+LVDS_4lane_CHN0_SENSOR_MN34220_12BIT_2M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t LVDS_4lane_CHN0_SENSOR_MN34220_12BIT_2M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+LoadBMP	src/common/loadbmp.c	/^int LoadBMP(const char* filename, OSD_LOGO_T* pVideoLogo)$/;"	f	typeref:typename:int
+LoadBMPCanvas	src/common/loadbmp.c	/^int LoadBMPCanvas(const char* filename, OSD_LOGO_T* pVideoLogo, OSD_COLOR_FMT_E enFmt)$/;"	f	typeref:typename:int
+LoadBMPEx	src/common/loadbmp.c	/^int LoadBMPEx(const char* filename, OSD_LOGO_T* pVideoLogo, OSD_COLOR_FMT_E enFmt)$/;"	f	typeref:typename:int
+LoadBitMap2Surface	src/common/loadbmp.c	/^HI_S32 LoadBitMap2Surface(const HI_CHAR* pszFileName, const OSD_SURFACE_S* pstSurface, HI_U8* pu/;"	f	typeref:typename:HI_S32
+LoadCanvasEx	src/common/loadbmp.c	/^int LoadCanvasEx(const char* filename, OSD_LOGO_T* pVideoLogo, OSD_COLOR_FMT_E enFmt)$/;"	f	typeref:typename:int
+LoadImage	src/common/loadbmp.c	/^int LoadImage(const char* filename, OSD_LOGO_T* pVideoLogo)$/;"	f	typeref:typename:int
+LoadImageEx	src/common/loadbmp.c	/^int LoadImageEx(const char* filename, OSD_LOGO_T* pVideoLogo, OSD_COLOR_FMT_E enFmt)$/;"	f	typeref:typename:int
+MAX_FRAME_WIDTH	src/common/sample_comm_vi.c	/^#define MAX_FRAME_WIDTH /;"	d	file:
+MAX_SENSOR_NUM	src/common/sample_comm_isp.c	/^#define MAX_SENSOR_NUM /;"	d	file:
+MAX_THM_SIZE	src/common/sample_comm_venc.c	/^#define MAX_THM_SIZE /;"	d	file:
+MIPI_2lane_CHN0_SENSOR_GC2053_10BIT_2M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_2lane_CHN0_SENSOR_GC2053_10BIT_2M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_2lane_CHN0_SENSOR_IMX307_12BIT_2M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_2lane_CHN0_SENSOR_IMX307_12BIT_2M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_2lane_CHN0_SENSOR_IMX307_12BIT_2M_WDR2to1_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_2lane_CHN0_SENSOR_IMX307_12BIT_2M_WDR2to1_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_2lane_CHN0_SENSOR_IMX327_12BIT_2M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_2lane_CHN0_SENSOR_IMX327_12BIT_2M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_2lane_CHN0_SENSOR_IMX327_12BIT_2M_WDR2to1_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_2lane_CHN0_SENSOR_IMX327_12BIT_2M_WDR2to1_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_2lane_CHN0_SENSOR_OS04B10_10BIT_4M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_2lane_CHN0_SENSOR_OS04B10_10BIT_4M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_2lane_CHN1_SENSOR_IMX307_12BIT_2M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_2lane_CHN1_SENSOR_IMX307_12BIT_2M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_2lane_CHN1_SENSOR_IMX307_12BIT_2M_WDR2to1_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_2lane_CHN1_SENSOR_IMX307_12BIT_2M_WDR2to1_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_2lane_CHN1_SENSOR_IMX327_12BIT_2M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_2lane_CHN1_SENSOR_IMX327_12BIT_2M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_2lane_CHN1_SENSOR_IMX327_12BIT_2M_WDR2to1_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_2lane_CHN1_SENSOR_IMX327_12BIT_2M_WDR2to1_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_IMX307_12BIT_2M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_IMX307_12BIT_2M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_IMX307_12BIT_2M_WDR2to1_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_IMX307_12BIT_2M_WDR2to1_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_IMX327_12BIT_2M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_IMX327_12BIT_2M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_IMX327_12BIT_2M_WDR2to1_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_IMX327_12BIT_2M_WDR2to1_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_IMX335_10BIT_4M_WDR2TO1_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_IMX335_10BIT_4M_WDR2TO1_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_IMX335_10BIT_5M_WDR2TO1_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_IMX335_10BIT_5M_WDR2TO1_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_IMX335_12BIT_4M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_IMX335_12BIT_4M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_IMX335_12BIT_5M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_IMX335_12BIT_5M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_IMX415_12BIT_8M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_IMX415_12BIT_8M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_IMX458_10BIT_12M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_IMX458_10BIT_12M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_IMX458_10BIT_1M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_IMX458_10BIT_1M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_IMX458_10BIT_2M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_IMX458_10BIT_2M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_IMX458_10BIT_4M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_IMX458_10BIT_4M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_IMX458_10BIT_8M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_IMX458_10BIT_8M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_OS05A_10BIT_4M_WDR2TO1_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_OS05A_10BIT_4M_WDR2TO1_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_OS05A_12BIT_4M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_OS05A_12BIT_4M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_OS08A10_10BIT_8M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_OS08A10_10BIT_8M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_OV12870_10BIT_12M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_OV12870_10BIT_12M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_OV12870_10BIT_1M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_OV12870_10BIT_1M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_OV12870_10BIT_2M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_OV12870_10BIT_2M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_OV12870_10BIT_8M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_OV12870_10BIT_8M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_SC4210_10BIT_3M_WDR2TO1_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_SC4210_10BIT_3M_WDR2TO1_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_4lane_CHN0_SENSOR_SC4210_12BIT_3M_NOWDR_ATTR	src/common/sample_comm_vi.c	/^    combo_dev_attr_t MIPI_4lane_CHN0_SENSOR_SC4210_12BIT_3M_NOWDR_ATTR =$/;"	v	typeref:typename:combo_dev_attr_t
+MIPI_DEV_NODE	src/common/sample_comm_vi.c	/^#define MIPI_DEV_NODE /;"	d	file:
+MIPI_TX_1024X768_60_CONFIG	src/common/sample_comm_vo.c	/^combo_dev_cfg_t MIPI_TX_1024X768_60_CONFIG =$/;"	v	typeref:typename:combo_dev_cfg_t
+MIPI_TX_1080X1920_60_CONFIG	src/common/sample_comm_vo.c	/^combo_dev_cfg_t MIPI_TX_1080X1920_60_CONFIG =$/;"	v	typeref:typename:combo_dev_cfg_t
+MIPI_TX_1280X720_60_CONFIG	src/common/sample_comm_vo.c	/^combo_dev_cfg_t MIPI_TX_1280X720_60_CONFIG =$/;"	v	typeref:typename:combo_dev_cfg_t
+MIPI_TX_1280x1024_60_CONFIG	src/common/sample_comm_vo.c	/^combo_dev_cfg_t MIPI_TX_1280x1024_60_CONFIG =$/;"	v	typeref:typename:combo_dev_cfg_t
+MIPI_TX_1920X1080_60_CONFIG	src/common/sample_comm_vo.c	/^combo_dev_cfg_t MIPI_TX_1920X1080_60_CONFIG =$/;"	v	typeref:typename:combo_dev_cfg_t
+MIPI_TX_720X1280_60_CONFIG	src/common/sample_comm_vo.c	/^combo_dev_cfg_t MIPI_TX_720X1280_60_CONFIG =$/;"	v	typeref:typename:combo_dev_cfg_t
+MIPI_TX_720X576_50_CONFIG	src/common/sample_comm_vo.c	/^combo_dev_cfg_t MIPI_TX_720X576_50_CONFIG =$/;"	v	typeref:typename:combo_dev_cfg_t
+MipiDev	include/sample_comm.h	/^    combo_dev_t           MipiDev;$/;"	m	struct:hiSAMPLE_SENSOR_INFO_S	typeref:typename:combo_dev_t
+MipiDev	src/common/sample_comm.h	/^    combo_dev_t           MipiDev;$/;"	m	struct:hiSAMPLE_SENSOR_INFO_S	typeref:typename:combo_dev_t
+MosaicMinHandle	src/common/sample_comm_region.c	/^#define MosaicMinHandle /;"	d	file:
+OMNIVISION_OS04B10_MIPI_4M_30FPS_10BIT	include/sample_comm.h	/^    OMNIVISION_OS04B10_MIPI_4M_30FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+OMNIVISION_OS04B10_MIPI_4M_30FPS_10BIT	src/common/sample_comm.h	/^    OMNIVISION_OS04B10_MIPI_4M_30FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+OMNIVISION_OS05A_MIPI_4M_30FPS_10BIT_WDR2TO1	include/sample_comm.h	/^    OMNIVISION_OS05A_MIPI_4M_30FPS_10BIT_WDR2TO1,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+OMNIVISION_OS05A_MIPI_4M_30FPS_10BIT_WDR2TO1	src/common/sample_comm.h	/^    OMNIVISION_OS05A_MIPI_4M_30FPS_10BIT_WDR2TO1,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+OMNIVISION_OS05A_MIPI_4M_30FPS_12BIT	include/sample_comm.h	/^    OMNIVISION_OS05A_MIPI_4M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+OMNIVISION_OS05A_MIPI_4M_30FPS_12BIT	src/common/sample_comm.h	/^    OMNIVISION_OS05A_MIPI_4M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+OMNIVISION_OS08A10_MIPI_8M_30FPS_10BIT	include/sample_comm.h	/^    OMNIVISION_OS08A10_MIPI_8M_30FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+OMNIVISION_OS08A10_MIPI_8M_30FPS_10BIT	src/common/sample_comm.h	/^    OMNIVISION_OS08A10_MIPI_8M_30FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+OMNIVISION_OV12870_MIPI_12M_30FPS_10BIT	include/sample_comm.h	/^    OMNIVISION_OV12870_MIPI_12M_30FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+OMNIVISION_OV12870_MIPI_12M_30FPS_10BIT	src/common/sample_comm.h	/^    OMNIVISION_OV12870_MIPI_12M_30FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+OMNIVISION_OV12870_MIPI_1M_240FPS_10BIT	include/sample_comm.h	/^    OMNIVISION_OV12870_MIPI_1M_240FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+OMNIVISION_OV12870_MIPI_1M_240FPS_10BIT	src/common/sample_comm.h	/^    OMNIVISION_OV12870_MIPI_1M_240FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+OMNIVISION_OV12870_MIPI_2M_120FPS_10BIT	include/sample_comm.h	/^    OMNIVISION_OV12870_MIPI_2M_120FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+OMNIVISION_OV12870_MIPI_2M_120FPS_10BIT	src/common/sample_comm.h	/^    OMNIVISION_OV12870_MIPI_2M_120FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+OMNIVISION_OV12870_MIPI_8M_30FPS_10BIT	include/sample_comm.h	/^    OMNIVISION_OV12870_MIPI_8M_30FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+OMNIVISION_OV12870_MIPI_8M_30FPS_10BIT	src/common/sample_comm.h	/^    OMNIVISION_OV12870_MIPI_8M_30FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+OSD_BITMAPFILEHEADER	src/common/loadbmp.h	/^} OSD_BITMAPFILEHEADER;$/;"	t	typeref:struct:tag_OSD_BITMAPFILEHEADER
+OSD_BITMAPINFO	src/common/loadbmp.h	/^} OSD_BITMAPINFO;$/;"	t	typeref:struct:tag_OSD_BITMAPINFO
+OSD_BITMAPINFOHEADER	src/common/loadbmp.h	/^} OSD_BITMAPINFOHEADER;$/;"	t	typeref:struct:tag_OSD_BITMAPINFOHEADER
+OSD_COLOR_FMT_BUTT	src/common/loadbmp.h	/^    OSD_COLOR_FMT_BUTT$/;"	e	enum:hiOSD_COLOR_FMT_E
+OSD_COLOR_FMT_E	src/common/loadbmp.h	/^} OSD_COLOR_FMT_E;$/;"	t	typeref:enum:hiOSD_COLOR_FMT_E
+OSD_COLOR_FMT_RGB1555	src/common/loadbmp.h	/^    OSD_COLOR_FMT_RGB1555   = 4,$/;"	e	enum:hiOSD_COLOR_FMT_E
+OSD_COLOR_FMT_RGB444	src/common/loadbmp.h	/^    OSD_COLOR_FMT_RGB444    = 0,$/;"	e	enum:hiOSD_COLOR_FMT_E
+OSD_COLOR_FMT_RGB4444	src/common/loadbmp.h	/^    OSD_COLOR_FMT_RGB4444   = 1,$/;"	e	enum:hiOSD_COLOR_FMT_E
+OSD_COLOR_FMT_RGB555	src/common/loadbmp.h	/^    OSD_COLOR_FMT_RGB555    = 2,$/;"	e	enum:hiOSD_COLOR_FMT_E
+OSD_COLOR_FMT_RGB565	src/common/loadbmp.h	/^    OSD_COLOR_FMT_RGB565    = 3,$/;"	e	enum:hiOSD_COLOR_FMT_E
+OSD_COLOR_FMT_RGB888	src/common/loadbmp.h	/^    OSD_COLOR_FMT_RGB888    = 6,$/;"	e	enum:hiOSD_COLOR_FMT_E
+OSD_COLOR_FMT_RGB8888	src/common/loadbmp.h	/^    OSD_COLOR_FMT_RGB8888   = 7,$/;"	e	enum:hiOSD_COLOR_FMT_E
+OSD_COMP_INFO	src/common/loadbmp.h	/^} OSD_COMP_INFO;$/;"	t	typeref:struct:hiOSD_COMPONENT_INFO_S
+OSD_LOGO_T	src/common/loadbmp.h	/^} OSD_LOGO_T;$/;"	t	typeref:struct:tag_OSD_Logo
+OSD_MAKECOLOR_U16	src/common/loadbmp.c	/^HI_U16 OSD_MAKECOLOR_U16(HI_U8 r, HI_U8 g, HI_U8 b, OSD_COMP_INFO compinfo)$/;"	f	typeref:typename:HI_U16
+OSD_RGBQUAD	src/common/loadbmp.h	/^} OSD_RGBQUAD;$/;"	t	typeref:struct:tag_OSD_RGBQUAD
+OSD_RGB_S	src/common/loadbmp.h	/^} OSD_RGB_S;$/;"	t	typeref:struct:hiOSD_RGB_S
+OSD_SURFACE_S	src/common/loadbmp.h	/^} OSD_SURFACE_S;$/;"	t	typeref:struct:hiOSD_SURFACE_S
+OverlayExMinHandle	src/common/sample_comm_region.c	/^#define OverlayExMinHandle /;"	d	file:
+OverlayMinHandle	src/common/sample_comm_region.c	/^#define OverlayMinHandle /;"	d	file:
+PANASONIC_MN34220_LVDS_2M_30FPS_12BIT	include/sample_comm.h	/^    PANASONIC_MN34220_LVDS_2M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+PANASONIC_MN34220_LVDS_2M_30FPS_12BIT	src/common/sample_comm.h	/^    PANASONIC_MN34220_LVDS_2M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+PAUSE	include/sample_comm.h	/^#define PAUSE(/;"	d
+PAUSE	src/common/sample_comm.h	/^#define PAUSE(/;"	d
+PIC_1080P	include/sample_comm.h	/^    PIC_1080P,     \/* 1920 * 1080 *\/$/;"	e	enum:hiPIC_SIZE_E
+PIC_1080P	src/common/sample_comm.h	/^    PIC_1080P,     \/* 1920 * 1080 *\/$/;"	e	enum:hiPIC_SIZE_E
+PIC_2560x1440	include/sample_comm.h	/^    PIC_2560x1440,$/;"	e	enum:hiPIC_SIZE_E
+PIC_2560x1440	src/common/sample_comm.h	/^    PIC_2560x1440,$/;"	e	enum:hiPIC_SIZE_E
+PIC_2592x1520	include/sample_comm.h	/^    PIC_2592x1520,$/;"	e	enum:hiPIC_SIZE_E
+PIC_2592x1520	src/common/sample_comm.h	/^    PIC_2592x1520,$/;"	e	enum:hiPIC_SIZE_E
+PIC_2592x1536	include/sample_comm.h	/^    PIC_2592x1536,$/;"	e	enum:hiPIC_SIZE_E
+PIC_2592x1536	src/common/sample_comm.h	/^    PIC_2592x1536,$/;"	e	enum:hiPIC_SIZE_E
+PIC_2592x1944	include/sample_comm.h	/^    PIC_2592x1944,$/;"	e	enum:hiPIC_SIZE_E
+PIC_2592x1944	src/common/sample_comm.h	/^    PIC_2592x1944,$/;"	e	enum:hiPIC_SIZE_E
+PIC_2688x1536	include/sample_comm.h	/^    PIC_2688x1536,$/;"	e	enum:hiPIC_SIZE_E
+PIC_2688x1536	src/common/sample_comm.h	/^    PIC_2688x1536,$/;"	e	enum:hiPIC_SIZE_E
+PIC_2716x1524	include/sample_comm.h	/^    PIC_2716x1524,$/;"	e	enum:hiPIC_SIZE_E
+PIC_2716x1524	src/common/sample_comm.h	/^    PIC_2716x1524,$/;"	e	enum:hiPIC_SIZE_E
+PIC_3000x3000	include/sample_comm.h	/^    PIC_3000x3000,$/;"	e	enum:hiPIC_SIZE_E
+PIC_3000x3000	src/common/sample_comm.h	/^    PIC_3000x3000,$/;"	e	enum:hiPIC_SIZE_E
+PIC_360P	include/sample_comm.h	/^    PIC_360P,      \/* 640 * 360 *\/$/;"	e	enum:hiPIC_SIZE_E
+PIC_360P	src/common/sample_comm.h	/^    PIC_360P,      \/* 640 * 360 *\/$/;"	e	enum:hiPIC_SIZE_E
+PIC_3840x2160	include/sample_comm.h	/^    PIC_3840x2160,$/;"	e	enum:hiPIC_SIZE_E
+PIC_3840x2160	src/common/sample_comm.h	/^    PIC_3840x2160,$/;"	e	enum:hiPIC_SIZE_E
+PIC_3840x8640	include/sample_comm.h	/^    PIC_3840x8640,$/;"	e	enum:hiPIC_SIZE_E
+PIC_3840x8640	src/common/sample_comm.h	/^    PIC_3840x8640,$/;"	e	enum:hiPIC_SIZE_E
+PIC_4000x3000	include/sample_comm.h	/^    PIC_4000x3000,$/;"	e	enum:hiPIC_SIZE_E
+PIC_4000x3000	src/common/sample_comm.h	/^    PIC_4000x3000,$/;"	e	enum:hiPIC_SIZE_E
+PIC_4096x2160	include/sample_comm.h	/^    PIC_4096x2160,$/;"	e	enum:hiPIC_SIZE_E
+PIC_4096x2160	src/common/sample_comm.h	/^    PIC_4096x2160,$/;"	e	enum:hiPIC_SIZE_E
+PIC_720P	include/sample_comm.h	/^    PIC_720P,      \/* 1280 * 720  *\/$/;"	e	enum:hiPIC_SIZE_E
+PIC_720P	src/common/sample_comm.h	/^    PIC_720P,      \/* 1280 * 720  *\/$/;"	e	enum:hiPIC_SIZE_E
+PIC_7680x4320	include/sample_comm.h	/^    PIC_7680x4320,$/;"	e	enum:hiPIC_SIZE_E
+PIC_7680x4320	src/common/sample_comm.h	/^    PIC_7680x4320,$/;"	e	enum:hiPIC_SIZE_E
+PIC_BUTT	include/sample_comm.h	/^    PIC_BUTT$/;"	e	enum:hiPIC_SIZE_E
+PIC_BUTT	src/common/sample_comm.h	/^    PIC_BUTT$/;"	e	enum:hiPIC_SIZE_E
+PIC_CIF	include/sample_comm.h	/^    PIC_CIF,$/;"	e	enum:hiPIC_SIZE_E
+PIC_CIF	src/common/sample_comm.h	/^    PIC_CIF,$/;"	e	enum:hiPIC_SIZE_E
+PIC_D1_NTSC	include/sample_comm.h	/^    PIC_D1_NTSC,   \/* 720 * 480 *\/$/;"	e	enum:hiPIC_SIZE_E
+PIC_D1_NTSC	src/common/sample_comm.h	/^    PIC_D1_NTSC,   \/* 720 * 480 *\/$/;"	e	enum:hiPIC_SIZE_E
+PIC_D1_PAL	include/sample_comm.h	/^    PIC_D1_PAL,    \/* 720 * 576 *\/$/;"	e	enum:hiPIC_SIZE_E
+PIC_D1_PAL	src/common/sample_comm.h	/^    PIC_D1_PAL,    \/* 720 * 576 *\/$/;"	e	enum:hiPIC_SIZE_E
+PIC_SIZE_E	include/sample_comm.h	/^} PIC_SIZE_E;$/;"	t	typeref:enum:hiPIC_SIZE_E
+PIC_SIZE_E	src/common/sample_comm.h	/^} PIC_SIZE_E;$/;"	t	typeref:enum:hiPIC_SIZE_E
+PIPE_ATTR_1280x720_RAW10_420_3DNR_RFR	src/common/sample_comm_vi.c	/^    VI_PIPE_ATTR_S PIPE_ATTR_1280x720_RAW10_420_3DNR_RFR =$/;"	v	typeref:typename:VI_PIPE_ATTR_S
+PIPE_ATTR_1920x1080_RAW10_420_3DNR_RFR	src/common/sample_comm_vi.c	/^    VI_PIPE_ATTR_S PIPE_ATTR_1920x1080_RAW10_420_3DNR_RFR =$/;"	v	typeref:typename:VI_PIPE_ATTR_S
+PIPE_ATTR_1920x1080_RAW12_420	src/common/sample_comm_vi.c	/^    VI_PIPE_ATTR_S PIPE_ATTR_1920x1080_RAW12_420 =$/;"	v	typeref:typename:VI_PIPE_ATTR_S
+PIPE_ATTR_1920x1080_RAW12_420_3DNR_CHN0	src/common/sample_comm_vi.c	/^    VI_PIPE_ATTR_S PIPE_ATTR_1920x1080_RAW12_420_3DNR_CHN0 =$/;"	v	typeref:typename:VI_PIPE_ATTR_S
+PIPE_ATTR_1920x1080_RAW12_420_3DNR_RFR	src/common/sample_comm_vi.c	/^    VI_PIPE_ATTR_S PIPE_ATTR_1920x1080_RAW12_420_3DNR_RFR =$/;"	v	typeref:typename:VI_PIPE_ATTR_S
+PIPE_ATTR_2560x1440_RAW10_420_3DNR_RFR	src/common/sample_comm_vi.c	/^    static VI_PIPE_ATTR_S PIPE_ATTR_2560x1440_RAW10_420_3DNR_RFR =$/;"	v	typeref:typename:VI_PIPE_ATTR_S	file:
+PIPE_ATTR_2560x1440_RAW12_420_3DNR_RFR	src/common/sample_comm_vi.c	/^    static VI_PIPE_ATTR_S PIPE_ATTR_2560x1440_RAW12_420_3DNR_RFR =$/;"	v	typeref:typename:VI_PIPE_ATTR_S	file:
+PIPE_ATTR_2592x1536_RAW10_420_3DNR_RFR	src/common/sample_comm_vi.c	/^    static VI_PIPE_ATTR_S PIPE_ATTR_2592x1536_RAW10_420_3DNR_RFR =$/;"	v	typeref:typename:VI_PIPE_ATTR_S	file:
+PIPE_ATTR_2592x1536_RAW12_420_3DNR_RFR	src/common/sample_comm_vi.c	/^    static VI_PIPE_ATTR_S PIPE_ATTR_2592x1536_RAW12_420_3DNR_RFR =$/;"	v	typeref:typename:VI_PIPE_ATTR_S	file:
+PIPE_ATTR_2592x1944_RAW10_420_3DNR_RFR	src/common/sample_comm_vi.c	/^    static VI_PIPE_ATTR_S PIPE_ATTR_2592x1944_RAW10_420_3DNR_RFR =$/;"	v	typeref:typename:VI_PIPE_ATTR_S	file:
+PIPE_ATTR_2592x1944_RAW12_420_3DNR_RFR	src/common/sample_comm_vi.c	/^    static VI_PIPE_ATTR_S PIPE_ATTR_2592x1944_RAW12_420_3DNR_RFR =$/;"	v	typeref:typename:VI_PIPE_ATTR_S	file:
+PIPE_ATTR_2688x1536_RAW10_420_3DNR_RFR	src/common/sample_comm_vi.c	/^    static VI_PIPE_ATTR_S PIPE_ATTR_2688x1536_RAW10_420_3DNR_RFR =$/;"	v	typeref:typename:VI_PIPE_ATTR_S	file:
+PIPE_ATTR_2688x1536_RAW12_420_3DNR_RFR	src/common/sample_comm_vi.c	/^    static VI_PIPE_ATTR_S PIPE_ATTR_2688x1536_RAW12_420_3DNR_RFR =$/;"	v	typeref:typename:VI_PIPE_ATTR_S	file:
+PIPE_ATTR_2716x1524_RAW10_420_3DNR_RFR	src/common/sample_comm_vi.c	/^    static VI_PIPE_ATTR_S PIPE_ATTR_2716x1524_RAW10_420_3DNR_RFR =$/;"	v	typeref:typename:VI_PIPE_ATTR_S	file:
+PIPE_ATTR_3840x2160_RAW10_420_3DNR_RFR	src/common/sample_comm_vi.c	/^    static VI_PIPE_ATTR_S PIPE_ATTR_3840x2160_RAW10_420_3DNR_RFR =$/;"	v	typeref:typename:VI_PIPE_ATTR_S	file:
+PIPE_ATTR_3840x2160_RAW12_420_3DNR_RFR	src/common/sample_comm_vi.c	/^    static VI_PIPE_ATTR_S PIPE_ATTR_3840x2160_RAW12_420_3DNR_RFR =$/;"	v	typeref:typename:VI_PIPE_ATTR_S	file:
+PIPE_ATTR_4000x3000_RAW10_420_3DNR_RFR	src/common/sample_comm_vi.c	/^    static VI_PIPE_ATTR_S PIPE_ATTR_4000x3000_RAW10_420_3DNR_RFR =$/;"	v	typeref:typename:VI_PIPE_ATTR_S	file:
+PLATFORM_ID	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#  define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#  define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^# define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^# define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID$/;"	d	file:
+PRINTF_VDEC_CHN_STATUS	src/common/sample_comm_vdec.c	/^#define PRINTF_VDEC_CHN_STATUS(/;"	d	file:
+PRINT_FPNTYPE	src/common/sample_comm_vi.c	/^    static HI_CHAR *PRINT_FPNTYPE(ISP_FPN_TYPE_E enFpnType)$/;"	f	typeref:typename:HI_CHAR *	file:
+Path_BMP	src/common/sample_comm_region.c	/^HI_CHAR* Path_BMP = HI_NULL;$/;"	v	typeref:typename:HI_CHAR *
+QpMapBufNum	src/common/sample_comm_venc.c	/^#define QpMapBufNum /;"	d	file:
+REGION_MST_LoadBmp	src/common/sample_comm_region.c	/^HI_S32 REGION_MST_LoadBmp(const char *filename, BITMAP_S *pstBitmap, HI_BOOL bFil, HI_U32 u16Fil/;"	f	typeref:typename:HI_S32
+REGION_MST_UpdateCanvas	src/common/sample_comm_region.c	/^HI_S32 REGION_MST_UpdateCanvas(const char* filename, BITMAP_S* pstBitmap, HI_BOOL bFil,$/;"	f	typeref:typename:HI_S32
+RM	build/Makefile	/^RM = \/opt\/cmake\/bin\/cmake -E rm -f$/;"	m
+RTPbuf_s	include/sample_comm.h	/^} RTPbuf_s;$/;"	t	typeref:struct:_rtpbuf
+SAMPLE_ADEC_S	src/common/sample_comm_audio.c	/^    } SAMPLE_ADEC_S;$/;"	t	typeref:struct:tagSAMPLE_ADEC_S	file:
+SAMPLE_AENC_S	src/common/sample_comm_audio.c	/^    } SAMPLE_AENC_S;$/;"	t	typeref:struct:tagSAMPLE_AENC_S	file:
+SAMPLE_AI_S	src/common/sample_comm_audio.c	/^    } SAMPLE_AI_S;$/;"	t	typeref:struct:tagSAMPLE_AI_S	file:
+SAMPLE_AO_S	src/common/sample_comm_audio.c	/^    } SAMPLE_AO_S;$/;"	t	typeref:struct:tagSAMPLE_AO_S	file:
+SAMPLE_AUDIO_EXTERN_AI_DEV	include/sample_comm.h	/^#define SAMPLE_AUDIO_EXTERN_AI_DEV /;"	d
+SAMPLE_AUDIO_EXTERN_AI_DEV	src/common/sample_comm.h	/^#define SAMPLE_AUDIO_EXTERN_AI_DEV /;"	d
+SAMPLE_AUDIO_EXTERN_AO_DEV	include/sample_comm.h	/^#define SAMPLE_AUDIO_EXTERN_AO_DEV /;"	d
+SAMPLE_AUDIO_EXTERN_AO_DEV	src/common/sample_comm.h	/^#define SAMPLE_AUDIO_EXTERN_AO_DEV /;"	d
+SAMPLE_AUDIO_INNER_AI_DEV	include/sample_comm.h	/^#define SAMPLE_AUDIO_INNER_AI_DEV /;"	d
+SAMPLE_AUDIO_INNER_AI_DEV	src/common/sample_comm.h	/^#define SAMPLE_AUDIO_INNER_AI_DEV /;"	d
+SAMPLE_AUDIO_INNER_AO_DEV	include/sample_comm.h	/^#define SAMPLE_AUDIO_INNER_AO_DEV /;"	d
+SAMPLE_AUDIO_INNER_AO_DEV	src/common/sample_comm.h	/^#define SAMPLE_AUDIO_INNER_AO_DEV /;"	d
+SAMPLE_AUDIO_INNER_HDMI_AO_DEV	include/sample_comm.h	/^#define SAMPLE_AUDIO_INNER_HDMI_AO_DEV /;"	d
+SAMPLE_AUDIO_INNER_HDMI_AO_DEV	src/common/sample_comm.h	/^#define SAMPLE_AUDIO_INNER_HDMI_AO_DEV /;"	d
+SAMPLE_AUDIO_PTNUMPERFRM	include/sample_comm.h	/^#define SAMPLE_AUDIO_PTNUMPERFRM /;"	d
+SAMPLE_AUDIO_PTNUMPERFRM	src/common/sample_comm.h	/^#define SAMPLE_AUDIO_PTNUMPERFRM /;"	d
+SAMPLE_CHN_INFO_S	include/sample_comm.h	/^} SAMPLE_CHN_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_CHN_INFO_S
+SAMPLE_CHN_INFO_S	src/common/sample_comm.h	/^} SAMPLE_CHN_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_CHN_INFO_S
+SAMPLE_COMM_AUDIO_AdecProc	src/common/sample_comm_audio.c	/^    void *SAMPLE_COMM_AUDIO_AdecProc(void *parg)$/;"	f	typeref:typename:void *
+SAMPLE_COMM_AUDIO_AencBindAi	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_AencBindAi(AUDIO_DEV AiDev, AI_CHN AiChn, AENC_CHN AeChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_AencProc	src/common/sample_comm_audio.c	/^    void *SAMPLE_COMM_AUDIO_AencProc(void *parg)$/;"	f	typeref:typename:void *
+SAMPLE_COMM_AUDIO_AencUnbindAi	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_AencUnbindAi(AUDIO_DEV AiDev, AI_CHN AiChn, AENC_CHN AeChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_AiProc	src/common/sample_comm_audio.c	/^    void *SAMPLE_COMM_AUDIO_AiProc(void *parg)$/;"	f	typeref:typename:void *
+SAMPLE_COMM_AUDIO_AoBindAdec	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_AoBindAdec(AUDIO_DEV AoDev, AO_CHN AoChn, ADEC_CHN AdChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_AoBindAi	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_AoBindAi(AUDIO_DEV AiDev, AI_CHN AiChn, AUDIO_DEV AoDev, AO_CHN AoC/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_AoUnbindAdec	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_AoUnbindAdec(AUDIO_DEV AoDev, AO_CHN AoChn, ADEC_CHN AdChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_AoUnbindAi	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_AoUnbindAi(AUDIO_DEV AiDev, AI_CHN AiChn, AUDIO_DEV AoDev, AO_CHN A/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_AoVolProc	src/common/sample_comm_audio.c	/^    void *SAMPLE_COMM_AUDIO_AoVolProc(void *parg)$/;"	f	typeref:typename:void *
+SAMPLE_COMM_AUDIO_CfgAcodec	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_CfgAcodec(AIO_ATTR_S *pstAioAttr)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_CreatTrdAencAdec	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_CreatTrdAencAdec(AENC_CHN AeChn, ADEC_CHN AdChn, FILE *pAecFd)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_CreatTrdAiAenc	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_CreatTrdAiAenc(AUDIO_DEV AiDev, AI_CHN AiChn, AENC_CHN AeChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_CreatTrdAiAo	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_CreatTrdAiAo(AUDIO_DEV AiDev, AI_CHN AiChn, AUDIO_DEV AoDev, AO_CHN/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_CreatTrdAoVolCtrl	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_CreatTrdAoVolCtrl(AUDIO_DEV AoDev)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_CreatTrdFileAdec	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_CreatTrdFileAdec(ADEC_CHN AdChn, FILE *pAdcFd)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_DestoryAllTrd	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_DestoryAllTrd(void)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_DestoryTrdAencAdec	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_DestoryTrdAencAdec(AENC_CHN AeChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_DestoryTrdAi	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_DestoryTrdAi(AUDIO_DEV AiDev, AI_CHN AiChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_DestoryTrdAoVolCtrl	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_DestoryTrdAoVolCtrl(AUDIO_DEV AoDev)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_DestoryTrdFileAdec	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_DestoryTrdFileAdec(ADEC_CHN AdChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_StartAdec	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_StartAdec(ADEC_CHN AdChn, PAYLOAD_TYPE_E enType)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_StartAenc	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_StartAenc(HI_S32 s32AencChnCnt, AIO_ATTR_S *pstAioAttr, PAYLOAD_TYP/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_StartAi	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_StartAi(AUDIO_DEV AiDevId, HI_S32 s32AiChnCnt,$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_StartAo	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_StartAo(AUDIO_DEV AoDevId, HI_S32 s32AoChnCnt,$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_StartHdmi	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_StartHdmi(AIO_ATTR_S *pstAioAttr)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_StopAdec	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_StopAdec(ADEC_CHN AdChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_StopAenc	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_StopAenc(HI_S32 s32AencChnCnt)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_StopAi	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_StopAi(AUDIO_DEV AiDevId, HI_S32 s32AiChnCnt,$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_StopAo	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_StopAo(AUDIO_DEV AoDevId, HI_S32 s32AoChnCnt, HI_BOOL bResampleEn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AUDIO_StopHdmi	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_COMM_AUDIO_StopHdmi(HI_VOID)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AVS_Bind_AVS	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_AVS_Bind_AVS(AVS_GRP AvsSrcGrp, AVS_CHN AvsSrcChn, AVS_GRP AvsDestGrp, AVS_CH/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AVS_Bind_VENC	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_AVS_Bind_VENC(AVS_GRP AvsGrp, AVS_CHN AvsChn, VENC_CHN VencChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AVS_Bind_VO	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_AVS_Bind_VO(AVS_GRP AvsGrp, AVS_CHN AvsChn, VO_LAYER VoLayer, VO_CHN VoChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AVS_Bind_VPSS	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_AVS_Bind_VPSS(AVS_GRP AvsGrp, AVS_CHN AvsChn, VPSS_GRP VpssGrp)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AVS_UnBind_AVS	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_AVS_UnBind_AVS(AVS_GRP AvsSrcGrp, AVS_CHN AvsSrcChn, AVS_GRP AvsDestGrp, AVS_/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AVS_UnBind_VENC	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_AVS_UnBind_VENC(AVS_GRP AvsGrp, AVS_CHN AvsChn, VENC_CHN VencChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AVS_UnBind_VO	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_AVS_UnBind_VO(AVS_GRP AvsGrp, AVS_CHN AvsChn, VO_LAYER VoLayer, VO_CHN VoChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_AVS_UnBind_VPSS	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_AVS_UnBind_VPSS(AVS_GRP AvsGrp, AVS_CHN AvsChn, VPSS_GRP VpssGrp)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_All_ISP_Stop	src/common/sample_comm_isp.c	/^HI_VOID SAMPLE_COMM_All_ISP_Stop(HI_VOID)$/;"	f	typeref:typename:HI_VOID
+SAMPLE_COMM_GetSnsBusType	src/common/sample_comm_isp.c	/^static ISP_SNS_TYPE_E SAMPLE_COMM_GetSnsBusType(SAMPLE_SNS_TYPE_E enSnsType)$/;"	f	typeref:typename:ISP_SNS_TYPE_E	file:
+SAMPLE_COMM_ISP_Aelib_Callback	src/common/sample_comm_isp.c	/^HI_S32 SAMPLE_COMM_ISP_Aelib_Callback(ISP_DEV IspDev)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_ISP_Aelib_UnCallback	src/common/sample_comm_isp.c	/^HI_S32 SAMPLE_COMM_ISP_Aelib_UnCallback(ISP_DEV IspDev)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_ISP_Awblib_Callback	src/common/sample_comm_isp.c	/^HI_S32 SAMPLE_COMM_ISP_Awblib_Callback(ISP_DEV IspDev)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_ISP_Awblib_UnCallback	src/common/sample_comm_isp.c	/^HI_S32 SAMPLE_COMM_ISP_Awblib_UnCallback(ISP_DEV IspDev)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_ISP_BindSns	src/common/sample_comm_isp.c	/^HI_S32 SAMPLE_COMM_ISP_BindSns(ISP_DEV IspDev, HI_U32 u32SnsId, SAMPLE_SNS_TYPE_E enSnsType, HI_/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_ISP_GetIspAttrBySns	src/common/sample_comm_isp.c	/^HI_S32 SAMPLE_COMM_ISP_GetIspAttrBySns(SAMPLE_SNS_TYPE_E enSnsType, ISP_PUB_ATTR_S* pstPubAttr)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_ISP_GetSnsObj	src/common/sample_comm_isp.c	/^ISP_SNS_OBJ_S* SAMPLE_COMM_ISP_GetSnsObj(HI_U32 u32SnsId)$/;"	f	typeref:typename:ISP_SNS_OBJ_S *
+SAMPLE_COMM_ISP_Run	src/common/sample_comm_isp.c	/^HI_S32 SAMPLE_COMM_ISP_Run(ISP_DEV IspDev)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_ISP_Sensor_Regiter_callback	src/common/sample_comm_isp.c	/^HI_S32 SAMPLE_COMM_ISP_Sensor_Regiter_callback(ISP_DEV IspDev, HI_U32 u32SnsId)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_ISP_Sensor_UnRegiter_callback	src/common/sample_comm_isp.c	/^HI_S32 SAMPLE_COMM_ISP_Sensor_UnRegiter_callback(ISP_DEV IspDev)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_ISP_Stop	src/common/sample_comm_isp.c	/^HI_VOID SAMPLE_COMM_ISP_Stop(ISP_DEV IspDev)$/;"	f	typeref:typename:HI_VOID
+SAMPLE_COMM_ISP_Thread	src/common/sample_comm_isp.c	/^static void* SAMPLE_COMM_ISP_Thread(void* param)$/;"	f	typeref:typename:void *	file:
+SAMPLE_COMM_ModeSwitch_VI_CreateSingleVi	src/common/sample_comm_vi.c	/^    static HI_S32 SAMPLE_COMM_ModeSwitch_VI_CreateSingleVi(SAMPLE_VI_INFO_S *pstViInfo)$/;"	f	typeref:typename:HI_S32	file:
+SAMPLE_COMM_ModeSwitch_VI_CreateVi	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_ModeSwitch_VI_CreateVi(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_ModeSwitch_VI_StartPipe_Chn	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_ModeSwitch_VI_StartPipe_Chn(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_QpmapSendFrameProc	src/common/sample_comm_venc.c	/^    HI_VOID *SAMPLE_COMM_QpmapSendFrameProc(HI_VOID *p)$/;"	f	typeref:typename:HI_VOID *
+SAMPLE_COMM_REGION_AttachToChn	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_COMM_REGION_AttachToChn(HI_S32 HandleNum,RGN_TYPE_E enType, MPP_CHN_S *pstMppChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_REGION_Create	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_COMM_REGION_Create(HI_S32 HandleNum,RGN_TYPE_E enType)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_REGION_Destroy	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_COMM_REGION_Destroy(HI_S32 HandleNum,RGN_TYPE_E enType)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_REGION_DetachFrmChn	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_COMM_REGION_DetachFrmChn(HI_S32 HandleNum,RGN_TYPE_E enType, MPP_CHN_S *pstMppChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_REGION_GetMinHandle	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_COMM_REGION_GetMinHandle(RGN_TYPE_E enType)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_REGION_GetUpCanvas	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_COMM_REGION_GetUpCanvas(RGN_HANDLE Handle)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_REGION_SetBitMap	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_COMM_REGION_SetBitMap(RGN_HANDLE Handle,PIXEL_FORMAT_E enPixelFmt)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_SYS_Exit	src/common/sample_comm_sys.c	/^HI_VOID SAMPLE_COMM_SYS_Exit(void)$/;"	f	typeref:typename:HI_VOID
+SAMPLE_COMM_SYS_GetPicSize	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_SYS_GetPicSize(PIC_SIZE_E enPicSize, SIZE_S* pstSize)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_SYS_Init	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_SYS_Init(VB_CONFIG_S* pstVbConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_SYS_InitWithVbSupplement	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_SYS_InitWithVbSupplement(VB_CONFIG_S* pstVbConf, HI_U32 u32SupplementConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_SYS_MemConfig	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_SYS_MemConfig(HI_VOID)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VDEC_Bind_VPSS	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_VDEC_Bind_VPSS(VDEC_CHN VdecChn, VPSS_GRP VpssGrp)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VDEC_CmdCtrl	src/common/sample_comm_vdec.c	/^HI_VOID SAMPLE_COMM_VDEC_CmdCtrl(HI_S32 s32ChnNum,VDEC_THREAD_PARAM_S *pstVdecSend, pthread_t *p/;"	f	typeref:typename:HI_VOID
+SAMPLE_COMM_VDEC_ExitVBPool	src/common/sample_comm_vdec.c	/^HI_VOID SAMPLE_COMM_VDEC_ExitVBPool(HI_VOID)$/;"	f	typeref:typename:HI_VOID
+SAMPLE_COMM_VDEC_GetPic	src/common/sample_comm_vdec.c	/^HI_VOID * SAMPLE_COMM_VDEC_GetPic(HI_VOID *pArgs)$/;"	f	typeref:typename:HI_VOID *
+SAMPLE_COMM_VDEC_InitVBPool	src/common/sample_comm_vdec.c	/^HI_S32 SAMPLE_COMM_VDEC_InitVBPool(HI_U32 ChnNum, SAMPLE_VDEC_ATTR *pastSampleVdec)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VDEC_SaveRGBFile	src/common/sample_comm_vdec.c	/^void SAMPLE_COMM_VDEC_SaveRGBFile(FILE* fRgb, VIDEO_FRAME_S* pVB)$/;"	f	typeref:typename:void
+SAMPLE_COMM_VDEC_SaveYUVFile_Linear8Bit	src/common/sample_comm_vdec.c	/^static void SAMPLE_COMM_VDEC_SaveYUVFile_Linear8Bit(FILE* pfd, VIDEO_FRAME_S* pVBuf)$/;"	f	typeref:typename:void	file:
+SAMPLE_COMM_VDEC_SendStream	src/common/sample_comm_vdec.c	/^HI_VOID * SAMPLE_COMM_VDEC_SendStream(HI_VOID *pArgs)$/;"	f	typeref:typename:HI_VOID *
+SAMPLE_COMM_VDEC_Start	src/common/sample_comm_vdec.c	/^HI_S32 SAMPLE_COMM_VDEC_Start(HI_S32 s32ChnNum, SAMPLE_VDEC_ATTR *pastSampleVdec)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VDEC_StartGetPic	src/common/sample_comm_vdec.c	/^HI_VOID SAMPLE_COMM_VDEC_StartGetPic(HI_S32 s32ChnNum, VDEC_THREAD_PARAM_S *pstVdecGet, pthread_/;"	f	typeref:typename:HI_VOID
+SAMPLE_COMM_VDEC_StartSendStream	src/common/sample_comm_vdec.c	/^HI_VOID SAMPLE_COMM_VDEC_StartSendStream(HI_S32 s32ChnNum, VDEC_THREAD_PARAM_S *pstVdecSend, pth/;"	f	typeref:typename:HI_VOID
+SAMPLE_COMM_VDEC_Stop	src/common/sample_comm_vdec.c	/^HI_S32 SAMPLE_COMM_VDEC_Stop(HI_S32 s32ChnNum)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VDEC_StopGetPic	src/common/sample_comm_vdec.c	/^HI_VOID SAMPLE_COMM_VDEC_StopGetPic(HI_S32 s32ChnNum, VDEC_THREAD_PARAM_S *pstVdecGet, pthread_t/;"	f	typeref:typename:HI_VOID
+SAMPLE_COMM_VDEC_StopSendStream	src/common/sample_comm_vdec.c	/^HI_VOID SAMPLE_COMM_VDEC_StopSendStream(HI_S32 s32ChnNum, VDEC_THREAD_PARAM_S *pstVdecSend, pthr/;"	f	typeref:typename:HI_VOID
+SAMPLE_COMM_VDEC_UnBind_VPSS	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_VDEC_UnBind_VPSS(VDEC_CHN VdecChn, VPSS_GRP VpssGrp)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_CloseReEncode	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_CloseReEncode(VENC_CHN VencChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_Creat	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_Creat(VENC_CHN VencChn, PAYLOAD_TYPE_E enType, PIC_SIZE_E enSize, SA/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_GetFilePostfix	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_GetFilePostfix(PAYLOAD_TYPE_E enPayload, char *szFilePostfix)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_GetGopAttr	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_GetGopAttr(VENC_GOP_MODE_E enGopMode, VENC_GOP_ATTR_S *pstGopAttr)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_GetVencStreamProc	src/common/sample_comm_venc.c	/^    HI_VOID *SAMPLE_COMM_VENC_GetVencStreamProc(HI_VOID *p)$/;"	f	typeref:typename:HI_VOID *
+SAMPLE_COMM_VENC_GetVencStreamProc_Svc_t	src/common/sample_comm_venc.c	/^    HI_VOID *SAMPLE_COMM_VENC_GetVencStreamProc_Svc_t(void *p)$/;"	f	typeref:typename:HI_VOID *
+SAMPLE_COMM_VENC_Getdcfinfo	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_Getdcfinfo(char *SrcJpgPath, char *DstThmPath)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_MemConfig	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_MemConfig(HI_VOID)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_PlanToSemi	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_PlanToSemi(HI_U8 *pY, HI_S32 yStride,$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_QpmapSendFrame	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_QpmapSendFrame(VPSS_GRP VpssGrp, VPSS_CHN VpssChn, VENC_CHN VeChn[],/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_ReadOneFrame	src/common/sample_comm_venc.c	/^    HI_VOID SAMPLE_COMM_VENC_ReadOneFrame(FILE *fp, HI_U8 *pY, HI_U8 *pU, HI_U8 *pV,$/;"	f	typeref:typename:HI_VOID
+SAMPLE_COMM_VENC_SaveJpeg	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_SaveJpeg(VENC_CHN VencChn, HI_U32 SnapCnt)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_SaveStream	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_SaveStream(FILE *pFd, VENC_STREAM_S *pstStream)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_SaveStream_PhyAddr	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_SaveStream_PhyAddr(FILE *pFd, VENC_STREAM_BUF_INFO_S *pstStreamBuf, /;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_SnapProcess	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_SnapProcess(VENC_CHN VencChn, HI_U32 SnapCnt, HI_BOOL bSaveJpg, HI_B/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_SnapStart	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_SnapStart(VENC_CHN VencChn, SIZE_S *pstSize, HI_BOOL bSupportDCF)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_SnapStop	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_SnapStop(VENC_CHN VencChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_Start	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_Start(VENC_CHN VencChn, PAYLOAD_TYPE_E enType, PIC_SIZE_E enSize, SA/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_StartGetStream	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_StartGetStream(VENC_CHN VeChn[], HI_S32 s32Cnt)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_StartGetStream_Svc_t	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_StartGetStream_Svc_t(HI_S32 s32Cnt)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_Stop	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_Stop(VENC_CHN VencChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_StopGetStream	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_StopGetStream(void)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VENC_StopSendQpmapFrame	src/common/sample_comm_venc.c	/^    HI_S32 SAMPLE_COMM_VENC_StopSendQpmapFrame(void)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_BindPipeDev	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_BindPipeDev(SAMPLE_VI_INFO_S *pstViInfo)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_Bind_VENC	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_VI_Bind_VENC(VI_PIPE ViPipe, VI_CHN ViChn, VENC_CHN VencChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_Bind_VO	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_VI_Bind_VO(VI_PIPE ViPipe, VI_CHN ViChn, VO_LAYER VoLayer, VO_CHN VoChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_Bind_VPSS	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_VI_Bind_VPSS(VI_PIPE ViPipe, VI_CHN ViChn, VPSS_GRP VpssGrp)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_BitWidth2PixelFormat	src/common/sample_comm_vi.c	/^    static HI_S32 SAMPLE_COMM_VI_BitWidth2PixelFormat(HI_U32 u32Nbit, PIXEL_FORMAT_E *penPixelFo/;"	f	typeref:typename:HI_S32	file:
+SAMPLE_COMM_VI_CompressMode2String	src/common/sample_comm_vi.c	/^    char *SAMPLE_COMM_VI_CompressMode2String(COMPRESS_MODE_E enCompressMode)$/;"	f	typeref:typename:char *
+SAMPLE_COMM_VI_ConvertBitPixel	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_ConvertBitPixel(HI_U8 *pu8Data, HI_U32 u32DataNum, HI_U32 u32BitWidth,/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_CreateIsp	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_CreateIsp(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_CreateSingleVi	src/common/sample_comm_vi.c	/^    static HI_S32 SAMPLE_COMM_VI_CreateSingleVi(SAMPLE_VI_INFO_S *pstViInfo)$/;"	f	typeref:typename:HI_S32	file:
+SAMPLE_COMM_VI_CreateVi	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_CreateVi(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_DestroyIsp	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_DestroyIsp(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_DestroySinglePipe_Chn	src/common/sample_comm_vi.c	/^    static HI_S32 SAMPLE_COMM_VI_DestroySinglePipe_Chn(SAMPLE_VI_INFO_S *pstViInfo)$/;"	f	typeref:typename:HI_S32	file:
+SAMPLE_COMM_VI_DestroySingleVi	src/common/sample_comm_vi.c	/^    static HI_S32 SAMPLE_COMM_VI_DestroySingleVi(SAMPLE_VI_INFO_S *pstViInfo)$/;"	f	typeref:typename:HI_S32	file:
+SAMPLE_COMM_VI_DestroyVi	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_DestroyVi(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_DisableFpnCorrection	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_DisableFpnCorrection(VI_PIPE ViPipe, SAMPLE_VI_FPN_CORRECTION_INFO_S */;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_DisableMipiClock	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_DisableMipiClock(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_DisableSensorClock	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_DisableSensorClock(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_DumpRaw	src/common/sample_comm_vi.c	/^    HI_VOID *SAMPLE_COMM_VI_DumpRaw(HI_VOID *arg)$/;"	f	typeref:typename:HI_VOID *
+SAMPLE_COMM_VI_EnableMipiClock	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_EnableMipiClock(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_EnableSensorClock	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_EnableSensorClock(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_ExitMpp	src/common/sample_comm_vi.c	/^    int SAMPLE_COMM_VI_ExitMpp(int s32poolId)$/;"	f	typeref:typename:int
+SAMPLE_COMM_VI_FpnCalibrateConfig	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_FpnCalibrateConfig(VI_PIPE ViPipe, SAMPLE_VI_FPN_CALIBRATE_INFO_S *pst/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_FpnCorrectionConfig	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_FpnCorrectionConfig(VI_PIPE ViPipe, SAMPLE_VI_FPN_CORRECTION_INFO_S *p/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_GetChnAttrBySns	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_GetChnAttrBySns(SAMPLE_SNS_TYPE_E enSnsType, VI_CHN_ATTR_S *pstChnAttr/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_GetComboAttrBySns	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_GetComboAttrBySns(SAMPLE_SNS_TYPE_E enSnsType, combo_dev_t MipiDev, co/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_GetComboDevBySensor	src/common/sample_comm_vi.c	/^    combo_dev_t SAMPLE_COMM_VI_GetComboDevBySensor(SAMPLE_SNS_TYPE_E enMode, HI_S32 s32SnsIdx)$/;"	f	typeref:typename:combo_dev_t
+SAMPLE_COMM_VI_GetDevAttrBySns	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_GetDevAttrBySns(SAMPLE_SNS_TYPE_E enSnsType, VI_DEV_ATTR_S *pstViDevAt/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_GetFrameRateBySensor	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_GetFrameRateBySensor(SAMPLE_SNS_TYPE_E enMode, HI_U32 *pu32FrameRate)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_GetMipiLaneDivideMode	src/common/sample_comm_vi.c	/^    HI_U32 SAMPLE_COMM_VI_GetMipiLaneDivideMode(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_U32
+SAMPLE_COMM_VI_GetPipeAttrBySns	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_GetPipeAttrBySns(SAMPLE_SNS_TYPE_E enSnsType, VI_PIPE_ATTR_S *pstPipeA/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_GetPipeBySensor	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_GetPipeBySensor(SAMPLE_SNS_TYPE_E enMode, SAMPLE_PIPE_INFO_S *pstPipeI/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_GetSensorInfo	src/common/sample_comm_vi.c	/^    HI_VOID SAMPLE_COMM_VI_GetSensorInfo(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_VOID
+SAMPLE_COMM_VI_GetSizeBySensor	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_GetSizeBySensor(SAMPLE_SNS_TYPE_E enMode, PIC_SIZE_E *penSize)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_GetWDRModeBySensor	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_GetWDRModeBySensor(SAMPLE_SNS_TYPE_E enMode, WDR_MODE_E *penWDRMode)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_Load_UserPic	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_Load_UserPic(const char *pszYuvFile, VI_USERPIC_ATTR_S *pstUsrPic, SAM/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_ModeSwitchCreateSingleViPipe	src/common/sample_comm_vi.c	/^    static HI_S32 SAMPLE_COMM_VI_ModeSwitchCreateSingleViPipe(VI_PIPE ViPipe, VI_PIPE_ATTR_S *ps/;"	f	typeref:typename:HI_S32	file:
+SAMPLE_COMM_VI_ModeSwitch_EnableSingleViPipe	src/common/sample_comm_vi.c	/^    static HI_S32 SAMPLE_COMM_VI_ModeSwitch_EnableSingleViPipe(VI_PIPE ViPipe, VI_PIPE_ATTR_S *p/;"	f	typeref:typename:HI_S32	file:
+SAMPLE_COMM_VI_ModeSwitch_EnableViPipe	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_ModeSwitch_EnableViPipe(SAMPLE_VI_INFO_S *pstViInfo)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_ModeSwitch_StartViChn	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_ModeSwitch_StartViChn(SAMPLE_VI_INFO_S *pstViInfo)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_ModeSwitch_StartViPipe	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_ModeSwitch_StartViPipe(SAMPLE_VI_INFO_S *pstViInfo)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_PixelFormat2BitWidth	src/common/sample_comm_vi.c	/^    HI_U32 SAMPLE_COMM_VI_PixelFormat2BitWidth(PIXEL_FORMAT_E enPixelFormat)$/;"	f	typeref:typename:HI_U32
+SAMPLE_COMM_VI_ReadFpnFile	src/common/sample_comm_vi.c	/^    HI_VOID SAMPLE_COMM_VI_ReadFpnFile(ISP_FPN_FRAME_INFO_S *pstFpnFrmInfo, FILE *pfd)$/;"	f	typeref:typename:HI_VOID
+SAMPLE_COMM_VI_Release_UserPic	src/common/sample_comm_vi.c	/^    HI_VOID SAMPLE_COMM_VI_Release_UserPic(SAMPLE_VI_FRAME_INFO_S *pstViFrameInfo)$/;"	f	typeref:typename:HI_VOID
+SAMPLE_COMM_VI_ResetMipi	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_ResetMipi(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_ResetSensor	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_ResetSensor(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_ResetSns	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_ResetSns(sns_rst_source_t SnsDev)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_SaveCompressParam	src/common/sample_comm_vi.c	/^    int SAMPLE_COMM_VI_SaveCompressParam(VI_CMP_PARAM_S *pCmpParam, FILE *pfd)$/;"	f	typeref:typename:int
+SAMPLE_COMM_VI_SaveCompressedRaw	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_SaveCompressedRaw(VIDEO_FRAME_S *pVBuf, HI_U32 u32Nbit, FILE *pfd)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_SaveFpnFile	src/common/sample_comm_vi.c	/^    HI_VOID SAMPLE_COMM_VI_SaveFpnFile(ISP_FPN_TYPE_E enFpnType, ISP_FPN_FRAME_INFO_S *pVBuf, FI/;"	f	typeref:typename:HI_VOID
+SAMPLE_COMM_VI_SaveRaw	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_SaveRaw(VIDEO_FRAME_S *pVBuf, HI_U32 u32Nbit, FILE *pfd)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_SaveUncompressRaw	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_SaveUncompressRaw(VIDEO_FRAME_S *pVBuf, HI_U32 u32Nbit, FILE *pfd)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_SetMipiAttr	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_SetMipiAttr(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_SetMipiHsMode	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_SetMipiHsMode(lane_divide_mode_t enHsMode)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_SetParam	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_SetParam(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_StartDev	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_StartDev(SAMPLE_VI_INFO_S *pstViInfo)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_StartDumpRawThread	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_StartDumpRawThread(VI_PIPE ViPipe, HI_S32 s32Cnt, const HI_CHAR *pzsNa/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_StartIsp	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_StartIsp(SAMPLE_VI_INFO_S *pstViInfo)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_StartMIPI	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_StartMIPI(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_StartPipe_Chn	src/common/sample_comm_vi.c	/^    static HI_S32 SAMPLE_COMM_VI_StartPipe_Chn(SAMPLE_VI_INFO_S *pstViInfo)$/;"	f	typeref:typename:HI_S32	file:
+SAMPLE_COMM_VI_StartVi	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_StartVi(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_StartViChn	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_StartViChn(SAMPLE_VI_INFO_S *pstViInfo)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_StartViPipe	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_StartViPipe(SAMPLE_VI_INFO_S *pstViInfo)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_StopDev	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_StopDev(SAMPLE_VI_INFO_S *pstViInfo)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_StopDumpRawThread	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_StopDumpRawThread(HI_VOID)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_StopIsp	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_StopIsp(SAMPLE_VI_INFO_S *pstViInfo)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_StopMIPI	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_StopMIPI(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_StopSingleViPipe	src/common/sample_comm_vi.c	/^    static HI_S32 SAMPLE_COMM_VI_StopSingleViPipe(VI_PIPE ViPipe)$/;"	f	typeref:typename:HI_S32	file:
+SAMPLE_COMM_VI_StopVi	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_StopVi(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_StopViChn	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_StopViChn(SAMPLE_VI_INFO_S *pstViInfo)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_StopViPipe	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_StopViPipe(SAMPLE_VI_INFO_S *pstViInfo)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_SwitchISPMode	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_SwitchISPMode(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_SwitchMode	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_SwitchMode(SAMPLE_VI_CONFIG_S *pstViConfigDes)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_SwitchMode_StopVI	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_SwitchMode_StopVI(SAMPLE_VI_CONFIG_S *pstViConfigSrc)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_UnBind_VENC	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_VI_UnBind_VENC(VI_PIPE ViPipe, VI_CHN ViChn, VENC_CHN VencChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_UnBind_VO	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_VI_UnBind_VO(VI_PIPE ViPipe, VI_CHN ViChn, VO_LAYER VoLayer, VO_CHN VoChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_UnBind_VPSS	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_VI_UnBind_VPSS(VI_PIPE ViPipe, VI_CHN ViChn, VPSS_GRP VpssGrp)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_UnresetMipi	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_UnresetMipi(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_UnresetSensor	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_UnresetSensor(SAMPLE_VI_CONFIG_S *pstViConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VI_UpdateVIVPSSMode	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_COMM_VI_UpdateVIVPSSMode(VI_VPSS_MODE_S *pstVIVPSSMode)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VO_Bind_VO	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_VO_Bind_VO(VO_LAYER  SrcVoLayer, VO_CHN SrcVoChn, VO_LAYER DstVoLayer, VO_CHN/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VO_Exit	src/common/sample_comm_vo.c	/^HI_VOID SAMPLE_COMM_VO_Exit(void)$/;"	f	typeref:typename:HI_VOID
+SAMPLE_COMM_VO_GetDefConfig	src/common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_GetDefConfig(SAMPLE_VO_CONFIG_S *pstVoConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VO_GetDefLayerConfig	src/common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_GetDefLayerConfig(SAMPLE_COMM_VO_LAYER_CONFIG_S * pstVoLayerConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VO_GetWH	src/common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_GetWH(VO_INTF_SYNC_E enIntfSync, HI_U32* pu32W, HI_U32* pu32H, HI_U32* pu3/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VO_HdmiConvertSync	src/common/sample_comm_vo.c	/^HI_VOID SAMPLE_COMM_VO_HdmiConvertSync(VO_INTF_SYNC_E enIntfSync,$/;"	f	typeref:typename:HI_VOID
+SAMPLE_COMM_VO_HdmiStart	src/common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_HdmiStart(VO_INTF_SYNC_E enIntfSync)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VO_HdmiStartByDyRg	src/common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_HdmiStartByDyRg(VO_INTF_SYNC_E enIntfSync, DYNAMIC_RANGE_E enDyRg)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VO_HdmiStop	src/common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_HdmiStop(HI_VOID)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VO_LAYER_CONFIG_S	include/sample_comm.h	/^}SAMPLE_COMM_VO_LAYER_CONFIG_S;$/;"	t	typeref:struct:hiSAMPLE_COMM_VO_LAYER_CONFIG_S
+SAMPLE_COMM_VO_LAYER_CONFIG_S	src/common/sample_comm.h	/^}SAMPLE_COMM_VO_LAYER_CONFIG_S;$/;"	t	typeref:struct:hiSAMPLE_COMM_VO_LAYER_CONFIG_S
+SAMPLE_COMM_VO_StartChn	src/common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_StartChn(VO_LAYER VoLayer, SAMPLE_VO_MODE_E enMode)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VO_StartDev	src/common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_StartDev(VO_DEV VoDev, VO_PUB_ATTR_S* pstPubAttr)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VO_StartLayer	src/common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_StartLayer(VO_LAYER VoLayer, const VO_VIDEO_LAYER_ATTR_S* pstLayerAttr)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VO_StartLayerChn	src/common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_StartLayerChn(SAMPLE_COMM_VO_LAYER_CONFIG_S * pstVoLayerConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VO_StartMipiTx	src/common/sample_comm_vo.c	/^void SAMPLE_COMM_VO_StartMipiTx(VO_INTF_SYNC_E enVoIntfSync)$/;"	f	typeref:typename:void
+SAMPLE_COMM_VO_StartVO	src/common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_StartVO(SAMPLE_VO_CONFIG_S *pstVoConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VO_StopChn	src/common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_StopChn(VO_LAYER VoLayer, SAMPLE_VO_MODE_E enMode)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VO_StopDev	src/common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_StopDev(VO_DEV VoDev)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VO_StopLayer	src/common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_StopLayer(VO_LAYER VoLayer)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VO_StopLayerChn	src/common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_StopLayerChn(SAMPLE_COMM_VO_LAYER_CONFIG_S * pstVoLayerConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VO_StopVO	src/common/sample_comm_vo.c	/^HI_S32 SAMPLE_COMM_VO_StopVO(SAMPLE_VO_CONFIG_S *pstVoConfig)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VO_UnBind_VO	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_VO_UnBind_VO(VO_LAYER DstVoLayer, VO_CHN DstVoChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VPSS_Bind_AVS	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_VPSS_Bind_AVS(VPSS_GRP VpssGrp, VPSS_CHN VpssChn, AVS_GRP AvsGrp, AVS_PIPE Av/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VPSS_Bind_VENC	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_VPSS_Bind_VENC(VPSS_GRP VpssGrp, VPSS_CHN VpssChn, VENC_CHN VencChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VPSS_Bind_VO	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_VPSS_Bind_VO(VPSS_GRP VpssGrp, VPSS_CHN VpssChn, VO_LAYER VoLayer, VO_CHN VoC/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VPSS_Start	src/common/sample_comm_vpss.c	/^HI_S32 SAMPLE_COMM_VPSS_Start(VPSS_GRP VpssGrp, HI_BOOL* pabChnEnable, VPSS_GRP_ATTR_S* pstVpssG/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VPSS_Stop	src/common/sample_comm_vpss.c	/^HI_S32 SAMPLE_COMM_VPSS_Stop(VPSS_GRP VpssGrp, HI_BOOL* pabChnEnable)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VPSS_UnBind_AVS	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_VPSS_UnBind_AVS(VPSS_GRP VpssGrp, VPSS_CHN VpssChn, AVS_GRP AvsGrp, AVS_PIPE /;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VPSS_UnBind_VENC	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_VPSS_UnBind_VENC(VPSS_GRP VpssGrp, VPSS_CHN VpssChn, VENC_CHN VencChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_COMM_VPSS_UnBind_VO	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_COMM_VPSS_UnBind_VO(VPSS_GRP VpssGrp, VPSS_CHN VpssChn, VO_LAYER VoLayer, VO_CHN V/;"	f	typeref:typename:HI_S32
+SAMPLE_DEV_INFO_S	include/sample_comm.h	/^} SAMPLE_DEV_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_DEV_INFO_S
+SAMPLE_DEV_INFO_S	src/common/sample_comm.h	/^} SAMPLE_DEV_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_DEV_INFO_S
+SAMPLE_INNER_CODEC_CfgAudio	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_INNER_CODEC_CfgAudio(AUDIO_SAMPLE_RATE_E enSample)$/;"	f	typeref:typename:HI_S32
+SAMPLE_MEM_DEV_OPEN	src/common/sample_comm_sys.c	/^#define SAMPLE_MEM_DEV_OPEN /;"	d	file:
+SAMPLE_PIPE_INFO_S	include/sample_comm.h	/^} SAMPLE_PIPE_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_PIPE_INFO_S
+SAMPLE_PIPE_INFO_S	src/common/sample_comm.h	/^} SAMPLE_PIPE_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_PIPE_INFO_S
+SAMPLE_PIXEL_FORMAT	include/sample_comm.h	/^#define SAMPLE_PIXEL_FORMAT /;"	d
+SAMPLE_PIXEL_FORMAT	src/common/sample_comm.h	/^#define SAMPLE_PIXEL_FORMAT /;"	d
+SAMPLE_PRIVATE_VO_InitMipiTxDev	src/common/sample_comm_vo.c	/^static void SAMPLE_PRIVATE_VO_InitMipiTxDev(VO_INTF_SYNC_E enVoIntfSync)$/;"	f	typeref:typename:void	file:
+SAMPLE_PRIVATE_VO_InitMipiTxScreen	src/common/sample_comm_vo.c	/^static void SAMPLE_PRIVATE_VO_InitMipiTxScreen(VO_INTF_SYNC_E enVoIntfSync, HI_S32 fd)$/;"	f	typeref:typename:void	file:
+SAMPLE_PRIVATE_VO_InitScreen1080x1920	src/common/sample_comm_vo.c	/^static HI_VOID SAMPLE_PRIVATE_VO_InitScreen1080x1920(HI_S32 fd)$/;"	f	typeref:typename:HI_VOID	file:
+SAMPLE_PRIVATE_VO_InitScreen720x1280	src/common/sample_comm_vo.c	/^static HI_VOID SAMPLE_PRIVATE_VO_InitScreen720x1280(HI_S32 s32fd)$/;"	f	typeref:typename:HI_VOID	file:
+SAMPLE_PRT	include/sample_comm.h	/^#define SAMPLE_PRT(/;"	d
+SAMPLE_PRT	src/common/sample_comm.h	/^#define SAMPLE_PRT(/;"	d
+SAMPLE_RC_AVBR	include/sample_comm.h	/^    SAMPLE_RC_AVBR,$/;"	e	enum:hiSAMPLE_RC_E
+SAMPLE_RC_AVBR	src/common/sample_comm.h	/^    SAMPLE_RC_AVBR,$/;"	e	enum:hiSAMPLE_RC_E
+SAMPLE_RC_CBR	include/sample_comm.h	/^    SAMPLE_RC_CBR = 0,$/;"	e	enum:hiSAMPLE_RC_E
+SAMPLE_RC_CBR	src/common/sample_comm.h	/^    SAMPLE_RC_CBR = 0,$/;"	e	enum:hiSAMPLE_RC_E
+SAMPLE_RC_CVBR	include/sample_comm.h	/^    SAMPLE_RC_CVBR,$/;"	e	enum:hiSAMPLE_RC_E
+SAMPLE_RC_CVBR	src/common/sample_comm.h	/^    SAMPLE_RC_CVBR,$/;"	e	enum:hiSAMPLE_RC_E
+SAMPLE_RC_E	include/sample_comm.h	/^} SAMPLE_RC_E;$/;"	t	typeref:enum:hiSAMPLE_RC_E
+SAMPLE_RC_E	src/common/sample_comm.h	/^} SAMPLE_RC_E;$/;"	t	typeref:enum:hiSAMPLE_RC_E
+SAMPLE_RC_FIXQP	include/sample_comm.h	/^    SAMPLE_RC_FIXQP$/;"	e	enum:hiSAMPLE_RC_E
+SAMPLE_RC_FIXQP	src/common/sample_comm.h	/^    SAMPLE_RC_FIXQP$/;"	e	enum:hiSAMPLE_RC_E
+SAMPLE_RC_QPMAP	include/sample_comm.h	/^    SAMPLE_RC_QPMAP,$/;"	e	enum:hiSAMPLE_RC_E
+SAMPLE_RC_QPMAP	src/common/sample_comm.h	/^    SAMPLE_RC_QPMAP,$/;"	e	enum:hiSAMPLE_RC_E
+SAMPLE_RC_QVBR	include/sample_comm.h	/^    SAMPLE_RC_QVBR,$/;"	e	enum:hiSAMPLE_RC_E
+SAMPLE_RC_QVBR	src/common/sample_comm.h	/^    SAMPLE_RC_QVBR,$/;"	e	enum:hiSAMPLE_RC_E
+SAMPLE_RC_VBR	include/sample_comm.h	/^    SAMPLE_RC_VBR,$/;"	e	enum:hiSAMPLE_RC_E
+SAMPLE_RC_VBR	src/common/sample_comm.h	/^    SAMPLE_RC_VBR,$/;"	e	enum:hiSAMPLE_RC_E
+SAMPLE_REGION_AttachToChn	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_REGION_AttachToChn(RGN_HANDLE Handle,MPP_CHN_S *pstChn, RGN_CHN_ATTR_S *pstChnAttr/;"	f	typeref:typename:HI_S32
+SAMPLE_REGION_CreateCover	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_REGION_CreateCover(HI_S32 HandleNum)$/;"	f	typeref:typename:HI_S32
+SAMPLE_REGION_CreateCoverEx	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_REGION_CreateCoverEx(HI_S32 HandleNum)$/;"	f	typeref:typename:HI_S32
+SAMPLE_REGION_CreateMosaic	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_REGION_CreateMosaic(HI_S32 HandleNum)$/;"	f	typeref:typename:HI_S32
+SAMPLE_REGION_CreateOverLay	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_REGION_CreateOverLay(HI_S32 HandleNum)$/;"	f	typeref:typename:HI_S32
+SAMPLE_REGION_CreateOverLayEx	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_REGION_CreateOverLayEx(HI_S32 HandleNum)$/;"	f	typeref:typename:HI_S32
+SAMPLE_REGION_Destroy	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_REGION_Destroy(RGN_HANDLE Handle)$/;"	f	typeref:typename:HI_S32
+SAMPLE_REGION_DetachFromChn	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_REGION_DetachFromChn(RGN_HANDLE Handle,MPP_CHN_S *pstChn)$/;"	f	typeref:typename:HI_S32
+SAMPLE_REGION_GetAttr	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_REGION_GetAttr(RGN_HANDLE Handle,RGN_ATTR_S *pstRegion)$/;"	f	typeref:typename:HI_S32
+SAMPLE_REGION_GetDisplayAttr	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_REGION_GetDisplayAttr(RGN_HANDLE Handle,MPP_CHN_S *pstChn, RGN_CHN_ATTR_S *pstChnA/;"	f	typeref:typename:HI_S32
+SAMPLE_REGION_GetUpCanvasInfo	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_REGION_GetUpCanvasInfo(RGN_HANDLE Handle, RGN_CANVAS_INFO_S *pstCanvasInfo)$/;"	f	typeref:typename:HI_S32
+SAMPLE_REGION_SetAttr	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_REGION_SetAttr(RGN_HANDLE Handle,RGN_ATTR_S *pstRegion)$/;"	f	typeref:typename:HI_S32
+SAMPLE_REGION_SetBitMap	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_REGION_SetBitMap(RGN_HANDLE Handle, BITMAP_S *pstBitmap)$/;"	f	typeref:typename:HI_S32
+SAMPLE_REGION_SetDisplayAttr	src/common/sample_comm_region.c	/^HI_S32 SAMPLE_REGION_SetDisplayAttr(RGN_HANDLE Handle,MPP_CHN_S *pstChn, RGN_CHN_ATTR_S *pstChnA/;"	f	typeref:typename:HI_S32
+SAMPLE_SENSOR_INFO_S	include/sample_comm.h	/^} SAMPLE_SENSOR_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_SENSOR_INFO_S
+SAMPLE_SENSOR_INFO_S	src/common/sample_comm.h	/^} SAMPLE_SENSOR_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_SENSOR_INFO_S
+SAMPLE_SNAP_INFO_S	include/sample_comm.h	/^}SAMPLE_SNAP_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_SNAP_INFO_S
+SAMPLE_SNAP_INFO_S	src/common/sample_comm.h	/^}SAMPLE_SNAP_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_SNAP_INFO_S
+SAMPLE_SNS_TYPE_BUTT	include/sample_comm.h	/^    SAMPLE_SNS_TYPE_BUTT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SAMPLE_SNS_TYPE_BUTT	src/common/sample_comm.h	/^    SAMPLE_SNS_TYPE_BUTT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SAMPLE_SNS_TYPE_E	include/sample_comm.h	/^} SAMPLE_SNS_TYPE_E;$/;"	t	typeref:enum:hiSAMPLE_SNS_TYPE_E
+SAMPLE_SNS_TYPE_E	src/common/sample_comm.h	/^} SAMPLE_SNS_TYPE_E;$/;"	t	typeref:enum:hiSAMPLE_SNS_TYPE_E
+SAMPLE_SYS_GetReg	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_SYS_GetReg(HI_U64 u64Addr, HI_U32 *pu32Value)$/;"	f	typeref:typename:HI_S32
+SAMPLE_SYS_IOMmap	src/common/sample_comm_sys.c	/^HI_VOID * SAMPLE_SYS_IOMmap(HI_U64 u64PhyAddr, HI_U32 u32Size)$/;"	f	typeref:typename:HI_VOID *
+SAMPLE_SYS_Munmap	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_SYS_Munmap(HI_VOID* pVirAddr, HI_U32 u32Size)$/;"	f	typeref:typename:HI_S32
+SAMPLE_SYS_SetReg	src/common/sample_comm_sys.c	/^HI_S32 SAMPLE_SYS_SetReg(HI_U64 u64Addr, HI_U32 u32Value)$/;"	f	typeref:typename:HI_S32
+SAMPLE_Tlv320_CfgAudio	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_Tlv320_CfgAudio(AIO_MODE_E enWorkmode, AUDIO_SAMPLE_RATE_E enSample)$/;"	f	typeref:typename:HI_S32
+SAMPLE_Tlv320_Disable	src/common/sample_comm_audio.c	/^    HI_S32 SAMPLE_Tlv320_Disable()$/;"	f	typeref:typename:HI_S32
+SAMPLE_VB_BASE_INFO_S	include/sample_comm.h	/^}SAMPLE_VB_BASE_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_VB_BASE_INFO_S
+SAMPLE_VB_BASE_INFO_S	src/common/sample_comm.h	/^}SAMPLE_VB_BASE_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_VB_BASE_INFO_S
+SAMPLE_VB_CAL_CONFIG_S	include/sample_comm.h	/^}SAMPLE_VB_CAL_CONFIG_S;$/;"	t	typeref:struct:hiSAMPLE_VB_CAL_CONFIG_S
+SAMPLE_VB_CAL_CONFIG_S	src/common/sample_comm.h	/^}SAMPLE_VB_CAL_CONFIG_S;$/;"	t	typeref:struct:hiSAMPLE_VB_CAL_CONFIG_S
+SAMPLE_VDEC_ATTR	include/sample_comm.h	/^}SAMPLE_VDEC_ATTR;$/;"	t	typeref:struct:hiSAMPLE_VDEC_ATTR
+SAMPLE_VDEC_ATTR	src/common/sample_comm.h	/^}SAMPLE_VDEC_ATTR;$/;"	t	typeref:struct:hiSAMPLE_VDEC_ATTR
+SAMPLE_VDEC_BUF	include/sample_comm.h	/^}SAMPLE_VDEC_BUF;$/;"	t	typeref:struct:hiSAMPLE_VDEC_BUF
+SAMPLE_VDEC_BUF	src/common/sample_comm.h	/^}SAMPLE_VDEC_BUF;$/;"	t	typeref:struct:hiSAMPLE_VDEC_BUF
+SAMPLE_VDEC_PICTURE_ATTR	include/sample_comm.h	/^}SAMPLE_VDEC_PICTURE_ATTR;$/;"	t	typeref:struct:hiSAMPLE_VDEC_PICTURE_ATTR
+SAMPLE_VDEC_PICTURE_ATTR	src/common/sample_comm.h	/^}SAMPLE_VDEC_PICTURE_ATTR;$/;"	t	typeref:struct:hiSAMPLE_VDEC_PICTURE_ATTR
+SAMPLE_VDEC_VIDEO_ATTR	include/sample_comm.h	/^}SAMPLE_VDEC_VIDEO_ATTR;$/;"	t	typeref:struct:hiSAMPLE_VDEC_VIDEO_ATTR
+SAMPLE_VDEC_VIDEO_ATTR	src/common/sample_comm.h	/^}SAMPLE_VDEC_VIDEO_ATTR;$/;"	t	typeref:struct:hiSAMPLE_VDEC_VIDEO_ATTR
+SAMPLE_VENC_GETSTREAM_PARA_S	include/sample_comm.h	/^} SAMPLE_VENC_GETSTREAM_PARA_S;$/;"	t	typeref:struct:hiSAMPLE_VENC_GETSTREAM_PARA_S
+SAMPLE_VENC_GETSTREAM_PARA_S	src/common/sample_comm.h	/^} SAMPLE_VENC_GETSTREAM_PARA_S;$/;"	t	typeref:struct:hiSAMPLE_VENC_GETSTREAM_PARA_S
+SAMPLE_VENC_QPMAP_SENDFRAME_PARA_S	include/sample_comm.h	/^} SAMPLE_VENC_QPMAP_SENDFRAME_PARA_S;$/;"	t	typeref:struct:hiSAMPLE_VENC_QPMAP_SENDFRAME_PARA_S
+SAMPLE_VENC_QPMAP_SENDFRAME_PARA_S	src/common/sample_comm.h	/^} SAMPLE_VENC_QPMAP_SENDFRAME_PARA_S;$/;"	t	typeref:struct:hiSAMPLE_VENC_QPMAP_SENDFRAME_PARA_S
+SAMPLE_VIO_HandleSig	src/main.cpp	/^void SAMPLE_VIO_HandleSig(HI_S32 signo)$/;"	f	typeref:typename:void
+SAMPLE_VIO_MsgExit	src/main.cpp	/^HI_VOID SAMPLE_VIO_MsgExit(HI_VOID)$/;"	f	typeref:typename:HI_VOID
+SAMPLE_VIO_MsgInit	src/main.cpp	/^HI_VOID SAMPLE_VIO_MsgInit(HI_VOID)$/;"	f	typeref:typename:HI_VOID
+SAMPLE_VIO_ViOnlineVpssOnlineRoute	src/main.cpp	/^HI_S32 SAMPLE_VIO_ViOnlineVpssOnlineRoute(HI_U32 u32VoIntfType)$/;"	f	typeref:typename:HI_S32
+SAMPLE_VI_COMM_ReadYuvFile	src/common/sample_comm_vi.c	/^    static HI_VOID SAMPLE_VI_COMM_ReadYuvFile(FILE *pfd, VIDEO_FRAME_INFO_S *pstVideoFrameInfo)$/;"	f	typeref:typename:HI_VOID	file:
+SAMPLE_VI_COMM_ReleaseFrameBlkInfo	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_VI_COMM_ReleaseFrameBlkInfo(HI_S32 s32FrmCnt, SAMPLE_VI_FRAME_INFO_S *pastViFr/;"	f	typeref:typename:HI_S32
+SAMPLE_VI_CONFIG_S	include/sample_comm.h	/^} SAMPLE_VI_CONFIG_S;$/;"	t	typeref:struct:hiSAMPLE_VI_CONFIG_S
+SAMPLE_VI_CONFIG_S	src/common/sample_comm.h	/^} SAMPLE_VI_CONFIG_S;$/;"	t	typeref:struct:hiSAMPLE_VI_CONFIG_S
+SAMPLE_VI_DUMP_THREAD_INFO_S	include/sample_comm.h	/^} SAMPLE_VI_DUMP_THREAD_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_VI_DUMP_THREAD_INFO_S
+SAMPLE_VI_DUMP_THREAD_INFO_S	src/common/sample_comm.h	/^} SAMPLE_VI_DUMP_THREAD_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_VI_DUMP_THREAD_INFO_S
+SAMPLE_VI_FPN_CALIBRATE_INFO_S	include/sample_comm.h	/^} SAMPLE_VI_FPN_CALIBRATE_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_VI_FPN_CALIBRATE_INFO_S
+SAMPLE_VI_FPN_CALIBRATE_INFO_S	src/common/sample_comm.h	/^} SAMPLE_VI_FPN_CALIBRATE_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_VI_FPN_CALIBRATE_INFO_S
+SAMPLE_VI_FPN_CORRECTION_INFO_S	include/sample_comm.h	/^} SAMPLE_VI_FPN_CORRECTION_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_VI_FPN_CORRECTION_INFO_S
+SAMPLE_VI_FPN_CORRECTION_INFO_S	src/common/sample_comm.h	/^} SAMPLE_VI_FPN_CORRECTION_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_VI_FPN_CORRECTION_INFO_S
+SAMPLE_VI_FRAME_CONFIG_S	include/sample_comm.h	/^} SAMPLE_VI_FRAME_CONFIG_S;$/;"	t	typeref:struct:hiSAMPLE_VI_FRAME_CONFIG_S
+SAMPLE_VI_FRAME_CONFIG_S	src/common/sample_comm.h	/^} SAMPLE_VI_FRAME_CONFIG_S;$/;"	t	typeref:struct:hiSAMPLE_VI_FRAME_CONFIG_S
+SAMPLE_VI_FRAME_INFO_S	include/sample_comm.h	/^} SAMPLE_VI_FRAME_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_VI_FRAME_INFO_S
+SAMPLE_VI_FRAME_INFO_S	src/common/sample_comm.h	/^} SAMPLE_VI_FRAME_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_VI_FRAME_INFO_S
+SAMPLE_VI_GetFrameBlkInfo	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_VI_GetFrameBlkInfo(SAMPLE_VI_FRAME_CONFIG_S *pstFrmCfg, HI_S32 s32FrmCnt, SAMP/;"	f	typeref:typename:HI_S32
+SAMPLE_VI_GetRawStride	src/common/sample_comm_vi.c	/^    static HI_U32 SAMPLE_VI_GetRawStride(PIXEL_FORMAT_E enPixelFormat, HI_U32 u32Width, HI_U32 u/;"	f	typeref:typename:HI_U32	file:
+SAMPLE_VI_INFO_S	include/sample_comm.h	/^} SAMPLE_VI_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_VI_INFO_S
+SAMPLE_VI_INFO_S	src/common/sample_comm.h	/^} SAMPLE_VI_INFO_S;$/;"	t	typeref:struct:hiSAMPLE_VI_INFO_S
+SAMPLE_VI_PixelFormat2BitWidth	src/common/sample_comm_vi.c	/^    static HI_U32 SAMPLE_VI_PixelFormat2BitWidth(VIDEO_FRAME_S *pstVFrame)$/;"	f	typeref:typename:HI_U32	file:
+SAMPLE_VI_PlanToSemi	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_VI_PlanToSemi(HI_U8 *pY, HI_S32 yStride,$/;"	f	typeref:typename:HI_S32
+SAMPLE_VI_PlanToSemi_422	src/common/sample_comm_vi.c	/^    HI_S32 SAMPLE_VI_PlanToSemi_422(HI_U8 *pY, HI_S32 yStride,$/;"	f	typeref:typename:HI_S32
+SAMPLE_VI_ReadOneFrame	src/common/sample_comm_vi.c	/^    HI_VOID SAMPLE_VI_ReadOneFrame(FILE *fp, HI_U8 *pY, HI_U8 *pU, HI_U8 *pV,$/;"	f	typeref:typename:HI_VOID
+SAMPLE_VI_ReadOneFrame_400	src/common/sample_comm_vi.c	/^    HI_VOID SAMPLE_VI_ReadOneFrame_400(FILE *fp, HI_U8 *pY, HI_U8 *pU, HI_U8 *pV,$/;"	f	typeref:typename:HI_VOID
+SAMPLE_VI_ReadOneFrame_422	src/common/sample_comm_vi.c	/^    HI_VOID SAMPLE_VI_ReadOneFrame_422(FILE *fp, HI_U8 *pY, HI_U8 *pU, HI_U8 *pV,$/;"	f	typeref:typename:HI_VOID
+SAMPLE_VO_CONFIG_S	include/sample_comm.h	/^} SAMPLE_VO_CONFIG_S;$/;"	t	typeref:struct:hiSAMPLE_VO_CONFIG_S
+SAMPLE_VO_CONFIG_S	src/common/sample_comm.h	/^} SAMPLE_VO_CONFIG_S;$/;"	t	typeref:struct:hiSAMPLE_VO_CONFIG_S
+SAMPLE_VO_DEF_VALUE	src/common/sample_comm_vo.c	/^#define SAMPLE_VO_DEF_VALUE /;"	d	file:
+SAMPLE_VO_DEV_DHD0	include/sample_comm.h	/^#define SAMPLE_VO_DEV_DHD0 /;"	d
+SAMPLE_VO_DEV_DHD0	src/common/sample_comm.h	/^#define SAMPLE_VO_DEV_DHD0 /;"	d
+SAMPLE_VO_DEV_DHD1	include/sample_comm.h	/^#define SAMPLE_VO_DEV_DHD1 /;"	d
+SAMPLE_VO_DEV_DHD1	src/common/sample_comm.h	/^#define SAMPLE_VO_DEV_DHD1 /;"	d
+SAMPLE_VO_DEV_HD	include/sample_comm.h	/^#define SAMPLE_VO_DEV_HD /;"	d
+SAMPLE_VO_DEV_HD	src/common/sample_comm.h	/^#define SAMPLE_VO_DEV_HD /;"	d
+SAMPLE_VO_DEV_UHD	include/sample_comm.h	/^#define SAMPLE_VO_DEV_UHD /;"	d
+SAMPLE_VO_DEV_UHD	src/common/sample_comm.h	/^#define SAMPLE_VO_DEV_UHD /;"	d
+SAMPLE_VO_LAYER_PIP	include/sample_comm.h	/^#define SAMPLE_VO_LAYER_PIP /;"	d
+SAMPLE_VO_LAYER_PIP	src/common/sample_comm.h	/^#define SAMPLE_VO_LAYER_PIP /;"	d
+SAMPLE_VO_LAYER_VHD0	include/sample_comm.h	/^#define SAMPLE_VO_LAYER_VHD0 /;"	d
+SAMPLE_VO_LAYER_VHD0	src/common/sample_comm.h	/^#define SAMPLE_VO_LAYER_VHD0 /;"	d
+SAMPLE_VO_LAYER_VHD1	include/sample_comm.h	/^#define SAMPLE_VO_LAYER_VHD1 /;"	d
+SAMPLE_VO_LAYER_VHD1	src/common/sample_comm.h	/^#define SAMPLE_VO_LAYER_VHD1 /;"	d
+SAMPLE_VO_LAYER_VHD2	include/sample_comm.h	/^#define SAMPLE_VO_LAYER_VHD2 /;"	d
+SAMPLE_VO_LAYER_VHD2	src/common/sample_comm.h	/^#define SAMPLE_VO_LAYER_VHD2 /;"	d
+SAMPLE_VO_MODE_E	include/sample_comm.h	/^} SAMPLE_VO_MODE_E;$/;"	t	typeref:enum:hiSAMPLE_VO_MODE_E
+SAMPLE_VO_MODE_E	src/common/sample_comm.h	/^} SAMPLE_VO_MODE_E;$/;"	t	typeref:enum:hiSAMPLE_VO_MODE_E
+SAMPLE_VO_USE_DEFAULT_MIPI_TX	src/common/sample_comm_vo.c	/^#define SAMPLE_VO_USE_DEFAULT_MIPI_TX /;"	d	file:
+SAMPLE_VO_WBC_CONFIG	include/sample_comm.h	/^}SAMPLE_VO_WBC_CONFIG;$/;"	t	typeref:struct:tag_SAMPLE_VO_WBC_CONFIG
+SAMPLE_VO_WBC_CONFIG	src/common/sample_comm.h	/^}SAMPLE_VO_WBC_CONFIG;$/;"	t	typeref:struct:tag_SAMPLE_VO_WBC_CONFIG
+SAVE_FILE_NAME	src/common/sample_comm_vdec.c	/^#define SAVE_FILE_NAME(/;"	d	file:
+SHELL	build/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SIMULATE_ID	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_ID /;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_PATCH	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#   define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_PATCH /;"	d	file:
+SMART_SC4210_MIPI_3M_30FPS_10BIT_WDR2TO1	include/sample_comm.h	/^    SMART_SC4210_MIPI_3M_30FPS_10BIT_WDR2TO1,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SMART_SC4210_MIPI_3M_30FPS_10BIT_WDR2TO1	src/common/sample_comm.h	/^    SMART_SC4210_MIPI_3M_30FPS_10BIT_WDR2TO1,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SMART_SC4210_MIPI_3M_30FPS_12BIT	include/sample_comm.h	/^    SMART_SC4210_MIPI_3M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SMART_SC4210_MIPI_3M_30FPS_12BIT	src/common/sample_comm.h	/^    SMART_SC4210_MIPI_3M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX307_2L_MIPI_2M_30FPS_12BIT	include/sample_comm.h	/^    SONY_IMX307_2L_MIPI_2M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX307_2L_MIPI_2M_30FPS_12BIT	src/common/sample_comm.h	/^    SONY_IMX307_2L_MIPI_2M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX307_2L_MIPI_2M_30FPS_12BIT_WDR2TO1	include/sample_comm.h	/^    SONY_IMX307_2L_MIPI_2M_30FPS_12BIT_WDR2TO1,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX307_2L_MIPI_2M_30FPS_12BIT_WDR2TO1	src/common/sample_comm.h	/^    SONY_IMX307_2L_MIPI_2M_30FPS_12BIT_WDR2TO1,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX307_MIPI_2M_30FPS_12BIT	include/sample_comm.h	/^    SONY_IMX307_MIPI_2M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX307_MIPI_2M_30FPS_12BIT	src/common/sample_comm.h	/^    SONY_IMX307_MIPI_2M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX307_MIPI_2M_30FPS_12BIT_WDR2TO1	include/sample_comm.h	/^    SONY_IMX307_MIPI_2M_30FPS_12BIT_WDR2TO1,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX307_MIPI_2M_30FPS_12BIT_WDR2TO1	src/common/sample_comm.h	/^    SONY_IMX307_MIPI_2M_30FPS_12BIT_WDR2TO1,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX327_2L_MIPI_2M_30FPS_12BIT	include/sample_comm.h	/^    SONY_IMX327_2L_MIPI_2M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX327_2L_MIPI_2M_30FPS_12BIT	src/common/sample_comm.h	/^    SONY_IMX327_2L_MIPI_2M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX327_2L_MIPI_2M_30FPS_12BIT_WDR2TO1	include/sample_comm.h	/^    SONY_IMX327_2L_MIPI_2M_30FPS_12BIT_WDR2TO1,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX327_2L_MIPI_2M_30FPS_12BIT_WDR2TO1	src/common/sample_comm.h	/^    SONY_IMX327_2L_MIPI_2M_30FPS_12BIT_WDR2TO1,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX327_MIPI_2M_30FPS_12BIT	include/sample_comm.h	/^    SONY_IMX327_MIPI_2M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX327_MIPI_2M_30FPS_12BIT	src/common/sample_comm.h	/^    SONY_IMX327_MIPI_2M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX327_MIPI_2M_30FPS_12BIT_WDR2TO1	include/sample_comm.h	/^    SONY_IMX327_MIPI_2M_30FPS_12BIT_WDR2TO1,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX327_MIPI_2M_30FPS_12BIT_WDR2TO1	src/common/sample_comm.h	/^    SONY_IMX327_MIPI_2M_30FPS_12BIT_WDR2TO1,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX335_MIPI_4M_30FPS_10BIT_WDR2TO1	include/sample_comm.h	/^    SONY_IMX335_MIPI_4M_30FPS_10BIT_WDR2TO1,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX335_MIPI_4M_30FPS_10BIT_WDR2TO1	src/common/sample_comm.h	/^    SONY_IMX335_MIPI_4M_30FPS_10BIT_WDR2TO1,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX335_MIPI_4M_30FPS_12BIT	include/sample_comm.h	/^    SONY_IMX335_MIPI_4M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX335_MIPI_4M_30FPS_12BIT	src/common/sample_comm.h	/^    SONY_IMX335_MIPI_4M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX335_MIPI_5M_30FPS_10BIT_WDR2TO1	include/sample_comm.h	/^    SONY_IMX335_MIPI_5M_30FPS_10BIT_WDR2TO1,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX335_MIPI_5M_30FPS_10BIT_WDR2TO1	src/common/sample_comm.h	/^    SONY_IMX335_MIPI_5M_30FPS_10BIT_WDR2TO1,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX335_MIPI_5M_30FPS_12BIT	include/sample_comm.h	/^    SONY_IMX335_MIPI_5M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX335_MIPI_5M_30FPS_12BIT	src/common/sample_comm.h	/^    SONY_IMX335_MIPI_5M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX415_MIPI_8M_20FPS_12BIT	include/sample_comm.h	/^    SONY_IMX415_MIPI_8M_20FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX415_MIPI_8M_20FPS_12BIT	src/common/sample_comm.h	/^    SONY_IMX415_MIPI_8M_20FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX415_MIPI_8M_30FPS_12BIT	include/sample_comm.h	/^    SONY_IMX415_MIPI_8M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX415_MIPI_8M_30FPS_12BIT	src/common/sample_comm.h	/^    SONY_IMX415_MIPI_8M_30FPS_12BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX458_MIPI_12M_20FPS_10BIT	include/sample_comm.h	/^    SONY_IMX458_MIPI_12M_20FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX458_MIPI_12M_20FPS_10BIT	src/common/sample_comm.h	/^    SONY_IMX458_MIPI_12M_20FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX458_MIPI_1M_129FPS_10BIT	include/sample_comm.h	/^    SONY_IMX458_MIPI_1M_129FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX458_MIPI_1M_129FPS_10BIT	src/common/sample_comm.h	/^    SONY_IMX458_MIPI_1M_129FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX458_MIPI_2M_90FPS_10BIT	include/sample_comm.h	/^    SONY_IMX458_MIPI_2M_90FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX458_MIPI_2M_90FPS_10BIT	src/common/sample_comm.h	/^    SONY_IMX458_MIPI_2M_90FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX458_MIPI_4M_40FPS_10BIT	include/sample_comm.h	/^    SONY_IMX458_MIPI_4M_40FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX458_MIPI_4M_40FPS_10BIT	src/common/sample_comm.h	/^    SONY_IMX458_MIPI_4M_40FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX458_MIPI_4M_60FPS_10BIT	include/sample_comm.h	/^    SONY_IMX458_MIPI_4M_60FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX458_MIPI_4M_60FPS_10BIT	src/common/sample_comm.h	/^    SONY_IMX458_MIPI_4M_60FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX458_MIPI_8M_30FPS_10BIT	include/sample_comm.h	/^    SONY_IMX458_MIPI_8M_30FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+SONY_IMX458_MIPI_8M_30FPS_10BIT	src/common/sample_comm.h	/^    SONY_IMX458_MIPI_8M_30FPS_10BIT,$/;"	e	enum:hiSAMPLE_SNS_TYPE_E
+STRINGIFY	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#define STRINGIFY(/;"	d	file:
+STRINGIFY	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY(/;"	d	file:
+STRINGIFY_HELPER	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#define STRINGIFY_HELPER(/;"	d	file:
+STRINGIFY_HELPER	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY_HELPER(/;"	d	file:
+SnapPipe	include/sample_comm.h	/^    VI_PIPE    SnapPipe;$/;"	m	struct:hiSAMPLE_SNAP_INFO_S	typeref:typename:VI_PIPE
+SnapPipe	src/common/sample_comm.h	/^    VI_PIPE    SnapPipe;$/;"	m	struct:hiSAMPLE_SNAP_INFO_S	typeref:typename:VI_PIPE
+TEMP_BUF_LEN	src/common/sample_comm_venc.c	/^#define TEMP_BUF_LEN /;"	d	file:
+THREAD_CONTRL_E	include/sample_comm.h	/^}THREAD_CONTRL_E;$/;"	t	typeref:enum:hiTHREAD_CONTRL_E
+THREAD_CONTRL_E	src/common/sample_comm.h	/^}THREAD_CONTRL_E;$/;"	t	typeref:enum:hiTHREAD_CONTRL_E
+THREAD_CTRL_PAUSE	include/sample_comm.h	/^    THREAD_CTRL_PAUSE,$/;"	e	enum:hiTHREAD_CONTRL_E
+THREAD_CTRL_PAUSE	src/common/sample_comm.h	/^    THREAD_CTRL_PAUSE,$/;"	e	enum:hiTHREAD_CONTRL_E
+THREAD_CTRL_START	include/sample_comm.h	/^    THREAD_CTRL_START,$/;"	e	enum:hiTHREAD_CONTRL_E
+THREAD_CTRL_START	src/common/sample_comm.h	/^    THREAD_CTRL_START,$/;"	e	enum:hiTHREAD_CONTRL_E
+THREAD_CTRL_STOP	include/sample_comm.h	/^    THREAD_CTRL_STOP,$/;"	e	enum:hiTHREAD_CONTRL_E
+THREAD_CTRL_STOP	src/common/sample_comm.h	/^    THREAD_CTRL_STOP,$/;"	e	enum:hiTHREAD_CONTRL_E
+TLV320_FILE	include/sample_comm.h	/^#define TLV320_FILE /;"	d
+TLV320_FILE	src/common/sample_comm.h	/^#define TLV320_FILE /;"	d
+ThreadId	include/sample_comm.h	/^    pthread_t   ThreadId;$/;"	m	struct:hiSAMPLE_VI_DUMP_THREAD_INFO_S	typeref:typename:pthread_t
+ThreadId	src/common/sample_comm.h	/^    pthread_t   ThreadId;$/;"	m	struct:hiSAMPLE_VI_DUMP_THREAD_INFO_S	typeref:typename:pthread_t
+VDEC_THREAD_PARAM_S	include/sample_comm.h	/^}VDEC_THREAD_PARAM_S;$/;"	t	typeref:struct:hiVDEC_THREAD_PARAM_S
+VDEC_THREAD_PARAM_S	src/common/sample_comm.h	/^}VDEC_THREAD_PARAM_S;$/;"	t	typeref:struct:hiVDEC_THREAD_PARAM_S
+VI_DATA_PATH	include/sample_comm.h	/^    #define VI_DATA_PATH /;"	d
+VI_DATA_PATH	src/common/sample_comm.h	/^    #define VI_DATA_PATH /;"	d
+VO_MODE_16MUX	include/sample_comm.h	/^    VO_MODE_16MUX ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_16MUX	src/common/sample_comm.h	/^    VO_MODE_16MUX ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_1MUX	include/sample_comm.h	/^    VO_MODE_1MUX  ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_1MUX	src/common/sample_comm.h	/^    VO_MODE_1MUX  ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_25MUX	include/sample_comm.h	/^    VO_MODE_25MUX ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_25MUX	src/common/sample_comm.h	/^    VO_MODE_25MUX ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_2MUX	include/sample_comm.h	/^    VO_MODE_2MUX  ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_2MUX	src/common/sample_comm.h	/^    VO_MODE_2MUX  ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_2X4	include/sample_comm.h	/^    VO_MODE_2X4   ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_2X4	src/common/sample_comm.h	/^    VO_MODE_2X4   ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_36MUX	include/sample_comm.h	/^    VO_MODE_36MUX ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_36MUX	src/common/sample_comm.h	/^    VO_MODE_36MUX ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_49MUX	include/sample_comm.h	/^    VO_MODE_49MUX ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_49MUX	src/common/sample_comm.h	/^    VO_MODE_49MUX ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_4MUX	include/sample_comm.h	/^    VO_MODE_4MUX  ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_4MUX	src/common/sample_comm.h	/^    VO_MODE_4MUX  ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_64MUX	include/sample_comm.h	/^    VO_MODE_64MUX ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_64MUX	src/common/sample_comm.h	/^    VO_MODE_64MUX ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_8MUX	include/sample_comm.h	/^    VO_MODE_8MUX  ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_8MUX	src/common/sample_comm.h	/^    VO_MODE_8MUX  ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_9MUX	include/sample_comm.h	/^    VO_MODE_9MUX  ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_9MUX	src/common/sample_comm.h	/^    VO_MODE_9MUX  ,$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_BUTT	include/sample_comm.h	/^    VO_MODE_BUTT$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VO_MODE_BUTT	src/common/sample_comm.h	/^    VO_MODE_BUTT$/;"	e	enum:hiSAMPLE_VO_MODE_E
+VbBlk	include/sample_comm.h	/^    VB_BLK             VbBlk;$/;"	m	struct:hiSAMPLE_VI_FRAME_INFO_S	typeref:typename:VB_BLK
+VbBlk	src/common/sample_comm.h	/^    VB_BLK             VbBlk;$/;"	m	struct:hiSAMPLE_VI_FRAME_INFO_S	typeref:typename:VB_BLK
+VeChn	include/sample_comm.h	/^    VENC_CHN VeChn[VENC_MAX_CHN_NUM];$/;"	m	struct:hiSAMPLE_VENC_GETSTREAM_PARA_S	typeref:typename:VENC_CHN[]
+VeChn	include/sample_comm.h	/^    VENC_CHN VeChn[VENC_MAX_CHN_NUM];$/;"	m	struct:hiSAMPLE_VENC_QPMAP_SENDFRAME_PARA_S	typeref:typename:VENC_CHN[]
+VeChn	src/common/sample_comm.h	/^    VENC_CHN VeChn[VENC_MAX_CHN_NUM];$/;"	m	struct:hiSAMPLE_VENC_GETSTREAM_PARA_S	typeref:typename:VENC_CHN[]
+VeChn	src/common/sample_comm.h	/^    VENC_CHN VeChn[VENC_MAX_CHN_NUM];$/;"	m	struct:hiSAMPLE_VENC_QPMAP_SENDFRAME_PARA_S	typeref:typename:VENC_CHN[]
+ViChn	include/sample_comm.h	/^    VI_CHN              ViChn;$/;"	m	struct:hiSAMPLE_CHN_INFO_S	typeref:typename:VI_CHN
+ViChn	src/common/sample_comm.h	/^    VI_CHN              ViChn;$/;"	m	struct:hiSAMPLE_CHN_INFO_S	typeref:typename:VI_CHN
+ViDev	include/sample_comm.h	/^    VI_DEV      ViDev;$/;"	m	struct:hiSAMPLE_DEV_INFO_S	typeref:typename:VI_DEV
+ViDev	src/common/sample_comm.h	/^    VI_DEV      ViDev;$/;"	m	struct:hiSAMPLE_DEV_INFO_S	typeref:typename:VI_DEV
+ViPipe	include/sample_comm.h	/^    VI_PIPE     ViPipe;$/;"	m	struct:hiSAMPLE_VI_DUMP_THREAD_INFO_S	typeref:typename:VI_PIPE
+ViPipe	src/common/sample_comm.h	/^    VI_PIPE     ViPipe;$/;"	m	struct:hiSAMPLE_VI_DUMP_THREAD_INFO_S	typeref:typename:VI_PIPE
+VideoPipe	include/sample_comm.h	/^    VI_PIPE    VideoPipe;$/;"	m	struct:hiSAMPLE_SNAP_INFO_S	typeref:typename:VI_PIPE
+VideoPipe	src/common/sample_comm.h	/^    VI_PIPE    VideoPipe;$/;"	m	struct:hiSAMPLE_SNAP_INFO_S	typeref:typename:VI_PIPE
+VoDev	include/sample_comm.h	/^    VO_DEV                  VoDev;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:VO_DEV
+VoDev	src/common/sample_comm.h	/^    VO_DEV                  VoDev;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:VO_DEV
+VoLayer	include/sample_comm.h	/^    VO_LAYER                VoLayer;$/;"	m	struct:hiSAMPLE_COMM_VO_LAYER_CONFIG_S	typeref:typename:VO_LAYER
+VoLayer	src/common/sample_comm.h	/^    VO_LAYER                VoLayer;$/;"	m	struct:hiSAMPLE_COMM_VO_LAYER_CONFIG_S	typeref:typename:VO_LAYER
+VoWbc	include/sample_comm.h	/^    HI_S32                  VoWbc;$/;"	m	struct:tag_SAMPLE_VO_WBC_CONFIG	typeref:typename:HI_S32
+VoWbc	src/common/sample_comm.h	/^    HI_S32                  VoWbc;$/;"	m	struct:tag_SAMPLE_VO_WBC_CONFIG	typeref:typename:HI_S32
+VpssChn	include/sample_comm.h	/^    VPSS_CHN VpssChn;$/;"	m	struct:hiSAMPLE_VENC_QPMAP_SENDFRAME_PARA_S	typeref:typename:VPSS_CHN
+VpssChn	src/common/sample_comm.h	/^    VPSS_CHN VpssChn;$/;"	m	struct:hiSAMPLE_VENC_QPMAP_SENDFRAME_PARA_S	typeref:typename:VPSS_CHN
+VpssGrp	include/sample_comm.h	/^    VPSS_GRP VpssGrp;$/;"	m	struct:hiSAMPLE_VENC_QPMAP_SENDFRAME_PARA_S	typeref:typename:VPSS_GRP
+VpssGrp	src/common/sample_comm.h	/^    VPSS_GRP VpssGrp;$/;"	m	struct:hiSAMPLE_VENC_QPMAP_SENDFRAME_PARA_S	typeref:typename:VPSS_GRP
+WDR_MAX_PIPE_NUM	include/sample_comm.h	/^#define WDR_MAX_PIPE_NUM /;"	d
+WDR_MAX_PIPE_NUM	src/common/sample_comm.h	/^#define WDR_MAX_PIPE_NUM /;"	d
+__LOAD_BMP_H__	src/common/loadbmp.h	/^#define     __LOAD_BMP_H__$/;"	d
+__SAMPLE_COMM_H__	include/sample_comm.h	/^#define __SAMPLE_COMM_H__$/;"	d
+__SAMPLE_COMM_H__	src/common/sample_comm.h	/^#define __SAMPLE_COMM_H__$/;"	d
+__anon27f95157010a	src/common/sample_comm.h	/^    {$/;"	u	struct:hiSAMPLE_VDEC_ATTR
+__anonf61bb7fb010a	include/sample_comm.h	/^    {$/;"	u	struct:hiSAMPLE_VDEC_ATTR
+__has_include	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^#  define __has_include(/;"	d	file:
+__has_include	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define __has_include(/;"	d	file:
+_rtpbuf	include/sample_comm.h	/^typedef struct _rtpbuf$/;"	s
+aPipe	include/sample_comm.h	/^    VI_PIPE         aPipe[WDR_MAX_PIPE_NUM];$/;"	m	struct:hiSAMPLE_PIPE_INFO_S	typeref:typename:VI_PIPE[]
+aPipe	src/common/sample_comm.h	/^    VI_PIPE         aPipe[WDR_MAX_PIPE_NUM];$/;"	m	struct:hiSAMPLE_PIPE_INFO_S	typeref:typename:VI_PIPE[]
+alen	src/common/loadbmp.h	/^    int alen;$/;"	m	struct:hiOSD_COMPONENT_INFO_S	typeref:typename:int
+all	build/Makefile	/^all: cmake_check_build_system$/;"	t
+app	build/Makefile	/^app: cmake_check_build_system$/;"	t
+app/fast	build/Makefile	/^app\/fast:$/;"	t
+as32WorkingViId	include/sample_comm.h	/^    HI_S32              as32WorkingViId[VI_MAX_DEV_NUM];$/;"	m	struct:hiSAMPLE_VI_CONFIG_S	typeref:typename:HI_S32[]
+as32WorkingViId	src/common/sample_comm.h	/^    HI_S32              as32WorkingViId[VI_MAX_DEV_NUM];$/;"	m	struct:hiSAMPLE_VI_CONFIG_S	typeref:typename:HI_S32[]
+astViInfo	include/sample_comm.h	/^    SAMPLE_VI_INFO_S    astViInfo[VI_MAX_DEV_NUM];$/;"	m	struct:hiSAMPLE_VI_CONFIG_S	typeref:typename:SAMPLE_VI_INFO_S[]
+astViInfo	src/common/sample_comm.h	/^    SAMPLE_VI_INFO_S    astViInfo[VI_MAX_DEV_NUM];$/;"	m	struct:hiSAMPLE_VI_CONFIG_S	typeref:typename:SAMPLE_VI_INFO_S[]
+aszName	include/sample_comm.h	/^    HI_CHAR     aszName[128];$/;"	m	struct:hiSAMPLE_VI_DUMP_THREAD_INFO_S	typeref:typename:HI_CHAR[128]
+aszName	src/common/sample_comm.h	/^    HI_CHAR     aszName[128];$/;"	m	struct:hiSAMPLE_VI_DUMP_THREAD_INFO_S	typeref:typename:HI_CHAR[128]
+bCircleSend	include/sample_comm.h	/^    HI_BOOL bCircleSend;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_BOOL
+bCircleSend	src/common/sample_comm.h	/^    HI_BOOL bCircleSend;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_BOOL
+bDoublePipe	include/sample_comm.h	/^    HI_BOOL  bDoublePipe;$/;"	m	struct:hiSAMPLE_SNAP_INFO_S	typeref:typename:HI_BOOL
+bDoublePipe	src/common/sample_comm.h	/^    HI_BOOL  bDoublePipe;$/;"	m	struct:hiSAMPLE_SNAP_INFO_S	typeref:typename:HI_BOOL
+bDump	include/sample_comm.h	/^    HI_BOOL     bDump;$/;"	m	struct:hiSAMPLE_VI_DUMP_THREAD_INFO_S	typeref:typename:HI_BOOL
+bDump	src/common/sample_comm.h	/^    HI_BOOL     bDump;$/;"	m	struct:hiSAMPLE_VI_DUMP_THREAD_INFO_S	typeref:typename:HI_BOOL
+bIspBypass	include/sample_comm.h	/^    HI_BOOL         bIspBypass;$/;"	m	struct:hiSAMPLE_PIPE_INFO_S	typeref:typename:HI_BOOL
+bIspBypass	src/common/sample_comm.h	/^    HI_BOOL         bIspBypass;$/;"	m	struct:hiSAMPLE_PIPE_INFO_S	typeref:typename:HI_BOOL
+bMultiPipe	include/sample_comm.h	/^    HI_BOOL         bMultiPipe;$/;"	m	struct:hiSAMPLE_PIPE_INFO_S	typeref:typename:HI_BOOL
+bMultiPipe	src/common/sample_comm.h	/^    HI_BOOL         bMultiPipe;$/;"	m	struct:hiSAMPLE_PIPE_INFO_S	typeref:typename:HI_BOOL
+bPicBufAlloc	include/sample_comm.h	/^    HI_BOOL bPicBufAlloc;$/;"	m	struct:hiSAMPLE_VDEC_BUF	typeref:typename:HI_BOOL
+bPicBufAlloc	src/common/sample_comm.h	/^    HI_BOOL bPicBufAlloc;$/;"	m	struct:hiSAMPLE_VDEC_BUF	typeref:typename:HI_BOOL
+bSendAdChn	src/common/sample_comm_audio.c	/^        HI_BOOL bSendAdChn;$/;"	m	struct:tagSAMPLE_AENC_S	typeref:typename:HI_BOOL	file:
+bSendAenc	src/common/sample_comm_audio.c	/^        HI_BOOL bSendAenc;$/;"	m	struct:tagSAMPLE_AI_S	typeref:typename:HI_BOOL	file:
+bSendAo	src/common/sample_comm_audio.c	/^        HI_BOOL bSendAo;$/;"	m	struct:tagSAMPLE_AI_S	typeref:typename:HI_BOOL	file:
+bSnap	include/sample_comm.h	/^    HI_BOOL  bSnap;$/;"	m	struct:hiSAMPLE_SNAP_INFO_S	typeref:typename:HI_BOOL
+bSnap	src/common/sample_comm.h	/^    HI_BOOL  bSnap;$/;"	m	struct:hiSAMPLE_SNAP_INFO_S	typeref:typename:HI_BOOL
+bStart	src/common/sample_comm_audio.c	/^        HI_BOOL bStart;$/;"	m	struct:tagSAMPLE_ADEC_S	typeref:typename:HI_BOOL	file:
+bStart	src/common/sample_comm_audio.c	/^        HI_BOOL bStart;$/;"	m	struct:tagSAMPLE_AENC_S	typeref:typename:HI_BOOL	file:
+bStart	src/common/sample_comm_audio.c	/^        HI_BOOL bStart;$/;"	m	struct:tagSAMPLE_AI_S	typeref:typename:HI_BOOL	file:
+bStart	src/common/sample_comm_audio.c	/^        HI_BOOL bStart;$/;"	m	struct:tagSAMPLE_AO_S	typeref:typename:HI_BOOL	file:
+bThreadStart	include/sample_comm.h	/^    HI_BOOL  bThreadStart;$/;"	m	struct:hiSAMPLE_VENC_QPMAP_SENDFRAME_PARA_S	typeref:typename:HI_BOOL
+bThreadStart	include/sample_comm.h	/^    HI_BOOL bThreadStart;$/;"	m	struct:hiSAMPLE_VENC_GETSTREAM_PARA_S	typeref:typename:HI_BOOL
+bThreadStart	src/common/sample_comm.h	/^    HI_BOOL  bThreadStart;$/;"	m	struct:hiSAMPLE_VENC_QPMAP_SENDFRAME_PARA_S	typeref:typename:HI_BOOL
+bThreadStart	src/common/sample_comm.h	/^    HI_BOOL bThreadStart;$/;"	m	struct:hiSAMPLE_VENC_GETSTREAM_PARA_S	typeref:typename:HI_BOOL
+bTmvBufAlloc	include/sample_comm.h	/^    HI_BOOL bTmvBufAlloc;$/;"	m	struct:hiSAMPLE_VDEC_BUF	typeref:typename:HI_BOOL
+bTmvBufAlloc	src/common/sample_comm.h	/^    HI_BOOL bTmvBufAlloc;$/;"	m	struct:hiSAMPLE_VDEC_BUF	typeref:typename:HI_BOOL
+bVcNumCfged	include/sample_comm.h	/^    HI_BOOL         bVcNumCfged;$/;"	m	struct:hiSAMPLE_PIPE_INFO_S	typeref:typename:HI_BOOL
+bVcNumCfged	src/common/sample_comm.h	/^    HI_BOOL         bVcNumCfged;$/;"	m	struct:hiSAMPLE_PIPE_INFO_S	typeref:typename:HI_BOOL
+bfOffBits	src/common/loadbmp.h	/^    HI_U32   bfOffBits;$/;"	m	struct:tag_OSD_BITMAPFILEHEADER	typeref:typename:HI_U32
+bfReserved1	src/common/loadbmp.h	/^    HI_U16    bfReserved1;$/;"	m	struct:tag_OSD_BITMAPFILEHEADER	typeref:typename:HI_U16
+bfReserved2	src/common/loadbmp.h	/^    HI_U16    bfReserved2;$/;"	m	struct:tag_OSD_BITMAPFILEHEADER	typeref:typename:HI_U16
+bfSize	src/common/loadbmp.h	/^    HI_U32   bfSize;$/;"	m	struct:tag_OSD_BITMAPFILEHEADER	typeref:typename:HI_U32
+biBitCount	src/common/loadbmp.h	/^    HI_U16       biBitCount;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER	typeref:typename:HI_U16
+biClrImportant	src/common/loadbmp.h	/^    HI_U32      biClrImportant;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER	typeref:typename:HI_U32
+biClrUsed	src/common/loadbmp.h	/^    HI_U32      biClrUsed;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER	typeref:typename:HI_U32
+biCompression	src/common/loadbmp.h	/^    HI_U32      biCompression;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER	typeref:typename:HI_U32
+biHeight	src/common/loadbmp.h	/^    HI_S32       biHeight;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER	typeref:typename:HI_S32
+biPlanes	src/common/loadbmp.h	/^    HI_U16       biPlanes;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER	typeref:typename:HI_U16
+biSize	src/common/loadbmp.h	/^    HI_U16      biSize;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER	typeref:typename:HI_U16
+biSizeImage	src/common/loadbmp.h	/^    HI_U32      biSizeImage;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER	typeref:typename:HI_U32
+biWidth	src/common/loadbmp.h	/^    HI_U32       biWidth;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER	typeref:typename:HI_U32
+biXPelsPerMeter	src/common/loadbmp.h	/^    HI_U32       biXPelsPerMeter;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER	typeref:typename:HI_U32
+biYPelsPerMeter	src/common/loadbmp.h	/^    HI_U32       biYPelsPerMeter;$/;"	m	struct:tag_OSD_BITMAPINFOHEADER	typeref:typename:HI_U32
+blen	src/common/loadbmp.h	/^    int blen;$/;"	m	struct:hiOSD_COMPONENT_INFO_S	typeref:typename:int
+bmiColors	src/common/loadbmp.h	/^    OSD_RGBQUAD                 bmiColors[1];$/;"	m	struct:tag_OSD_BITMAPINFO	typeref:typename:OSD_RGBQUAD[1]
+bmiHeader	src/common/loadbmp.h	/^    OSD_BITMAPINFOHEADER    bmiHeader;$/;"	m	struct:tag_OSD_BITMAPINFO	typeref:typename:OSD_BITMAPINFOHEADER
+buf	include/sample_comm.h	/^    char *buf;$/;"	m	struct:_rtpbuf	typeref:typename:char *
+cFileName	include/sample_comm.h	/^    HI_CHAR cFileName[128];$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_CHAR[128]
+cFileName	src/common/sample_comm.h	/^    HI_CHAR cFileName[128];$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_CHAR[128]
+cFilePath	include/sample_comm.h	/^    HI_CHAR cFilePath[128];$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_CHAR[128]
+cFilePath	src/common/sample_comm.h	/^    HI_CHAR cFilePath[128];$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_CHAR[128]
+clean	build/Makefile	/^clean:$/;"	t
+clean/fast	build/Makefile	/^clean\/fast: clean$/;"	t
+cmake_check_build_system	build/Makefile	/^cmake_check_build_system:$/;"	t
+cmake_force	build/Makefile	/^cmake_force:$/;"	t
+const	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^# define const$/;"	d	file:
+default_target	build/Makefile	/^default_target: all$/;"	t
+depend	build/Makefile	/^depend:$/;"	t
+eThreadCtrl	include/sample_comm.h	/^    THREAD_CONTRL_E eThreadCtrl;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:THREAD_CONTRL_E
+eThreadCtrl	src/common/sample_comm.h	/^    THREAD_CONTRL_E eThreadCtrl;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:THREAD_CONTRL_E
+edit_cache	build/Makefile	/^edit_cache:$/;"	t
+edit_cache/fast	build/Makefile	/^edit_cache\/fast: edit_cache$/;"	t
+enBitWidth	include/sample_comm.h	/^    DATA_BITWIDTH_E  enBitWidth;$/;"	m	struct:hiSAMPLE_VDEC_VIDEO_ATTR	typeref:typename:DATA_BITWIDTH_E
+enBitWidth	src/common/sample_comm.h	/^    DATA_BITWIDTH_E  enBitWidth;$/;"	m	struct:hiSAMPLE_VDEC_VIDEO_ATTR	typeref:typename:DATA_BITWIDTH_E
+enColorFmt	src/common/loadbmp.h	/^    OSD_COLOR_FMT_E enColorFmt;         \/* color format *\/$/;"	m	struct:hiOSD_SURFACE_S	typeref:typename:OSD_COLOR_FMT_E
+enCompressMode	include/sample_comm.h	/^    COMPRESS_MODE_E         enCompressMode;$/;"	m	struct:hiSAMPLE_VI_FPN_CALIBRATE_INFO_S	typeref:typename:COMPRESS_MODE_E
+enCompressMode	include/sample_comm.h	/^    COMPRESS_MODE_E         enCompressMode;$/;"	m	struct:hiSAMPLE_VI_FPN_CORRECTION_INFO_S	typeref:typename:COMPRESS_MODE_E
+enCompressMode	include/sample_comm.h	/^    COMPRESS_MODE_E         enCompressMode;$/;"	m	struct:hiSAMPLE_VI_FRAME_CONFIG_S	typeref:typename:COMPRESS_MODE_E
+enCompressMode	include/sample_comm.h	/^    COMPRESS_MODE_E         enCompressMode;$/;"	m	struct:tag_SAMPLE_VO_WBC_CONFIG	typeref:typename:COMPRESS_MODE_E
+enCompressMode	include/sample_comm.h	/^    COMPRESS_MODE_E     enCompressMode;$/;"	m	struct:hiSAMPLE_CHN_INFO_S	typeref:typename:COMPRESS_MODE_E
+enCompressMode	include/sample_comm.h	/^    COMPRESS_MODE_E     enCompressMode;$/;"	m	struct:hiSAMPLE_VB_BASE_INFO_S	typeref:typename:COMPRESS_MODE_E
+enCompressMode	src/common/sample_comm.h	/^    COMPRESS_MODE_E         enCompressMode;$/;"	m	struct:hiSAMPLE_VI_FPN_CALIBRATE_INFO_S	typeref:typename:COMPRESS_MODE_E
+enCompressMode	src/common/sample_comm.h	/^    COMPRESS_MODE_E         enCompressMode;$/;"	m	struct:hiSAMPLE_VI_FPN_CORRECTION_INFO_S	typeref:typename:COMPRESS_MODE_E
+enCompressMode	src/common/sample_comm.h	/^    COMPRESS_MODE_E         enCompressMode;$/;"	m	struct:hiSAMPLE_VI_FRAME_CONFIG_S	typeref:typename:COMPRESS_MODE_E
+enCompressMode	src/common/sample_comm.h	/^    COMPRESS_MODE_E         enCompressMode;$/;"	m	struct:tag_SAMPLE_VO_WBC_CONFIG	typeref:typename:COMPRESS_MODE_E
+enCompressMode	src/common/sample_comm.h	/^    COMPRESS_MODE_E     enCompressMode;$/;"	m	struct:hiSAMPLE_CHN_INFO_S	typeref:typename:COMPRESS_MODE_E
+enCompressMode	src/common/sample_comm.h	/^    COMPRESS_MODE_E     enCompressMode;$/;"	m	struct:hiSAMPLE_VB_BASE_INFO_S	typeref:typename:COMPRESS_MODE_E
+enDecMode	include/sample_comm.h	/^    VIDEO_DEC_MODE_E enDecMode;$/;"	m	struct:hiSAMPLE_VDEC_VIDEO_ATTR	typeref:typename:VIDEO_DEC_MODE_E
+enDecMode	src/common/sample_comm.h	/^    VIDEO_DEC_MODE_E enDecMode;$/;"	m	struct:hiSAMPLE_VDEC_VIDEO_ATTR	typeref:typename:VIDEO_DEC_MODE_E
+enDstDynamicRange	include/sample_comm.h	/^    DYNAMIC_RANGE_E         enDstDynamicRange;$/;"	m	struct:hiSAMPLE_COMM_VO_LAYER_CONFIG_S	typeref:typename:DYNAMIC_RANGE_E
+enDstDynamicRange	include/sample_comm.h	/^    DYNAMIC_RANGE_E         enDstDynamicRange;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:DYNAMIC_RANGE_E
+enDstDynamicRange	src/common/sample_comm.h	/^    DYNAMIC_RANGE_E         enDstDynamicRange;$/;"	m	struct:hiSAMPLE_COMM_VO_LAYER_CONFIG_S	typeref:typename:DYNAMIC_RANGE_E
+enDstDynamicRange	src/common/sample_comm.h	/^    DYNAMIC_RANGE_E         enDstDynamicRange;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:DYNAMIC_RANGE_E
+enDynamicRange	include/sample_comm.h	/^    DYNAMIC_RANGE_E         enDynamicRange;$/;"	m	struct:hiSAMPLE_VI_FRAME_CONFIG_S	typeref:typename:DYNAMIC_RANGE_E
+enDynamicRange	include/sample_comm.h	/^    DYNAMIC_RANGE_E         enDynamicRange;$/;"	m	struct:tag_SAMPLE_VO_WBC_CONFIG	typeref:typename:DYNAMIC_RANGE_E
+enDynamicRange	include/sample_comm.h	/^    DYNAMIC_RANGE_E     enDynamicRange;$/;"	m	struct:hiSAMPLE_CHN_INFO_S	typeref:typename:DYNAMIC_RANGE_E
+enDynamicRange	src/common/sample_comm.h	/^    DYNAMIC_RANGE_E         enDynamicRange;$/;"	m	struct:hiSAMPLE_VI_FRAME_CONFIG_S	typeref:typename:DYNAMIC_RANGE_E
+enDynamicRange	src/common/sample_comm.h	/^    DYNAMIC_RANGE_E         enDynamicRange;$/;"	m	struct:tag_SAMPLE_VO_WBC_CONFIG	typeref:typename:DYNAMIC_RANGE_E
+enDynamicRange	src/common/sample_comm.h	/^    DYNAMIC_RANGE_E     enDynamicRange;$/;"	m	struct:hiSAMPLE_CHN_INFO_S	typeref:typename:DYNAMIC_RANGE_E
+enFpnType	include/sample_comm.h	/^    ISP_FPN_TYPE_E          enFpnType;$/;"	m	struct:hiSAMPLE_VI_FPN_CALIBRATE_INFO_S	typeref:typename:ISP_FPN_TYPE_E
+enFpnType	include/sample_comm.h	/^    ISP_FPN_TYPE_E          enFpnType;$/;"	m	struct:hiSAMPLE_VI_FPN_CORRECTION_INFO_S	typeref:typename:ISP_FPN_TYPE_E
+enFpnType	src/common/sample_comm.h	/^    ISP_FPN_TYPE_E          enFpnType;$/;"	m	struct:hiSAMPLE_VI_FPN_CALIBRATE_INFO_S	typeref:typename:ISP_FPN_TYPE_E
+enFpnType	src/common/sample_comm.h	/^    ISP_FPN_TYPE_E          enFpnType;$/;"	m	struct:hiSAMPLE_VI_FPN_CORRECTION_INFO_S	typeref:typename:ISP_FPN_TYPE_E
+enIntfSync	include/sample_comm.h	/^    VO_INTF_SYNC_E          enIntfSync;$/;"	m	struct:hiSAMPLE_COMM_VO_LAYER_CONFIG_S	typeref:typename:VO_INTF_SYNC_E
+enIntfSync	include/sample_comm.h	/^    VO_INTF_SYNC_E          enIntfSync;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:VO_INTF_SYNC_E
+enIntfSync	src/common/sample_comm.h	/^    VO_INTF_SYNC_E          enIntfSync;$/;"	m	struct:hiSAMPLE_COMM_VO_LAYER_CONFIG_S	typeref:typename:VO_INTF_SYNC_E
+enIntfSync	src/common/sample_comm.h	/^    VO_INTF_SYNC_E          enIntfSync;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:VO_INTF_SYNC_E
+enMastPipeMode	include/sample_comm.h	/^    VI_VPSS_MODE_E  enMastPipeMode;$/;"	m	struct:hiSAMPLE_PIPE_INFO_S	typeref:typename:VI_VPSS_MODE_E
+enMastPipeMode	src/common/sample_comm.h	/^    VI_VPSS_MODE_E  enMastPipeMode;$/;"	m	struct:hiSAMPLE_PIPE_INFO_S	typeref:typename:VI_VPSS_MODE_E
+enMode	include/sample_comm.h	/^    VIDEO_MODE_E   enMode;$/;"	m	struct:hiSAMPLE_VDEC_ATTR	typeref:typename:VIDEO_MODE_E
+enMode	src/common/sample_comm.h	/^    VIDEO_MODE_E   enMode;$/;"	m	struct:hiSAMPLE_VDEC_ATTR	typeref:typename:VIDEO_MODE_E
+enOpType	include/sample_comm.h	/^    ISP_OP_TYPE_E           enOpType;$/;"	m	struct:hiSAMPLE_VI_FPN_CORRECTION_INFO_S	typeref:typename:ISP_OP_TYPE_E
+enOpType	src/common/sample_comm.h	/^    ISP_OP_TYPE_E           enOpType;$/;"	m	struct:hiSAMPLE_VI_FPN_CORRECTION_INFO_S	typeref:typename:ISP_OP_TYPE_E
+enPicSize	include/sample_comm.h	/^    PIC_SIZE_E              enPicSize;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:PIC_SIZE_E
+enPicSize	src/common/sample_comm.h	/^    PIC_SIZE_E              enPicSize;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:PIC_SIZE_E
+enPixFmt	include/sample_comm.h	/^    PIXEL_FORMAT_E  enPixFmt;$/;"	m	struct:hiSAMPLE_PIPE_INFO_S	typeref:typename:PIXEL_FORMAT_E
+enPixFmt	src/common/sample_comm.h	/^    PIXEL_FORMAT_E  enPixFmt;$/;"	m	struct:hiSAMPLE_PIPE_INFO_S	typeref:typename:PIXEL_FORMAT_E
+enPixFormat	include/sample_comm.h	/^    PIXEL_FORMAT_E          enPixFormat;$/;"	m	struct:hiSAMPLE_COMM_VO_LAYER_CONFIG_S	typeref:typename:PIXEL_FORMAT_E
+enPixFormat	include/sample_comm.h	/^    PIXEL_FORMAT_E          enPixFormat;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:PIXEL_FORMAT_E
+enPixFormat	include/sample_comm.h	/^    PIXEL_FORMAT_E      enPixFormat;$/;"	m	struct:hiSAMPLE_CHN_INFO_S	typeref:typename:PIXEL_FORMAT_E
+enPixFormat	src/common/sample_comm.h	/^    PIXEL_FORMAT_E          enPixFormat;$/;"	m	struct:hiSAMPLE_COMM_VO_LAYER_CONFIG_S	typeref:typename:PIXEL_FORMAT_E
+enPixFormat	src/common/sample_comm.h	/^    PIXEL_FORMAT_E          enPixFormat;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:PIXEL_FORMAT_E
+enPixFormat	src/common/sample_comm.h	/^    PIXEL_FORMAT_E      enPixFormat;$/;"	m	struct:hiSAMPLE_CHN_INFO_S	typeref:typename:PIXEL_FORMAT_E
+enPixelFormat	include/sample_comm.h	/^    PIXEL_FORMAT_E          enPixelFormat;$/;"	m	struct:hiSAMPLE_VI_FPN_CALIBRATE_INFO_S	typeref:typename:PIXEL_FORMAT_E
+enPixelFormat	include/sample_comm.h	/^    PIXEL_FORMAT_E          enPixelFormat;$/;"	m	struct:hiSAMPLE_VI_FPN_CORRECTION_INFO_S	typeref:typename:PIXEL_FORMAT_E
+enPixelFormat	include/sample_comm.h	/^    PIXEL_FORMAT_E          enPixelFormat;$/;"	m	struct:hiSAMPLE_VI_FRAME_CONFIG_S	typeref:typename:PIXEL_FORMAT_E
+enPixelFormat	include/sample_comm.h	/^    PIXEL_FORMAT_E      enPixelFormat;$/;"	m	struct:hiSAMPLE_VB_BASE_INFO_S	typeref:typename:PIXEL_FORMAT_E
+enPixelFormat	include/sample_comm.h	/^    PIXEL_FORMAT_E enPixelFormat;$/;"	m	struct:hiSAMPLE_VDEC_PICTURE_ATTR	typeref:typename:PIXEL_FORMAT_E
+enPixelFormat	src/common/sample_comm.h	/^    PIXEL_FORMAT_E          enPixelFormat;$/;"	m	struct:hiSAMPLE_VI_FPN_CALIBRATE_INFO_S	typeref:typename:PIXEL_FORMAT_E
+enPixelFormat	src/common/sample_comm.h	/^    PIXEL_FORMAT_E          enPixelFormat;$/;"	m	struct:hiSAMPLE_VI_FPN_CORRECTION_INFO_S	typeref:typename:PIXEL_FORMAT_E
+enPixelFormat	src/common/sample_comm.h	/^    PIXEL_FORMAT_E          enPixelFormat;$/;"	m	struct:hiSAMPLE_VI_FRAME_CONFIG_S	typeref:typename:PIXEL_FORMAT_E
+enPixelFormat	src/common/sample_comm.h	/^    PIXEL_FORMAT_E      enPixelFormat;$/;"	m	struct:hiSAMPLE_VB_BASE_INFO_S	typeref:typename:PIXEL_FORMAT_E
+enPixelFormat	src/common/sample_comm.h	/^    PIXEL_FORMAT_E enPixelFormat;$/;"	m	struct:hiSAMPLE_VDEC_PICTURE_ATTR	typeref:typename:PIXEL_FORMAT_E
+enSnapPipeMode	include/sample_comm.h	/^    VI_VPSS_MODE_E  enSnapPipeMode;$/;"	m	struct:hiSAMPLE_SNAP_INFO_S	typeref:typename:VI_VPSS_MODE_E
+enSnapPipeMode	src/common/sample_comm.h	/^    VI_VPSS_MODE_E  enSnapPipeMode;$/;"	m	struct:hiSAMPLE_SNAP_INFO_S	typeref:typename:VI_VPSS_MODE_E
+enSnsType	include/sample_comm.h	/^    SAMPLE_SNS_TYPE_E   enSnsType;$/;"	m	struct:hiSAMPLE_SENSOR_INFO_S	typeref:typename:SAMPLE_SNS_TYPE_E
+enSnsType	src/common/sample_comm.h	/^    SAMPLE_SNS_TYPE_E   enSnsType;$/;"	m	struct:hiSAMPLE_SENSOR_INFO_S	typeref:typename:SAMPLE_SNS_TYPE_E
+enSourceType	include/sample_comm.h	/^    VO_WBC_SOURCE_TYPE_E    enSourceType;$/;"	m	struct:tag_SAMPLE_VO_WBC_CONFIG	typeref:typename:VO_WBC_SOURCE_TYPE_E
+enSourceType	src/common/sample_comm.h	/^    VO_WBC_SOURCE_TYPE_E    enSourceType;$/;"	m	struct:tag_SAMPLE_VO_WBC_CONFIG	typeref:typename:VO_WBC_SOURCE_TYPE_E
+enType	include/sample_comm.h	/^    PAYLOAD_TYPE_E enType;$/;"	m	struct:hiSAMPLE_VDEC_ATTR	typeref:typename:PAYLOAD_TYPE_E
+enType	include/sample_comm.h	/^    PAYLOAD_TYPE_E enType;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:PAYLOAD_TYPE_E
+enType	src/common/sample_comm.h	/^    PAYLOAD_TYPE_E enType;$/;"	m	struct:hiSAMPLE_VDEC_ATTR	typeref:typename:PAYLOAD_TYPE_E
+enType	src/common/sample_comm.h	/^    PAYLOAD_TYPE_E enType;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:PAYLOAD_TYPE_E
+enVideoFormat	include/sample_comm.h	/^    VIDEO_FORMAT_E          enVideoFormat;$/;"	m	struct:hiSAMPLE_VI_FRAME_CONFIG_S	typeref:typename:VIDEO_FORMAT_E
+enVideoFormat	include/sample_comm.h	/^    VIDEO_FORMAT_E      enVideoFormat;$/;"	m	struct:hiSAMPLE_CHN_INFO_S	typeref:typename:VIDEO_FORMAT_E
+enVideoFormat	src/common/sample_comm.h	/^    VIDEO_FORMAT_E          enVideoFormat;$/;"	m	struct:hiSAMPLE_VI_FRAME_CONFIG_S	typeref:typename:VIDEO_FORMAT_E
+enVideoFormat	src/common/sample_comm.h	/^    VIDEO_FORMAT_E      enVideoFormat;$/;"	m	struct:hiSAMPLE_CHN_INFO_S	typeref:typename:VIDEO_FORMAT_E
+enVideoPipeMode	include/sample_comm.h	/^    VI_VPSS_MODE_E  enVideoPipeMode;$/;"	m	struct:hiSAMPLE_SNAP_INFO_S	typeref:typename:VI_VPSS_MODE_E
+enVideoPipeMode	src/common/sample_comm.h	/^    VI_VPSS_MODE_E  enVideoPipeMode;$/;"	m	struct:hiSAMPLE_SNAP_INFO_S	typeref:typename:VI_VPSS_MODE_E
+enVoIntfType	include/sample_comm.h	/^    VO_INTF_TYPE_E          enVoIntfType;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:VO_INTF_TYPE_E
+enVoIntfType	src/common/sample_comm.h	/^    VO_INTF_TYPE_E          enVoIntfType;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:VO_INTF_TYPE_E
+enVoMode	include/sample_comm.h	/^    SAMPLE_VO_MODE_E        enVoMode;$/;"	m	struct:hiSAMPLE_COMM_VO_LAYER_CONFIG_S	typeref:typename:SAMPLE_VO_MODE_E
+enVoMode	include/sample_comm.h	/^    SAMPLE_VO_MODE_E        enVoMode;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:SAMPLE_VO_MODE_E
+enVoMode	src/common/sample_comm.h	/^    SAMPLE_VO_MODE_E        enVoMode;$/;"	m	struct:hiSAMPLE_COMM_VO_LAYER_CONFIG_S	typeref:typename:SAMPLE_VO_MODE_E
+enVoMode	src/common/sample_comm.h	/^    SAMPLE_VO_MODE_E        enVoMode;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:SAMPLE_VO_MODE_E
+enVoPartMode	include/sample_comm.h	/^    VO_PART_MODE_E          enVoPartMode;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:VO_PART_MODE_E
+enVoPartMode	src/common/sample_comm.h	/^    VO_PART_MODE_E          enVoPartMode;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:VO_PART_MODE_E
+enWDRMode	include/sample_comm.h	/^    WDR_MODE_E  enWDRMode;$/;"	m	struct:hiSAMPLE_DEV_INFO_S	typeref:typename:WDR_MODE_E
+enWDRMode	src/common/sample_comm.h	/^    WDR_MODE_E  enWDRMode;$/;"	m	struct:hiSAMPLE_DEV_INFO_S	typeref:typename:WDR_MODE_E
+enWbcMode	include/sample_comm.h	/^    VO_WBC_MODE_E           enWbcMode;$/;"	m	struct:tag_SAMPLE_VO_WBC_CONFIG	typeref:typename:VO_WBC_MODE_E
+enWbcMode	src/common/sample_comm.h	/^    VO_WBC_MODE_E           enWbcMode;$/;"	m	struct:tag_SAMPLE_VO_WBC_CONFIG	typeref:typename:VO_WBC_MODE_E
+g_EOI	src/common/sample_comm_venc.c	/^    const HI_U8 g_EOI[2] = {0xFF, 0xD9};$/;"	v	typeref:typename:const HI_U8[2]
+g_IspPid	src/common/sample_comm_isp.c	/^static pthread_t    g_IspPid[ISP_MAX_DEV_NUM] = {0};$/;"	v	typeref:typename:pthread_t[]	file:
+g_SOI	src/common/sample_comm_venc.c	/^    const HI_U8 g_SOI[2] = {0xFF, 0xD8};$/;"	v	typeref:typename:const HI_U8[2]
+g_ahPicVbPool	src/common/sample_comm_vdec.c	/^VB_POOL g_ahPicVbPool[VB_MAX_POOLS] = {[0 ... (VB_MAX_POOLS-1)] = VB_INVALID_POOLID};$/;"	v	typeref:typename:VB_POOL[]
+g_ahTmvVbPool	src/common/sample_comm_vdec.c	/^VB_POOL g_ahTmvVbPool[VB_MAX_POOLS] = {[0 ... (VB_MAX_POOLS-1)] = VB_INVALID_POOLID};$/;"	v	typeref:typename:VB_POOL[]
+g_au32IspSnsId	src/common/sample_comm_isp.c	/^static HI_U32       g_au32IspSnsId[ISP_MAX_DEV_NUM] = {0, 1};$/;"	v	typeref:typename:HI_U32[]	file:
+g_enSnsType	src/common/sample_comm_isp.c	/^SAMPLE_SNS_TYPE_E g_enSnsType[MAX_SENSOR_NUM] =$/;"	v	typeref:typename:SAMPLE_SNS_TYPE_E[]
+g_enVdecVBSource	src/common/sample_comm_vdec.c	/^VB_SOURCE_E  g_enVdecVBSource  = VB_SOURCE_MODULE;$/;"	v	typeref:typename:VB_SOURCE_E
+g_stViDumpRawThreadInfo	src/common/sample_comm_vi.c	/^    SAMPLE_VI_DUMP_THREAD_INFO_S g_stViDumpRawThreadInfo;$/;"	v	typeref:typename:SAMPLE_VI_DUMP_THREAD_INFO_S
+getCurrentTimeUs	src/common/sample_comm_audio.c	/^    int64_t getCurrentTimeUs(void)$/;"	f	typeref:typename:int64_t
+glen	src/common/loadbmp.h	/^    int glen;$/;"	m	struct:hiOSD_COMPONENT_INFO_S	typeref:typename:int
+gs_VencPid	src/common/sample_comm_venc.c	/^    static pthread_t gs_VencPid;$/;"	v	typeref:typename:pthread_t	file:
+gs_VencQpmapPid	src/common/sample_comm_venc.c	/^    static pthread_t gs_VencQpmapPid;$/;"	v	typeref:typename:pthread_t	file:
+gs_enAacBps	src/common/sample_comm_audio.c	/^    static AAC_BPS_E gs_enAacBps = AAC_BPS_128K;$/;"	v	typeref:typename:AAC_BPS_E	file:
+gs_enAacTransType	src/common/sample_comm_audio.c	/^    static AAC_TRANS_TYPE_E gs_enAacTransType = AAC_TRANS_TYPE_ADTS;$/;"	v	typeref:typename:AAC_TRANS_TYPE_E	file:
+gs_enAacType	src/common/sample_comm_audio.c	/^    static AAC_TYPE_E gs_enAacType = AAC_TYPE_AACLC;$/;"	v	typeref:typename:AAC_TYPE_E	file:
+gs_s32SnapCnt	src/common/sample_comm_venc.c	/^    static HI_S32 gs_s32SnapCnt = 0;$/;"	v	typeref:typename:HI_S32	file:
+gs_stPara	src/common/sample_comm_venc.c	/^    static SAMPLE_VENC_GETSTREAM_PARA_S gs_stPara;$/;"	v	typeref:typename:SAMPLE_VENC_GETSTREAM_PARA_S	file:
+gs_stSampleAdec	src/common/sample_comm_audio.c	/^    static SAMPLE_ADEC_S gs_stSampleAdec[ADEC_MAX_CHN_NUM];$/;"	v	typeref:typename:SAMPLE_ADEC_S[]	file:
+gs_stSampleAenc	src/common/sample_comm_audio.c	/^    static SAMPLE_AENC_S gs_stSampleAenc[AENC_MAX_CHN_NUM];$/;"	v	typeref:typename:SAMPLE_AENC_S[]	file:
+gs_stSampleAi	src/common/sample_comm_audio.c	/^    static SAMPLE_AI_S gs_stSampleAi[AI_DEV_MAX_NUM * AI_MAX_CHN_NUM];$/;"	v	typeref:typename:SAMPLE_AI_S[]	file:
+gs_stSampleAo	src/common/sample_comm_audio.c	/^    static SAMPLE_AO_S gs_stSampleAo[AO_DEV_MAX_NUM];$/;"	v	typeref:typename:SAMPLE_AO_S[]	file:
+height	src/common/loadbmp.h	/^    HI_U32    height;       \/* out *\/$/;"	m	struct:tag_OSD_Logo	typeref:typename:HI_U32
+help	build/Makefile	/^help:$/;"	t
+hiOSD_COLOR_FMT_E	src/common/loadbmp.h	/^typedef enum hiOSD_COLOR_FMT_E$/;"	g
+hiOSD_COMPONENT_INFO_S	src/common/loadbmp.h	/^typedef struct hiOSD_COMPONENT_INFO_S$/;"	s
+hiOSD_RGB_S	src/common/loadbmp.h	/^typedef struct hiOSD_RGB_S$/;"	s
+hiOSD_SURFACE_S	src/common/loadbmp.h	/^typedef struct hiOSD_SURFACE_S$/;"	s
+hiPIC_SIZE_E	include/sample_comm.h	/^typedef enum hiPIC_SIZE_E$/;"	g
+hiPIC_SIZE_E	src/common/sample_comm.h	/^typedef enum hiPIC_SIZE_E$/;"	g
+hiSAMPLE_CHN_INFO_S	include/sample_comm.h	/^typedef struct hiSAMPLE_CHN_INFO_S$/;"	s
+hiSAMPLE_CHN_INFO_S	src/common/sample_comm.h	/^typedef struct hiSAMPLE_CHN_INFO_S$/;"	s
+hiSAMPLE_COMM_VO_LAYER_CONFIG_S	include/sample_comm.h	/^typedef struct hiSAMPLE_COMM_VO_LAYER_CONFIG_S$/;"	s
+hiSAMPLE_COMM_VO_LAYER_CONFIG_S	src/common/sample_comm.h	/^typedef struct hiSAMPLE_COMM_VO_LAYER_CONFIG_S$/;"	s
+hiSAMPLE_DEV_INFO_S	include/sample_comm.h	/^typedef struct hiSAMPLE_DEV_INFO_S$/;"	s
+hiSAMPLE_DEV_INFO_S	src/common/sample_comm.h	/^typedef struct hiSAMPLE_DEV_INFO_S$/;"	s
+hiSAMPLE_PIPE_INFO_S	include/sample_comm.h	/^typedef struct hiSAMPLE_PIPE_INFO_S$/;"	s
+hiSAMPLE_PIPE_INFO_S	src/common/sample_comm.h	/^typedef struct hiSAMPLE_PIPE_INFO_S$/;"	s
+hiSAMPLE_RC_E	include/sample_comm.h	/^typedef enum hiSAMPLE_RC_E$/;"	g
+hiSAMPLE_RC_E	src/common/sample_comm.h	/^typedef enum hiSAMPLE_RC_E$/;"	g
+hiSAMPLE_SENSOR_INFO_S	include/sample_comm.h	/^typedef struct hiSAMPLE_SENSOR_INFO_S$/;"	s
+hiSAMPLE_SENSOR_INFO_S	src/common/sample_comm.h	/^typedef struct hiSAMPLE_SENSOR_INFO_S$/;"	s
+hiSAMPLE_SNAP_INFO_S	include/sample_comm.h	/^typedef struct hiSAMPLE_SNAP_INFO_S$/;"	s
+hiSAMPLE_SNAP_INFO_S	src/common/sample_comm.h	/^typedef struct hiSAMPLE_SNAP_INFO_S$/;"	s
+hiSAMPLE_SNS_TYPE_E	include/sample_comm.h	/^typedef enum hiSAMPLE_SNS_TYPE_E$/;"	g
+hiSAMPLE_SNS_TYPE_E	src/common/sample_comm.h	/^typedef enum hiSAMPLE_SNS_TYPE_E$/;"	g
+hiSAMPLE_VB_BASE_INFO_S	include/sample_comm.h	/^typedef struct hiSAMPLE_VB_BASE_INFO_S$/;"	s
+hiSAMPLE_VB_BASE_INFO_S	src/common/sample_comm.h	/^typedef struct hiSAMPLE_VB_BASE_INFO_S$/;"	s
+hiSAMPLE_VB_CAL_CONFIG_S	include/sample_comm.h	/^typedef struct hiSAMPLE_VB_CAL_CONFIG_S$/;"	s
+hiSAMPLE_VB_CAL_CONFIG_S	src/common/sample_comm.h	/^typedef struct hiSAMPLE_VB_CAL_CONFIG_S$/;"	s
+hiSAMPLE_VDEC_ATTR	include/sample_comm.h	/^typedef struct hiSAMPLE_VDEC_ATTR$/;"	s
+hiSAMPLE_VDEC_ATTR	src/common/sample_comm.h	/^typedef struct hiSAMPLE_VDEC_ATTR$/;"	s
+hiSAMPLE_VDEC_BUF	include/sample_comm.h	/^typedef struct hiSAMPLE_VDEC_BUF$/;"	s
+hiSAMPLE_VDEC_BUF	src/common/sample_comm.h	/^typedef struct hiSAMPLE_VDEC_BUF$/;"	s
+hiSAMPLE_VDEC_PICTURE_ATTR	include/sample_comm.h	/^typedef struct hiSAMPLE_VDEC_PICTURE_ATTR$/;"	s
+hiSAMPLE_VDEC_PICTURE_ATTR	src/common/sample_comm.h	/^typedef struct hiSAMPLE_VDEC_PICTURE_ATTR$/;"	s
+hiSAMPLE_VDEC_VIDEO_ATTR	include/sample_comm.h	/^typedef struct hiSAMPLE_VDEC_VIDEO_ATTR$/;"	s
+hiSAMPLE_VDEC_VIDEO_ATTR	src/common/sample_comm.h	/^typedef struct hiSAMPLE_VDEC_VIDEO_ATTR$/;"	s
+hiSAMPLE_VENC_GETSTREAM_PARA_S	include/sample_comm.h	/^typedef struct hiSAMPLE_VENC_GETSTREAM_PARA_S$/;"	s
+hiSAMPLE_VENC_GETSTREAM_PARA_S	src/common/sample_comm.h	/^typedef struct hiSAMPLE_VENC_GETSTREAM_PARA_S$/;"	s
+hiSAMPLE_VENC_QPMAP_SENDFRAME_PARA_S	include/sample_comm.h	/^typedef struct hiSAMPLE_VENC_QPMAP_SENDFRAME_PARA_S$/;"	s
+hiSAMPLE_VENC_QPMAP_SENDFRAME_PARA_S	src/common/sample_comm.h	/^typedef struct hiSAMPLE_VENC_QPMAP_SENDFRAME_PARA_S$/;"	s
+hiSAMPLE_VI_CONFIG_S	include/sample_comm.h	/^typedef struct hiSAMPLE_VI_CONFIG_S$/;"	s
+hiSAMPLE_VI_CONFIG_S	src/common/sample_comm.h	/^typedef struct hiSAMPLE_VI_CONFIG_S$/;"	s
+hiSAMPLE_VI_DUMP_THREAD_INFO_S	include/sample_comm.h	/^typedef struct hiSAMPLE_VI_DUMP_THREAD_INFO_S$/;"	s
+hiSAMPLE_VI_DUMP_THREAD_INFO_S	src/common/sample_comm.h	/^typedef struct hiSAMPLE_VI_DUMP_THREAD_INFO_S$/;"	s
+hiSAMPLE_VI_FPN_CALIBRATE_INFO_S	include/sample_comm.h	/^typedef struct hiSAMPLE_VI_FPN_CALIBRATE_INFO_S$/;"	s
+hiSAMPLE_VI_FPN_CALIBRATE_INFO_S	src/common/sample_comm.h	/^typedef struct hiSAMPLE_VI_FPN_CALIBRATE_INFO_S$/;"	s
+hiSAMPLE_VI_FPN_CORRECTION_INFO_S	include/sample_comm.h	/^typedef struct hiSAMPLE_VI_FPN_CORRECTION_INFO_S$/;"	s
+hiSAMPLE_VI_FPN_CORRECTION_INFO_S	src/common/sample_comm.h	/^typedef struct hiSAMPLE_VI_FPN_CORRECTION_INFO_S$/;"	s
+hiSAMPLE_VI_FRAME_CONFIG_S	include/sample_comm.h	/^typedef struct hiSAMPLE_VI_FRAME_CONFIG_S$/;"	s
+hiSAMPLE_VI_FRAME_CONFIG_S	src/common/sample_comm.h	/^typedef struct hiSAMPLE_VI_FRAME_CONFIG_S$/;"	s
+hiSAMPLE_VI_FRAME_INFO_S	include/sample_comm.h	/^typedef struct hiSAMPLE_VI_FRAME_INFO_S$/;"	s
+hiSAMPLE_VI_FRAME_INFO_S	src/common/sample_comm.h	/^typedef struct hiSAMPLE_VI_FRAME_INFO_S$/;"	s
+hiSAMPLE_VI_INFO_S	include/sample_comm.h	/^typedef struct hiSAMPLE_VI_INFO_S$/;"	s
+hiSAMPLE_VI_INFO_S	src/common/sample_comm.h	/^typedef struct hiSAMPLE_VI_INFO_S$/;"	s
+hiSAMPLE_VO_CONFIG_S	include/sample_comm.h	/^typedef struct hiSAMPLE_VO_CONFIG_S$/;"	s
+hiSAMPLE_VO_CONFIG_S	src/common/sample_comm.h	/^typedef struct hiSAMPLE_VO_CONFIG_S$/;"	s
+hiSAMPLE_VO_MODE_E	include/sample_comm.h	/^typedef enum hiSAMPLE_VO_MODE_E$/;"	g
+hiSAMPLE_VO_MODE_E	src/common/sample_comm.h	/^typedef enum hiSAMPLE_VO_MODE_E$/;"	g
+hiTHREAD_CONTRL_E	include/sample_comm.h	/^typedef enum hiTHREAD_CONTRL_E$/;"	g
+hiTHREAD_CONTRL_E	src/common/sample_comm.h	/^typedef enum hiTHREAD_CONTRL_E$/;"	g
+hiVDEC_THREAD_PARAM_S	include/sample_comm.h	/^typedef struct hiVDEC_THREAD_PARAM_S$/;"	s
+hiVDEC_THREAD_PARAM_S	src/common/sample_comm.h	/^typedef struct hiVDEC_THREAD_PARAM_S$/;"	s
+info_arch	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v	typeref:typename:char const *
+info_arch	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v	typeref:typename:char const *
+info_compiler	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v	typeref:typename:char const *
+info_compiler	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v	typeref:typename:char const *
+info_cray	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v	typeref:typename:char const *
+info_cray	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v	typeref:typename:char const *
+info_language_extensions_default	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^const char* info_language_extensions_default = "INFO" ":" "extensions_default["$/;"	v	typeref:typename:const char *
+info_language_extensions_default	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^const char* info_language_extensions_default = "INFO" ":" "extensions_default["$/;"	v	typeref:typename:const char *
+info_language_standard_default	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^const char* info_language_standard_default =$/;"	v	typeref:typename:const char *
+info_language_standard_default	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^const char* info_language_standard_default = "INFO" ":" "standard_default["$/;"	v	typeref:typename:const char *
+info_platform	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v	typeref:typename:char const *
+info_platform	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate_version	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^char const info_simulate_version[] = {$/;"	v	typeref:typename:char const[]
+info_simulate_version	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	v	typeref:typename:char const[]
+info_version	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v	typeref:typename:char const[]
+info_version	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";$/;"	v	typeref:typename:char const *
+info_version	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v	typeref:typename:char const[]
+info_version	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";$/;"	v	typeref:typename:char const *
+info_version_internal	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^char const info_version_internal[] = {$/;"	v	typeref:typename:char const[]
+info_version_internal	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INT/;"	v	typeref:typename:char const *
+info_version_internal	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version_internal[] = {$/;"	v	typeref:typename:char const[]
+info_version_internal	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INT/;"	v	typeref:typename:char const *
+len	include/sample_comm.h	/^    HI_S32 len;$/;"	m	struct:_rtpbuf	typeref:typename:HI_S32
+list	include/sample_comm.h	/^    struct list_head list;$/;"	m	struct:_rtpbuf	typeref:struct:list_head
+main	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^int main(argc, argv) int argc; char *argv[];$/;"	f
+main	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f	typeref:typename:void
+main	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
+main	src/main.cpp	/^int main(void)$/;"	f	typeref:typename:int
+pRGBBuffer	src/common/loadbmp.h	/^    HI_U8*    pRGBBuffer;   \/* in\/out *\/$/;"	m	struct:tag_OSD_Logo	typeref:typename:HI_U8 *
+pfd	src/common/sample_comm_audio.c	/^        FILE *pfd;$/;"	m	struct:tagSAMPLE_ADEC_S	typeref:typename:FILE *	file:
+pfd	src/common/sample_comm_audio.c	/^        FILE *pfd;$/;"	m	struct:tagSAMPLE_AENC_S	typeref:typename:FILE *	file:
+preinstall	build/Makefile	/^preinstall: all$/;"	t
+preinstall/fast	build/Makefile	/^preinstall\/fast:$/;"	t
+pu8PhyAddr	src/common/loadbmp.h	/^    HI_U8*  pu8PhyAddr;               \/* physical address *\/$/;"	m	struct:hiOSD_SURFACE_S	typeref:typename:HI_U8 *
+qnxnto	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	typeref:typename:char const *
+qnxnto	build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	typeref:typename:char const *
+rebuild_cache	build/Makefile	/^rebuild_cache:$/;"	t
+rebuild_cache/fast	build/Makefile	/^rebuild_cache\/fast: rebuild_cache$/;"	t
+rgbBlue	src/common/loadbmp.h	/^    HI_U8    rgbBlue;$/;"	m	struct:tag_OSD_RGBQUAD	typeref:typename:HI_U8
+rgbGreen	src/common/loadbmp.h	/^    HI_U8    rgbGreen;$/;"	m	struct:tag_OSD_RGBQUAD	typeref:typename:HI_U8
+rgbRed	src/common/loadbmp.h	/^    HI_U8    rgbRed;$/;"	m	struct:tag_OSD_RGBQUAD	typeref:typename:HI_U8
+rgbReserved	src/common/loadbmp.h	/^    HI_U8    rgbReserved;$/;"	m	struct:tag_OSD_RGBQUAD	typeref:typename:HI_U8
+rlen	src/common/loadbmp.h	/^    int rlen;$/;"	m	struct:hiOSD_COMPONENT_INFO_S	typeref:typename:int
+s32BusId	include/sample_comm.h	/^    HI_S32              s32BusId;$/;"	m	struct:hiSAMPLE_SENSOR_INFO_S	typeref:typename:HI_S32
+s32BusId	src/common/sample_comm.h	/^    HI_S32              s32BusId;$/;"	m	struct:hiSAMPLE_SENSOR_INFO_S	typeref:typename:HI_S32
+s32ChnId	include/sample_comm.h	/^    HI_S32 s32ChnId;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_S32
+s32ChnId	src/common/sample_comm.h	/^    HI_S32 s32ChnId;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_S32
+s32Cnt	include/sample_comm.h	/^    HI_S32      s32Cnt;$/;"	m	struct:hiSAMPLE_VI_DUMP_THREAD_INFO_S	typeref:typename:HI_S32
+s32Cnt	include/sample_comm.h	/^    HI_S32   s32Cnt;$/;"	m	struct:hiSAMPLE_VENC_QPMAP_SENDFRAME_PARA_S	typeref:typename:HI_S32
+s32Cnt	include/sample_comm.h	/^    HI_S32  s32Cnt;$/;"	m	struct:hiSAMPLE_VENC_GETSTREAM_PARA_S	typeref:typename:HI_S32
+s32Cnt	src/common/sample_comm.h	/^    HI_S32      s32Cnt;$/;"	m	struct:hiSAMPLE_VI_DUMP_THREAD_INFO_S	typeref:typename:HI_S32
+s32Cnt	src/common/sample_comm.h	/^    HI_S32   s32Cnt;$/;"	m	struct:hiSAMPLE_VENC_QPMAP_SENDFRAME_PARA_S	typeref:typename:HI_S32
+s32Cnt	src/common/sample_comm.h	/^    HI_S32  s32Cnt;$/;"	m	struct:hiSAMPLE_VENC_GETSTREAM_PARA_S	typeref:typename:HI_S32
+s32Depth	include/sample_comm.h	/^    HI_S32 s32Depth;$/;"	m	struct:tag_SAMPLE_VO_WBC_CONFIG	typeref:typename:HI_S32
+s32Depth	src/common/sample_comm.h	/^    HI_S32 s32Depth;$/;"	m	struct:tag_SAMPLE_VO_WBC_CONFIG	typeref:typename:HI_S32
+s32IntervalTime	include/sample_comm.h	/^    HI_S32 s32IntervalTime;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_S32
+s32IntervalTime	src/common/sample_comm.h	/^    HI_S32 s32IntervalTime;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_S32
+s32MilliSec	include/sample_comm.h	/^    HI_S32 s32MilliSec;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_S32
+s32MilliSec	src/common/sample_comm.h	/^    HI_S32 s32MilliSec;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_S32
+s32MinBufSize	include/sample_comm.h	/^    HI_S32 s32MinBufSize;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_S32
+s32MinBufSize	src/common/sample_comm.h	/^    HI_S32 s32MinBufSize;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_S32
+s32SnsId	include/sample_comm.h	/^    HI_S32              s32SnsId;$/;"	m	struct:hiSAMPLE_SENSOR_INFO_S	typeref:typename:HI_S32
+s32SnsId	src/common/sample_comm.h	/^    HI_S32              s32SnsId;$/;"	m	struct:hiSAMPLE_SENSOR_INFO_S	typeref:typename:HI_S32
+s32StreamMode	include/sample_comm.h	/^    HI_S32 s32StreamMode;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_S32
+s32StreamMode	src/common/sample_comm.h	/^    HI_S32 s32StreamMode;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_S32
+s32WorkingViNum	include/sample_comm.h	/^    HI_S32              s32WorkingViNum;$/;"	m	struct:hiSAMPLE_VI_CONFIG_S	typeref:typename:HI_S32
+s32WorkingViNum	src/common/sample_comm.h	/^    HI_S32              s32WorkingViNum;$/;"	m	struct:hiSAMPLE_VI_CONFIG_S	typeref:typename:HI_S32
+s_OSDCompInfo	src/common/loadbmp.c	/^OSD_COMP_INFO s_OSDCompInfo[OSD_COLOR_FMT_BUTT] = {{0, 4, 4, 4},   \/*RGB444*\/$/;"	v	typeref:typename:OSD_COMP_INFO[]
+s_s32SampleMemDev	src/common/sample_comm_sys.c	/^static HI_S32 s_s32SampleMemDev = -1;$/;"	v	typeref:typename:HI_S32	file:
+src/common/sample_comm_isp.c.i	build/Makefile	/^src\/common\/sample_comm_isp.c.i:$/;"	t
+src/common/sample_comm_isp.c.o	build/Makefile	/^src\/common\/sample_comm_isp.c.o:$/;"	t
+src/common/sample_comm_isp.c.s	build/Makefile	/^src\/common\/sample_comm_isp.c.s:$/;"	t
+src/common/sample_comm_isp.i	build/Makefile	/^src\/common\/sample_comm_isp.i: src\/common\/sample_comm_isp.c.i$/;"	t
+src/common/sample_comm_isp.o	build/Makefile	/^src\/common\/sample_comm_isp.o: src\/common\/sample_comm_isp.c.o$/;"	t
+src/common/sample_comm_isp.s	build/Makefile	/^src\/common\/sample_comm_isp.s: src\/common\/sample_comm_isp.c.s$/;"	t
+src/common/sample_comm_sys.c.i	build/Makefile	/^src\/common\/sample_comm_sys.c.i:$/;"	t
+src/common/sample_comm_sys.c.o	build/Makefile	/^src\/common\/sample_comm_sys.c.o:$/;"	t
+src/common/sample_comm_sys.c.s	build/Makefile	/^src\/common\/sample_comm_sys.c.s:$/;"	t
+src/common/sample_comm_sys.i	build/Makefile	/^src\/common\/sample_comm_sys.i: src\/common\/sample_comm_sys.c.i$/;"	t
+src/common/sample_comm_sys.o	build/Makefile	/^src\/common\/sample_comm_sys.o: src\/common\/sample_comm_sys.c.o$/;"	t
+src/common/sample_comm_sys.s	build/Makefile	/^src\/common\/sample_comm_sys.s: src\/common\/sample_comm_sys.c.s$/;"	t
+src/common/sample_comm_venc.c.i	build/Makefile	/^src\/common\/sample_comm_venc.c.i:$/;"	t
+src/common/sample_comm_venc.c.o	build/Makefile	/^src\/common\/sample_comm_venc.c.o:$/;"	t
+src/common/sample_comm_venc.c.s	build/Makefile	/^src\/common\/sample_comm_venc.c.s:$/;"	t
+src/common/sample_comm_venc.i	build/Makefile	/^src\/common\/sample_comm_venc.i: src\/common\/sample_comm_venc.c.i$/;"	t
+src/common/sample_comm_venc.o	build/Makefile	/^src\/common\/sample_comm_venc.o: src\/common\/sample_comm_venc.c.o$/;"	t
+src/common/sample_comm_venc.s	build/Makefile	/^src\/common\/sample_comm_venc.s: src\/common\/sample_comm_venc.c.s$/;"	t
+src/common/sample_comm_vpss.c.i	build/Makefile	/^src\/common\/sample_comm_vpss.c.i:$/;"	t
+src/common/sample_comm_vpss.c.o	build/Makefile	/^src\/common\/sample_comm_vpss.c.o:$/;"	t
+src/common/sample_comm_vpss.c.s	build/Makefile	/^src\/common\/sample_comm_vpss.c.s:$/;"	t
+src/common/sample_comm_vpss.i	build/Makefile	/^src\/common\/sample_comm_vpss.i: src\/common\/sample_comm_vpss.c.i$/;"	t
+src/common/sample_comm_vpss.o	build/Makefile	/^src\/common\/sample_comm_vpss.o: src\/common\/sample_comm_vpss.c.o$/;"	t
+src/common/sample_comm_vpss.s	build/Makefile	/^src\/common\/sample_comm_vpss.s: src\/common\/sample_comm_vpss.c.s$/;"	t
+src/main.cpp.i	build/Makefile	/^src\/main.cpp.i:$/;"	t
+src/main.cpp.o	build/Makefile	/^src\/main.cpp.o:$/;"	t
+src/main.cpp.s	build/Makefile	/^src\/main.cpp.s:$/;"	t
+src/main.i	build/Makefile	/^src\/main.i: src\/main.cpp.i$/;"	t
+src/main.o	build/Makefile	/^src\/main.o: src\/main.cpp.o$/;"	t
+src/main.s	build/Makefile	/^src\/main.s: src\/main.cpp.s$/;"	t
+stAdPid	src/common/sample_comm_audio.c	/^        pthread_t stAdPid;$/;"	m	struct:tagSAMPLE_ADEC_S	typeref:typename:pthread_t	file:
+stAencPid	src/common/sample_comm_audio.c	/^        pthread_t stAencPid;$/;"	m	struct:tagSAMPLE_AENC_S	typeref:typename:pthread_t	file:
+stAiPid	src/common/sample_comm_audio.c	/^        pthread_t stAiPid;$/;"	m	struct:tagSAMPLE_AI_S	typeref:typename:pthread_t	file:
+stAoPid	src/common/sample_comm_audio.c	/^        pthread_t stAoPid;$/;"	m	struct:tagSAMPLE_AO_S	typeref:typename:pthread_t	file:
+stChnInfo	include/sample_comm.h	/^    SAMPLE_CHN_INFO_S       stChnInfo;$/;"	m	struct:hiSAMPLE_VI_INFO_S	typeref:typename:SAMPLE_CHN_INFO_S
+stChnInfo	src/common/sample_comm.h	/^    SAMPLE_CHN_INFO_S       stChnInfo;$/;"	m	struct:hiSAMPLE_VI_INFO_S	typeref:typename:SAMPLE_CHN_INFO_S
+stDevInfo	include/sample_comm.h	/^    SAMPLE_DEV_INFO_S       stDevInfo;$/;"	m	struct:hiSAMPLE_VI_INFO_S	typeref:typename:SAMPLE_DEV_INFO_S
+stDevInfo	src/common/sample_comm.h	/^    SAMPLE_DEV_INFO_S       stDevInfo;$/;"	m	struct:hiSAMPLE_VI_INFO_S	typeref:typename:SAMPLE_DEV_INFO_S
+stDispRect	include/sample_comm.h	/^    RECT_S                  stDispRect;$/;"	m	struct:hiSAMPLE_COMM_VO_LAYER_CONFIG_S	typeref:typename:RECT_S
+stDispRect	include/sample_comm.h	/^    RECT_S                  stDispRect;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:RECT_S
+stDispRect	src/common/sample_comm.h	/^    RECT_S                  stDispRect;$/;"	m	struct:hiSAMPLE_COMM_VO_LAYER_CONFIG_S	typeref:typename:RECT_S
+stDispRect	src/common/sample_comm.h	/^    RECT_S                  stDispRect;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:RECT_S
+stImageSize	include/sample_comm.h	/^    SIZE_S                  stImageSize;$/;"	m	struct:hiSAMPLE_COMM_VO_LAYER_CONFIG_S	typeref:typename:SIZE_S
+stImageSize	include/sample_comm.h	/^    SIZE_S                  stImageSize;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:SIZE_S
+stImageSize	src/common/sample_comm.h	/^    SIZE_S                  stImageSize;$/;"	m	struct:hiSAMPLE_COMM_VO_LAYER_CONFIG_S	typeref:typename:SIZE_S
+stImageSize	src/common/sample_comm.h	/^    SIZE_S                  stImageSize;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:SIZE_S
+stPipeInfo	include/sample_comm.h	/^    SAMPLE_PIPE_INFO_S      stPipeInfo;$/;"	m	struct:hiSAMPLE_VI_INFO_S	typeref:typename:SAMPLE_PIPE_INFO_S
+stPipeInfo	src/common/sample_comm.h	/^    SAMPLE_PIPE_INFO_S      stPipeInfo;$/;"	m	struct:hiSAMPLE_VI_INFO_S	typeref:typename:SAMPLE_PIPE_INFO_S
+stQpMapSendFramePara	src/common/sample_comm_venc.c	/^    static SAMPLE_VENC_QPMAP_SENDFRAME_PARA_S stQpMapSendFramePara;$/;"	v	typeref:typename:SAMPLE_VENC_QPMAP_SENDFRAME_PARA_S	file:
+stSapmleVdecPicture	include/sample_comm.h	/^        SAMPLE_VDEC_PICTURE_ATTR stSapmleVdecPicture; \/* structure with picture (jpeg\/mjpeg )*/;"	m	union:hiSAMPLE_VDEC_ATTR::__anonf61bb7fb010a	typeref:typename:SAMPLE_VDEC_PICTURE_ATTR
+stSapmleVdecPicture	src/common/sample_comm.h	/^        SAMPLE_VDEC_PICTURE_ATTR stSapmleVdecPicture; \/* structure with picture (jpeg\/mjpeg )*/;"	m	union:hiSAMPLE_VDEC_ATTR::__anon27f95157010a	typeref:typename:SAMPLE_VDEC_PICTURE_ATTR
+stSapmleVdecVideo	include/sample_comm.h	/^        SAMPLE_VDEC_VIDEO_ATTR stSapmleVdecVideo;      \/* structure with video ( h265\/h264) *\/$/;"	m	union:hiSAMPLE_VDEC_ATTR::__anonf61bb7fb010a	typeref:typename:SAMPLE_VDEC_VIDEO_ATTR
+stSapmleVdecVideo	src/common/sample_comm.h	/^        SAMPLE_VDEC_VIDEO_ATTR stSapmleVdecVideo;      \/* structure with video ( h265\/h264) *\/$/;"	m	union:hiSAMPLE_VDEC_ATTR::__anon27f95157010a	typeref:typename:SAMPLE_VDEC_VIDEO_ATTR
+stSize	include/sample_comm.h	/^    SIZE_S   stSize;$/;"	m	struct:hiSAMPLE_VENC_QPMAP_SENDFRAME_PARA_S	typeref:typename:SIZE_S
+stSize	src/common/sample_comm.h	/^    SIZE_S   stSize;$/;"	m	struct:hiSAMPLE_VENC_QPMAP_SENDFRAME_PARA_S	typeref:typename:SIZE_S
+stSnapInfo	include/sample_comm.h	/^    SAMPLE_SNAP_INFO_S      stSnapInfo;$/;"	m	struct:hiSAMPLE_VI_INFO_S	typeref:typename:SAMPLE_SNAP_INFO_S
+stSnapInfo	src/common/sample_comm.h	/^    SAMPLE_SNAP_INFO_S      stSnapInfo;$/;"	m	struct:hiSAMPLE_VI_INFO_S	typeref:typename:SAMPLE_SNAP_INFO_S
+stSnsInfo	include/sample_comm.h	/^    SAMPLE_SENSOR_INFO_S    stSnsInfo;$/;"	m	struct:hiSAMPLE_VI_INFO_S	typeref:typename:SAMPLE_SENSOR_INFO_S
+stSnsInfo	src/common/sample_comm.h	/^    SAMPLE_SENSOR_INFO_S    stSnsInfo;$/;"	m	struct:hiSAMPLE_VI_INFO_S	typeref:typename:SAMPLE_SENSOR_INFO_S
+stViFrameInfo	include/sample_comm.h	/^    SAMPLE_VI_FRAME_INFO_S  stViFrameInfo;$/;"	m	struct:hiSAMPLE_VI_FPN_CORRECTION_INFO_S	typeref:typename:SAMPLE_VI_FRAME_INFO_S
+stViFrameInfo	src/common/sample_comm.h	/^    SAMPLE_VI_FRAME_INFO_S  stViFrameInfo;$/;"	m	struct:hiSAMPLE_VI_FPN_CORRECTION_INFO_S	typeref:typename:SAMPLE_VI_FRAME_INFO_S
+stVideoFrameInfo	include/sample_comm.h	/^    VIDEO_FRAME_INFO_S stVideoFrameInfo;$/;"	m	struct:hiSAMPLE_VI_FRAME_INFO_S	typeref:typename:VIDEO_FRAME_INFO_S
+stVideoFrameInfo	src/common/sample_comm.h	/^    VIDEO_FRAME_INFO_S stVideoFrameInfo;$/;"	m	struct:hiSAMPLE_VI_FRAME_INFO_S	typeref:typename:VIDEO_FRAME_INFO_S
+stWbcAttr	include/sample_comm.h	/^    VO_WBC_ATTR_S           stWbcAttr;$/;"	m	struct:tag_SAMPLE_VO_WBC_CONFIG	typeref:typename:VO_WBC_ATTR_S
+stWbcAttr	src/common/sample_comm.h	/^    VO_WBC_ATTR_S           stWbcAttr;$/;"	m	struct:tag_SAMPLE_VO_WBC_CONFIG	typeref:typename:VO_WBC_ATTR_S
+stWbcSource	include/sample_comm.h	/^    VO_WBC_SOURCE_S         stWbcSource;$/;"	m	struct:tag_SAMPLE_VO_WBC_CONFIG	typeref:typename:VO_WBC_SOURCE_S
+stWbcSource	src/common/sample_comm.h	/^    VO_WBC_SOURCE_S         stWbcSource;$/;"	m	struct:tag_SAMPLE_VO_WBC_CONFIG	typeref:typename:VO_WBC_SOURCE_S
+stride	src/common/loadbmp.h	/^    HI_U32    stride;       \/* in *\/$/;"	m	struct:tag_OSD_Logo	typeref:typename:HI_U32
+tagSAMPLE_ADEC_S	src/common/sample_comm_audio.c	/^    typedef struct tagSAMPLE_ADEC_S$/;"	s	file:
+tagSAMPLE_AENC_S	src/common/sample_comm_audio.c	/^    typedef struct tagSAMPLE_AENC_S$/;"	s	file:
+tagSAMPLE_AI_S	src/common/sample_comm_audio.c	/^    typedef struct tagSAMPLE_AI_S$/;"	s	file:
+tagSAMPLE_AO_S	src/common/sample_comm_audio.c	/^    typedef struct tagSAMPLE_AO_S$/;"	s	file:
+tag_OSD_BITMAPFILEHEADER	src/common/loadbmp.h	/^typedef struct tag_OSD_BITMAPFILEHEADER$/;"	s
+tag_OSD_BITMAPINFO	src/common/loadbmp.h	/^typedef struct tag_OSD_BITMAPINFO$/;"	s
+tag_OSD_BITMAPINFOHEADER	src/common/loadbmp.h	/^typedef struct tag_OSD_BITMAPINFOHEADER$/;"	s
+tag_OSD_Logo	src/common/loadbmp.h	/^typedef struct tag_OSD_Logo$/;"	s
+tag_OSD_RGBQUAD	src/common/loadbmp.h	/^typedef struct tag_OSD_RGBQUAD$/;"	s
+tag_SAMPLE_VO_WBC_CONFIG	include/sample_comm.h	/^typedef struct tag_SAMPLE_VO_WBC_CONFIG$/;"	s
+tag_SAMPLE_VO_WBC_CONFIG	src/common/sample_comm.h	/^typedef struct tag_SAMPLE_VO_WBC_CONFIG$/;"	s
+u16Height	src/common/loadbmp.h	/^    HI_U16  u16Height;                \/* operation height *\/$/;"	m	struct:hiOSD_SURFACE_S	typeref:typename:HI_U16
+u16Reserved	src/common/loadbmp.h	/^    HI_U16  u16Reserved;$/;"	m	struct:hiOSD_SURFACE_S	typeref:typename:HI_U16
+u16Stride	src/common/loadbmp.h	/^    HI_U16  u16Stride;                \/* surface stride *\/$/;"	m	struct:hiOSD_SURFACE_S	typeref:typename:HI_U16
+u16Width	src/common/loadbmp.h	/^    HI_U16  u16Width;                 \/* operation width *\/$/;"	m	struct:hiOSD_SURFACE_S	typeref:typename:HI_U16
+u32Align	include/sample_comm.h	/^    HI_U32              u32Align;$/;"	m	struct:hiSAMPLE_VB_BASE_INFO_S	typeref:typename:HI_U32
+u32Align	src/common/sample_comm.h	/^    HI_U32              u32Align;$/;"	m	struct:hiSAMPLE_VB_BASE_INFO_S	typeref:typename:HI_U32
+u32Alpha	include/sample_comm.h	/^    HI_U32         u32Alpha;$/;"	m	struct:hiSAMPLE_VDEC_PICTURE_ATTR	typeref:typename:HI_U32
+u32Alpha	src/common/sample_comm.h	/^    HI_U32         u32Alpha;$/;"	m	struct:hiSAMPLE_VDEC_PICTURE_ATTR	typeref:typename:HI_U32
+u32BgColor	include/sample_comm.h	/^    HI_U32                  u32BgColor;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:HI_U32
+u32BgColor	src/common/sample_comm.h	/^    HI_U32                  u32BgColor;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:HI_U32
+u32ByteAlign	include/sample_comm.h	/^    HI_U32                  u32ByteAlign;$/;"	m	struct:hiSAMPLE_VI_FRAME_CONFIG_S	typeref:typename:HI_U32
+u32ByteAlign	src/common/sample_comm.h	/^    HI_U32                  u32ByteAlign;$/;"	m	struct:hiSAMPLE_VI_FRAME_CONFIG_S	typeref:typename:HI_U32
+u32DisBufLen	include/sample_comm.h	/^    HI_U32                  u32DisBufLen;$/;"	m	struct:hiSAMPLE_COMM_VO_LAYER_CONFIG_S	typeref:typename:HI_U32
+u32DisBufLen	include/sample_comm.h	/^    HI_U32                  u32DisBufLen;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:HI_U32
+u32DisBufLen	src/common/sample_comm.h	/^    HI_U32                  u32DisBufLen;$/;"	m	struct:hiSAMPLE_COMM_VO_LAYER_CONFIG_S	typeref:typename:HI_U32
+u32DisBufLen	src/common/sample_comm.h	/^    HI_U32                  u32DisBufLen;$/;"	m	struct:hiSAMPLE_VO_CONFIG_S	typeref:typename:HI_U32
+u32DisplayFrameNum	include/sample_comm.h	/^    HI_U32 u32DisplayFrameNum;$/;"	m	struct:hiSAMPLE_VDEC_ATTR	typeref:typename:HI_U32
+u32DisplayFrameNum	src/common/sample_comm.h	/^    HI_U32 u32DisplayFrameNum;$/;"	m	struct:hiSAMPLE_VDEC_ATTR	typeref:typename:HI_U32
+u32ExtStride	include/sample_comm.h	/^    HI_U32 u32ExtStride;$/;"	m	struct:hiSAMPLE_VB_CAL_CONFIG_S	typeref:typename:HI_U32
+u32ExtStride	src/common/sample_comm.h	/^    HI_U32 u32ExtStride;$/;"	m	struct:hiSAMPLE_VB_CAL_CONFIG_S	typeref:typename:HI_U32
+u32ExtYSize	include/sample_comm.h	/^    HI_U32 u32ExtYSize;$/;"	m	struct:hiSAMPLE_VB_CAL_CONFIG_S	typeref:typename:HI_U32
+u32ExtYSize	src/common/sample_comm.h	/^    HI_U32 u32ExtYSize;$/;"	m	struct:hiSAMPLE_VB_CAL_CONFIG_S	typeref:typename:HI_U32
+u32FrameBufCnt	include/sample_comm.h	/^    HI_U32 u32FrameBufCnt;$/;"	m	struct:hiSAMPLE_VDEC_ATTR	typeref:typename:HI_U32
+u32FrameBufCnt	src/common/sample_comm.h	/^    HI_U32 u32FrameBufCnt;$/;"	m	struct:hiSAMPLE_VDEC_ATTR	typeref:typename:HI_U32
+u32FrameNum	include/sample_comm.h	/^    HI_U32                  u32FrameNum;$/;"	m	struct:hiSAMPLE_VI_FPN_CALIBRATE_INFO_S	typeref:typename:HI_U32
+u32FrameNum	src/common/sample_comm.h	/^    HI_U32                  u32FrameNum;$/;"	m	struct:hiSAMPLE_VI_FPN_CALIBRATE_INFO_S	typeref:typename:HI_U32
+u32HeadSize	include/sample_comm.h	/^    HI_U32 u32HeadSize;$/;"	m	struct:hiSAMPLE_VB_CAL_CONFIG_S	typeref:typename:HI_U32
+u32HeadSize	src/common/sample_comm.h	/^    HI_U32 u32HeadSize;$/;"	m	struct:hiSAMPLE_VB_CAL_CONFIG_S	typeref:typename:HI_U32
+u32HeadStride	include/sample_comm.h	/^    HI_U32 u32HeadStride;$/;"	m	struct:hiSAMPLE_VB_CAL_CONFIG_S	typeref:typename:HI_U32
+u32HeadStride	src/common/sample_comm.h	/^    HI_U32 u32HeadStride;$/;"	m	struct:hiSAMPLE_VB_CAL_CONFIG_S	typeref:typename:HI_U32
+u32HeadYSize	include/sample_comm.h	/^    HI_U32 u32HeadYSize;$/;"	m	struct:hiSAMPLE_VB_CAL_CONFIG_S	typeref:typename:HI_U32
+u32HeadYSize	src/common/sample_comm.h	/^    HI_U32 u32HeadYSize;$/;"	m	struct:hiSAMPLE_VB_CAL_CONFIG_S	typeref:typename:HI_U32
+u32Height	include/sample_comm.h	/^    HI_U32                  u32Height;$/;"	m	struct:hiSAMPLE_VI_FRAME_CONFIG_S	typeref:typename:HI_U32
+u32Height	include/sample_comm.h	/^    HI_U32              u32Height;$/;"	m	struct:hiSAMPLE_VB_BASE_INFO_S	typeref:typename:HI_U32
+u32Height	include/sample_comm.h	/^    HI_U32 u32Height;$/;"	m	struct:hiSAMPLE_VDEC_ATTR	typeref:typename:HI_U32
+u32Height	src/common/sample_comm.h	/^    HI_U32                  u32Height;$/;"	m	struct:hiSAMPLE_VI_FRAME_CONFIG_S	typeref:typename:HI_U32
+u32Height	src/common/sample_comm.h	/^    HI_U32              u32Height;$/;"	m	struct:hiSAMPLE_VB_BASE_INFO_S	typeref:typename:HI_U32
+u32Height	src/common/sample_comm.h	/^    HI_U32 u32Height;$/;"	m	struct:hiSAMPLE_VDEC_ATTR	typeref:typename:HI_U32
+u32MainSize	include/sample_comm.h	/^    HI_U32 u32MainSize;$/;"	m	struct:hiSAMPLE_VB_CAL_CONFIG_S	typeref:typename:HI_U32
+u32MainSize	src/common/sample_comm.h	/^    HI_U32 u32MainSize;$/;"	m	struct:hiSAMPLE_VB_CAL_CONFIG_S	typeref:typename:HI_U32
+u32MainStride	include/sample_comm.h	/^    HI_U32 u32MainStride;$/;"	m	struct:hiSAMPLE_VB_CAL_CONFIG_S	typeref:typename:HI_U32
+u32MainStride	src/common/sample_comm.h	/^    HI_U32 u32MainStride;$/;"	m	struct:hiSAMPLE_VB_CAL_CONFIG_S	typeref:typename:HI_U32
+u32MainYSize	include/sample_comm.h	/^    HI_U32 u32MainYSize;$/;"	m	struct:hiSAMPLE_VB_CAL_CONFIG_S	typeref:typename:HI_U32
+u32MainYSize	src/common/sample_comm.h	/^    HI_U32 u32MainYSize;$/;"	m	struct:hiSAMPLE_VB_CAL_CONFIG_S	typeref:typename:HI_U32
+u32PicBufSize	include/sample_comm.h	/^    HI_U32  u32PicBufSize;$/;"	m	struct:hiSAMPLE_VDEC_BUF	typeref:typename:HI_U32
+u32PicBufSize	src/common/sample_comm.h	/^    HI_U32  u32PicBufSize;$/;"	m	struct:hiSAMPLE_VDEC_BUF	typeref:typename:HI_U32
+u32RefFrameNum	include/sample_comm.h	/^    HI_U32              u32RefFrameNum;$/;"	m	struct:hiSAMPLE_VDEC_VIDEO_ATTR	typeref:typename:HI_U32
+u32RefFrameNum	src/common/sample_comm.h	/^    HI_U32              u32RefFrameNum;$/;"	m	struct:hiSAMPLE_VDEC_VIDEO_ATTR	typeref:typename:HI_U32
+u32Size	include/sample_comm.h	/^    HI_U32             u32Size;$/;"	m	struct:hiSAMPLE_VI_FRAME_INFO_S	typeref:typename:HI_U32
+u32Size	src/common/sample_comm.h	/^    HI_U32             u32Size;$/;"	m	struct:hiSAMPLE_VI_FRAME_INFO_S	typeref:typename:HI_U32
+u32Strength	include/sample_comm.h	/^    HI_U32                  u32Strength;$/;"	m	struct:hiSAMPLE_VI_FPN_CORRECTION_INFO_S	typeref:typename:HI_U32
+u32Strength	src/common/sample_comm.h	/^    HI_U32                  u32Strength;$/;"	m	struct:hiSAMPLE_VI_FPN_CORRECTION_INFO_S	typeref:typename:HI_U32
+u32Threshold	include/sample_comm.h	/^    HI_U32                  u32Threshold;$/;"	m	struct:hiSAMPLE_VI_FPN_CALIBRATE_INFO_S	typeref:typename:HI_U32
+u32Threshold	src/common/sample_comm.h	/^    HI_U32                  u32Threshold;$/;"	m	struct:hiSAMPLE_VI_FPN_CALIBRATE_INFO_S	typeref:typename:HI_U32
+u32TmvBufSize	include/sample_comm.h	/^    HI_U32  u32TmvBufSize;$/;"	m	struct:hiSAMPLE_VDEC_BUF	typeref:typename:HI_U32
+u32TmvBufSize	src/common/sample_comm.h	/^    HI_U32  u32TmvBufSize;$/;"	m	struct:hiSAMPLE_VDEC_BUF	typeref:typename:HI_U32
+u32VBSize	include/sample_comm.h	/^    HI_U32 u32VBSize;$/;"	m	struct:hiSAMPLE_VB_CAL_CONFIG_S	typeref:typename:HI_U32
+u32VBSize	src/common/sample_comm.h	/^    HI_U32 u32VBSize;$/;"	m	struct:hiSAMPLE_VB_CAL_CONFIG_S	typeref:typename:HI_U32
+u32VCNum	include/sample_comm.h	/^    HI_U32          u32VCNum[WDR_MAX_PIPE_NUM];$/;"	m	struct:hiSAMPLE_PIPE_INFO_S	typeref:typename:HI_U32[]
+u32VCNum	src/common/sample_comm.h	/^    HI_U32          u32VCNum[WDR_MAX_PIPE_NUM];$/;"	m	struct:hiSAMPLE_PIPE_INFO_S	typeref:typename:HI_U32[]
+u32Width	include/sample_comm.h	/^    HI_U32                  u32Width;$/;"	m	struct:hiSAMPLE_VI_FRAME_CONFIG_S	typeref:typename:HI_U32
+u32Width	include/sample_comm.h	/^    HI_U32              u32Width;$/;"	m	struct:hiSAMPLE_VB_BASE_INFO_S	typeref:typename:HI_U32
+u32Width	include/sample_comm.h	/^    HI_U32 u32Width;$/;"	m	struct:hiSAMPLE_VDEC_ATTR	typeref:typename:HI_U32
+u32Width	src/common/sample_comm.h	/^    HI_U32                  u32Width;$/;"	m	struct:hiSAMPLE_VI_FRAME_CONFIG_S	typeref:typename:HI_U32
+u32Width	src/common/sample_comm.h	/^    HI_U32              u32Width;$/;"	m	struct:hiSAMPLE_VB_BASE_INFO_S	typeref:typename:HI_U32
+u32Width	src/common/sample_comm.h	/^    HI_U32 u32Width;$/;"	m	struct:hiSAMPLE_VDEC_ATTR	typeref:typename:HI_U32
+u64PtsIncrease	include/sample_comm.h	/^    HI_U64  u64PtsIncrease;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_U64
+u64PtsIncrease	src/common/sample_comm.h	/^    HI_U64  u64PtsIncrease;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_U64
+u64PtsInit	include/sample_comm.h	/^    HI_U64  u64PtsInit;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_U64
+u64PtsInit	src/common/sample_comm.h	/^    HI_U64  u64PtsInit;$/;"	m	struct:hiVDEC_THREAD_PARAM_S	typeref:typename:HI_U64
+u8B	src/common/loadbmp.h	/^    HI_U8   u8B;$/;"	m	struct:hiOSD_RGB_S	typeref:typename:HI_U8
+u8G	src/common/loadbmp.h	/^    HI_U8   u8G;$/;"	m	struct:hiOSD_RGB_S	typeref:typename:HI_U8
+u8R	src/common/loadbmp.h	/^    HI_U8   u8R;$/;"	m	struct:hiOSD_RGB_S	typeref:typename:HI_U8
+u8Reserved	src/common/loadbmp.h	/^    HI_U8   u8Reserved;$/;"	m	struct:hiOSD_RGB_S	typeref:typename:HI_U8
+volatile	build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c	/^# define volatile$/;"	d	file:
+width	src/common/loadbmp.h	/^    HI_U32    width;        \/* out *\/$/;"	m	struct:tag_OSD_Logo	typeref:typename:HI_U32

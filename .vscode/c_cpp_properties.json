@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/src/common/",
+                "${workspaceFolder}/include/",
+                "/home/marc/hi_sdk/Hi3516CV500_SDK_V2.0.2.0/smp/a7_linux/mpp/include/"
+
+            ],
+            "defines": [],
+            "compilerPath": "/opt/atk-dlrv1126-toolchain/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-arm",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

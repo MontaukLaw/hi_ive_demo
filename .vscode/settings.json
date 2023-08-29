@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "sample_comm.h": "c",
+        "ostream": "cpp"
+    }
+}

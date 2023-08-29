@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/marc/my_hisi_project/ive_demo'
+make: Leaving directory '/home/marc/my_hisi_project/ive_demo'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
